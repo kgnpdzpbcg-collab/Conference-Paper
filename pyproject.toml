@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "analog-ccsae-reproduction"
+version = "0.1.0"
+description = "Independent research reproduction of Gao et al. CCSAE (IEEE TIE 2024)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "torch>=2.1", "scikit-learn>=1.3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.6"]
+
+[project.scripts]
+ccsae-train = "ccsae.train:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
