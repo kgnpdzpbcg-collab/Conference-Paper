@@ -94,3 +94,45 @@ def test_data_grouped_dedup_and_official_guard(tmp_path):
     assert s.train.tensors[0].shape[1] == 1000
     with pytest.raises(ValueError, match="duplicates"):
         split_data(p, "skl", mode="official")
+
+def test_signed_reconstruction_can_represent_negative_values():
+    cfg = CCSAEConfig(classes=3, sequence_length=64, large_kernel=8,
+                      large_channels=8, small_channels=8, feature_dim=12, attention_heads=2)
+    model = CCSAE(cfg)
+    h = (torch.zeros(2, 12), torch.zeros(2, 12))
+    with torch.no_grad():
+        model.decoder.wr.weight.zero_()
+        model.decoder.wi.weight.zero_()
+        model.decoder.wr.bias.fill_(-2.0)
+        model.decoder.wi.bias.zero_()
+    signed = model.reconstruct(h, output_mode="signed_real")
+    modulus = model.reconstruct(h, output_mode="magnitude")
+    assert torch.allclose(signed, torch.full_like(signed, -2.0))
+    assert torch.allclose(modulus, torch.full_like(modulus, 2.0))
+    with pytest.raises(ValueError, match="unknown"):
+        model.reconstruct(h, output_mode="invalid")
+
+
+def test_v1_signed_reconstruction_backprop():
+    torch.manual_seed(11)
+    cfg = CCSAEConfig(classes=3, sequence_length=64, large_kernel=8,
+                      large_channels=8, small_channels=8, feature_dim=12, attention_heads=2)
+    model = CCSAE(cfg)
+    x = torch.randn(6, 64) - 0.5
+    y = torch.tensor([0, 0, 1, 1, 2, 2])
+    out = model(x, reconstruction=True, reconstruction_output="signed_real")
+    loss, parts = stage1_loss(out, x, y, .0017, reconstruction_target="signed_real")
+    assert torch.isfinite(loss) and parts["reconstruction"] >= 0
+    loss.backward()
+    assert torch.isfinite(model.encoder[0].conv.wr.weight.grad).all()
+    assert torch.isfinite(model.decoder.wr.weight.grad).all()
+
+
+def test_reconstruction_modes_match_their_targets():
+    x = torch.tensor([[-2.0, 1.0]])
+    outputs = {"features": torch.randn(1, 4),
+               "reconstruction": torch.tensor([[2.0, 1.0]])}
+    _, old = stage1_loss(outputs, x, torch.tensor([0]), 0.0, reconstruction_target="paper_signed")
+    _, consistent = stage1_loss(outputs, x, torch.tensor([0]), 0.0, reconstruction_target="magnitude")
+    assert old["reconstruction"] == pytest.approx(8.0)
+    assert consistent["reconstruction"] == pytest.approx(0.0)
