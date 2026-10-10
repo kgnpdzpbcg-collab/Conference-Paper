@@ -1,6 +1,6 @@
-# CCSAE for Analog Circuit Incipient Fault Diagnosis — Independent Reproduction
+# CCSAE for Analog Circuit Incipient Fault Diagnosis — V1 Adaptation
 
-**状态：V0 论文核心结构与两阶段训练的独立复现代码；不是作者官方源码，也没有声称复现论文99.92%/98.25%的结果。**
+**状态：V1 独立研究适配，修正重构目标与输出符号不匹配的问题，并将数据划分种子与训练种子分离。不是原作者官方源码，也不声称严格复现论文准确率。**
 
 论文：Gao et al., *IEEE Transactions on Industrial Electronics*, 2024, [DOI: 10.1109/TIE.2023.3310075](https://doi.org/10.1109/TIE.2023.3310075)。
 
@@ -43,7 +43,7 @@ ccsae-train --data data/Data.zip --case skl --feature-epochs 1 --classification-
 ccsae-train --data data/Data.zip --case skl --output outputs --evaluate-test
 ```
 
-训练配置默认优先复现原文，使用 `paper_signed` 重构目标；注意非负重构值与原波形负值不一致。`--reconstruction-target magnitude` 为可单独实验的有明确标注的替代选项。
+V1 默认采用 `signed_real`：使用原复数解码器的实部拟合有符号波形；`paper_signed` 保留 V0 中的非负输出/有符号目标矛盾，仅作为历史对照；`magnitude` 是将模长输出与绝对值目标配对的另一适配方案。这些选择都不能视为对原作者未公开实现的确认。
 
 ## 输出
 
@@ -59,3 +59,17 @@ ccsae-train --data data/Data.zip --case skl --output outputs --evaluate-test
 2. 在相同去重划分上跑普通 1D-CNN、ResNet1D，与 CCSAE 比较。
 3. 按原文 Fig. 9：去复数结构、去 CSA、去 SCL 三组消融。
 4. 仅在复现可信后研究额外模块，不在复现阶段提前改造核心结构。
+## V1 对照实验（只用 Train / Val 选模）
+
+固定数据分组划分种子 `--split-seed 20261009`，用训练种子 42、43、44 重复实验。默认不预测 Test。阶段一日志新增 train/val reconstruction_loss 与 scl_loss。
+
+```bash
+# V1：有符号解码 + 有符号输入（推荐主实验）
+ccsae-train --data data/Data.zip --case skl --seed 42 --split-seed 20261009 --output outputs/v1_signed --reconstruction-target signed_real
+# V0：原非负模长解码 + 有符号输入（仅用于历史对照）
+ccsae-train --data data/Data.zip --case skl --seed 42 --split-seed 20261009 --output outputs/v0_control --reconstruction-target paper_signed
+# V2：跳过 Stage1，从随机初始化直接训练相同编码器与分类头
+ccsae-train --data data/Data.zip --case skl --seed 42 --split-seed 20261009 --output outputs/no_pretrain --feature-epochs 0
+```
+
+将 `skl` 换为 `abl`，分别运行三个种子。完整计划见 [CCSAE_V1_EXPERIMENT_PLAN.md](docs/CCSAE_V1_EXPERIMENT_PLAN.md)。**本版本只完成代码修正与测试，尚无 V1 正式性能结果。**
