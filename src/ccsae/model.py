@@ -98,14 +98,20 @@ class CCSAE(nn.Module):
     def feature_vector(h: ComplexPair) -> torch.Tensor:
         return torch.cat(h, dim=1)
 
-    def reconstruct(self, h: ComplexPair) -> torch.Tensor:
+    def reconstruct(self, h: ComplexPair, output_mode: str = "magnitude") -> torch.Tensor:
+        """V1 signed_real is a documented adaptation, not an official paper implementation."""
         rr, ri = self.decoder(h)
-        return torch.sqrt(rr.square() + ri.square() + 1e-8)  # Eq. 13, always nonnegative
+        if output_mode == "signed_real":
+            return rr  # Signed output from the existing complex decoder: no added parameters.
+        if output_mode == "magnitude":
+            return torch.sqrt(rr.square() + ri.square() + 1e-8)
+        raise ValueError(f"unknown reconstruction output mode: {output_mode}")
 
-    def forward(self, x: torch.Tensor, reconstruction: bool = False) -> dict[str, torch.Tensor]:
+    def forward(self, x: torch.Tensor, reconstruction: bool = False,
+                reconstruction_output: str = "magnitude") -> dict[str, torch.Tensor]:
         h = self.encode(x)
         features = self.feature_vector(h)
         out = {"features": features, "logits": self.classifier(features)}
         if reconstruction:
-            out["reconstruction"] = self.reconstruct(h)
+            out["reconstruction"] = self.reconstruct(h, output_mode=reconstruction_output)
         return out
