@@ -32,13 +32,17 @@ def evaluate(model: CCSAE, loader: DataLoader, device: torch.device,
              temperature: float = 0.1, reconstruction_target: str = "paper_signed") -> dict:
     model.eval()
     losses, total = 0.0, 0
+    component_sums = {"reconstruction": 0.0, "scl": 0.0}
     labels, preds = [], []
     with torch.no_grad():
         for x, y in loader:
             x, y = x.to(device), y.to(device)
-            out = model(x, reconstruction=feature_objective)
+            output_mode = "signed_real" if reconstruction_target == "signed_real" else "magnitude"
+            out = model(x, reconstruction=feature_objective, reconstruction_output=output_mode)
             if feature_objective:
-                loss, _ = stage1_loss(out, x, y, scl_weight, temperature, reconstruction_target)
+                loss, parts = stage1_loss(out, x, y, scl_weight, temperature, reconstruction_target)
+                for name in component_sums:
+                    component_sums[name] += parts[name] * x.shape[0]
             else:
                 loss = nn.functional.cross_entropy(out["logits"], y)
             losses += float(loss) * x.shape[0]
@@ -46,6 +50,8 @@ def evaluate(model: CCSAE, loader: DataLoader, device: torch.device,
             labels.extend(y.cpu().tolist())
             preds.extend(out["logits"].argmax(dim=1).cpu().tolist())
     metrics = {"loss": losses / max(total, 1)}
+    if feature_objective:
+        metrics.update({f"{name}_loss": v / max(total, 1) for name, v in component_sums.items()})
     if not feature_objective:
         metrics.update({"accuracy": accuracy_score(labels, preds),
                         "macro_f1": f1_score(labels, preds, average="macro", zero_division=0)})
@@ -55,7 +61,7 @@ def evaluate(model: CCSAE, loader: DataLoader, device: torch.device,
 def run(args: argparse.Namespace) -> dict:
     set_seed(args.seed)
     device = torch.device(args.device)
-    splits = split_data(args.data, args.case, seed=args.seed, mode=args.split,
+    splits = split_data(args.data, args.case, seed=args.split_seed, mode=args.split,
                         allow_official_overlap=args.allow_official_overlap)
     outdir = Path(args.output) / args.case / f"seed_{args.seed}"
     outdir.mkdir(parents=True, exist_ok=True)
@@ -80,10 +86,12 @@ def run(args: argparse.Namespace) -> dict:
     for epoch in range(1, args.feature_epochs + 1):
         model.train()
         accum = 0.0
+        component_sums = {"reconstruction": 0.0, "scl": 0.0}
         for x, y in train_loader:
             x, y = x.to(device), y.to(device)
-            out = model(x, reconstruction=True)
-            loss, _ = stage1_loss(out, x, y, (args.scl_weight if args.scl_weight is not None else (0.0017 if args.case == "skl" else 0.0059)),
+            output_mode = "signed_real" if args.reconstruction_target == "signed_real" else "magnitude"
+            out = model(x, reconstruction=True, reconstruction_output=output_mode)
+            loss, parts = stage1_loss(out, x, y, (args.scl_weight if args.scl_weight is not None else (0.0017 if args.case == "skl" else 0.0059)),
                                   args.temperature, args.reconstruction_target)
             if not torch.isfinite(loss):
                 raise FloatingPointError("non-finite stage1 loss")
@@ -93,10 +101,13 @@ def run(args: argparse.Namespace) -> dict:
                 nn.utils.clip_grad_norm_(first_params, args.grad_clip)
             optimizer.step()
             accum += float(loss.detach()) * x.shape[0]
+            for name in component_sums:
+                component_sums[name] += parts[name] * x.shape[0]
         val = evaluate(model, val_loader, device, feature_objective=True,
                        scl_weight=(args.scl_weight if args.scl_weight is not None else (0.0017 if args.case == "skl" else 0.0059)),
                        temperature=args.temperature, reconstruction_target=args.reconstruction_target)
-        history.append({"stage": 1, "epoch": epoch, "train_loss": accum / len(splits.train), **val})
+        history.append({"stage": 1, "epoch": epoch, "train_loss": accum / len(splits.train),
+                        **{f"train_{name}_loss": v / len(splits.train) for name, v in component_sums.items()}, **val})
         print(f"stage1 epoch={epoch} train={accum / len(splits.train):.5f} val={val['loss']:.5f}", flush=True)
         if val["loss"] < best_stage1:
             best_stage1 = val["loss"]
@@ -163,6 +174,8 @@ def main() -> None:
     p.add_argument("--data", type=str, required=True, help="Data.zip or directory of CSV files")
     p.add_argument("--case", choices=["skl", "abl"], required=True)
     p.add_argument("--split", choices=["grouped", "official"], default="grouped")
+    p.add_argument("--split-seed", type=int, default=20261009,
+                   help="Partition seed independent of model initialization --seed")
     p.add_argument("--allow-official-overlap", action="store_true", help="Unsafe, for comparison only")
     p.add_argument("--output", default="outputs")
     p.add_argument("--seed", type=int, default=42)
@@ -172,7 +185,7 @@ def main() -> None:
     p.add_argument("--lr", type=float, default=None)
     p.add_argument("--scl-weight", type=float, default=None)
     p.add_argument("--temperature", type=float, default=0.1)
-    p.add_argument("--reconstruction-target", choices=["paper_signed", "magnitude"], default="paper_signed")
+    p.add_argument("--reconstruction-target", choices=["signed_real", "magnitude", "paper_signed"], default="signed_real")
     p.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
     p.add_argument("--grad-clip", type=float, default=5.0)
     p.add_argument("--evaluate-test", action="store_true")
