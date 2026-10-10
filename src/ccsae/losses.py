@@ -32,11 +32,11 @@ def supervised_contrastive(features: torch.Tensor, labels: torch.Tensor, tempera
 def stage1_loss(outputs: dict[str, torch.Tensor], x: torch.Tensor, y: torch.Tensor,
                 scl_weight: float, temperature: float = 0.1,
                 reconstruction_target: str = "paper_signed") -> tuple[torch.Tensor, dict[str, float]]:
-    if reconstruction_target not in {"paper_signed", "magnitude"}:
-        raise ValueError("reconstruction_target must be paper_signed or magnitude")
+    if reconstruction_target not in {"paper_signed", "magnitude", "signed_real"}:
+        raise ValueError("reconstruction_target must be paper_signed, magnitude, or signed_real")
     # Paper Eq.13 is |R| >= 0 yet raw responses (Fig.5) can be negative.
-    # paper_signed matches printed Eqs.13 & 21; magnitude is a documented alternative.
-    target = x if reconstruction_target == "paper_signed" else x.abs()
+    # paper_signed retains the V0 mismatch. signed_real and magnitude are V1 consistent alternatives.
+    target = x.abs() if reconstruction_target == "magnitude" else x
     recon = F.mse_loss(outputs["reconstruction"], target)
     scl = supervised_contrastive(outputs["features"], y, temperature)
     total = recon + scl_weight * scl
