@@ -4,6 +4,7 @@ on:
     branches:
       - reproduction/ccsae-v1
       - research/ccsae-prototype-k20
+      - research/ccsae-prototype-diagnostics-v1
   workflow_dispatch:
 
 jobs:
