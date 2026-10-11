@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "archive_sha256": "5ef4169aab79362d39b9bb355f21962e4a79fd5d0a8eea28d0de59bfe8acfabc",
+  "transferred_files_verified": 206,
+  "server_records_verified": 54,
+  "local_best_checkpoint_hashes_exact": 54,
+  "manual_confusion_matrix_and_metrics_verified": true,
+  "aggregated_means_sample_sd_and_paired_deltas_verified": true,
+  "fixed_test_order_and_fingerprint_verified": true,
+  "local_ml_inference_or_training": false
+}

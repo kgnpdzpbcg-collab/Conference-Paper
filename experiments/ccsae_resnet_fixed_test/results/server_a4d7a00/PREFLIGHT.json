@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checkpoint_count": 54,
+  "split_groups": 18,
+  "fixed_test_pools_verified": true,
+  "train_val_test_disjoint": true,
+  "train_only_scalers_verified": true,
+  "previous_checkpoint_hashes_exact": true,
+  "protected_file_count": 1373,
+  "test_inference_started": false,
+  "utc": "2026-10-11T11:14:19.156673+00:00"
+}

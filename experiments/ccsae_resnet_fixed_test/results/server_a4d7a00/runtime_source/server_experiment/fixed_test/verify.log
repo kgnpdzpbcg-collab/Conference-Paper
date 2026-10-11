@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/wang/projects/会议论文/Conference-Paper-ccsae-prototype-diagnostics-v1/server_experiment/fixed_test/evaluate.py", line 412, in <module>
+    {'preflight':preflight,'run':run,'verify':verify,'report':report}[args.phase]()
+  File "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/Conference-Paper-ccsae-prototype-diagnostics-v1/server_experiment/fixed_test/evaluate.py", line 299, in verify
+    assert np.array_equal(scores.cpu().numpy(),saved['scores'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

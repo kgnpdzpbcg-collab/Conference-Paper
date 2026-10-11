@@ -1,0 +1,41 @@
+{
+  "case": "abl",
+  "k": 10,
+  "seed": 42,
+  "method": "fc",
+  "checks": [
+    {
+      "initialization_mode": "normal",
+      "independent": false,
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "prediction_differences": 0,
+      "parameters_inference_tensors": false
+    },
+    {
+      "initialization_mode": "normal",
+      "independent": true,
+      "exact": true,
+      "max_abs_difference": 0.0,
+      "prediction_differences": 0,
+      "parameters_inference_tensors": false
+    },
+    {
+      "initialization_mode": "inference_mode",
+      "independent": false,
+      "exact": false,
+      "max_abs_difference": 1.1444091796875e-05,
+      "prediction_differences": 0,
+      "parameters_inference_tensors": true
+    },
+    {
+      "initialization_mode": "inference_mode",
+      "independent": true,
+      "exact": false,
+      "max_abs_difference": 1.1444091796875e-05,
+      "prediction_differences": 0,
+      "parameters_inference_tensors": true
+    }
+  ],
+  "formal_predictions_unchanged": true
+}

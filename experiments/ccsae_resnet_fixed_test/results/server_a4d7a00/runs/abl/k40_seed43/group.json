@@ -1,0 +1,13 @@
+{
+  "case": "abl",
+  "k": 40,
+  "seed": 43,
+  "status": "completed",
+  "methods": [
+    "fc",
+    "proto",
+    "resnet1d"
+  ],
+  "seconds": 0.3407434040127555,
+  "test_evaluated": true
+}

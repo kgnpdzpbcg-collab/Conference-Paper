@@ -1,0 +1,11 @@
+{
+  "reason": "Verifier constructed model inside outer inference_mode unlike formal evaluator; normal construction restores exact scores.",
+  "original_evaluate_script_unchanged": true,
+  "formal_test_outputs_unchanged": true,
+  "verification_entrypoint": "server_experiment/fixed_test/verify_reload.py",
+  "verification_entrypoint_sha256": "b2f78219a1d9aa35f644223f5f0e28d596f1400f0d774090d7b4f7e89a380b1a",
+  "diagnostic_file": "RELOAD_DIAGNOSTIC.json",
+  "failed_initial_verification_log": "runtime_source/verify.log",
+  "no_tolerance_relaxation": true,
+  "no_model_or_data_change": true
+}

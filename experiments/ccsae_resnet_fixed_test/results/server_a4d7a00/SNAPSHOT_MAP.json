@@ -1,0 +1,42 @@
+{
+  "runtime_source/server_experiment/fixed_test/evaluate.py": {
+    "server_source": "server_experiment/fixed_test/evaluate.py",
+    "sha256": "be842a877961143175d7d04fba82c4a44b8f89fb2321684666aa146d89725664"
+  },
+  "runtime_source/server_experiment/fixed_test/verify_reload.py": {
+    "server_source": "server_experiment/fixed_test/verify_reload.py",
+    "sha256": "b2f78219a1d9aa35f644223f5f0e28d596f1400f0d774090d7b4f7e89a380b1a"
+  },
+  "runtime_source/server_experiment/fixed_test/preflight.log": {
+    "server_source": "server_experiment/fixed_test/preflight.log",
+    "sha256": "de64ade00a26f4ff81ae6c166594aa2d1fbe7d0457e129f0595332dbca38c9c1"
+  },
+  "runtime_source/server_experiment/fixed_test/evaluate.log": {
+    "server_source": "server_experiment/fixed_test/evaluate.log",
+    "sha256": "54c45ed4e0d8ee6b3a62cde8b3e7bd5889b6d10ceced3dc2b7ff187fe0a0cabc"
+  },
+  "runtime_source/server_experiment/fixed_test/verify.log": {
+    "server_source": "server_experiment/fixed_test/verify.log",
+    "sha256": "b90fc49d941901d58fc8f50e34b3dfbc9048596aadab74a441fafe02c4bfd787"
+  },
+  "runtime_source/server_experiment/fixed_test/verify_reload.log": {
+    "server_source": "server_experiment/fixed_test/verify_reload.log",
+    "sha256": "7be64f627338863719fa6ae92d1e0130b65dfe6565b63d6fccbfbfa723eb5a84"
+  },
+  "runtime_source/server_experiment/fixed_test/report.log": {
+    "server_source": "server_experiment/fixed_test/report.log",
+    "sha256": "768db8648aac168e45668be8005945e3ded59452090511bf2c55398f7bd80461"
+  },
+  "runtime_source/server_experiment/common.py": {
+    "server_source": "server_experiment/common.py",
+    "sha256": "0b4f26fa281c8b0424b46baada25053c2d0f1f03c04d236846ca40a4cb75557b"
+  },
+  "runtime_source/server_experiment/verify_shot_scale.py": {
+    "server_source": "server_experiment/verify_shot_scale.py",
+    "sha256": "57bdb3f1c8ca911eee6b3f93d86a580c1ee12618993b0388f114d5bf9dc41e3f"
+  },
+  "runtime_source/server_experiment/resnet_shot_scale/reference_models.py": {
+    "server_source": "server_experiment/resnet_shot_scale/reference_models.py",
+    "sha256": "b9c96fa1d78ca0c4a1e7a7626a4f5a6a5e29456faa091ff5db4dcd47048e5263"
+  }
+}

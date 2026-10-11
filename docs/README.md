@@ -2,6 +2,9 @@
 
 ## 当前算法研究（先读）
 
+- [当前固定Test最终Macro-F1](CCSAE_RESNET_FIXED_TEST_SERVER_RESULTS.md) —— CCSAE-Proto/FC/ResNet，54份Val最佳权重只读评估，完整Test 570/465条，未重训或调参。
+- [固定Test独立归档及核验](../experiments/ccsae_resnet_fixed_test/README.md) —— 权重冻结清单、逐条预测、分数重载、完整Test指纹与历史探索边界。
+
 - [ResNet1D对齐P1数据与分类训练协议](RESNET1D_P1_CLASSIFICATION_PROTOCOL_SERVER_RESULTS.md) —— 原ResNet无Stage1，400次分类更新，固定5 Val/类，无Test。
 - [ResNet对照独立归档](../experiments/resnet1d_p1_classification_protocol/README.md) —— 18次训练、真实Episode/权重/指标核验。
 

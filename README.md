@@ -1,6 +1,15 @@
 # CCSAE for Analog Circuit Incipient Fault Diagnosis — V1 Adaptation
 
-## 最新阶段：冻结 P1 的少样本规模验证
+## 最新阶段：冻结最佳权重的完整Test评估
+
+已在当前固定Test上统一评估CCSAE-Proto（P1）、CCSAE-FC和ResNet1D，共54个模型；仅加载此前由Val选出的最佳权重，未重训或调参。Proto六档Test均值均最高，相比FC的18/18种子配对提高，相比ResNet的14/18配对更高；SKL K10对ResNet均值仅提高0.90个百分点，三种子证据仍有限。
+
+完整Test为SKL 570条、ABL 465条，沿用当前P1划分及各组Train统计量。CCSAE有Stage1、ResNet无Stage1的差异保持不变；数据曾用于历史实验，结果不是全新外部盲测。54模型分数/预测独立重载逐位复现，原权重、数据和环境保持不变。
+
+- [最终Test Macro-F1报告](docs/CCSAE_RESNET_FIXED_TEST_SERVER_RESULTS.md)
+- [独立Test归档、逐种子预测与核验](experiments/ccsae_resnet_fixed_test/README.md)
+
+## 上一阶段：冻结 P1 的少样本规模验证
 
 在同一数据池、同种子嵌套 Train（K=10/20/40）与固定5 Val/类上，补跑K10/40共12组配对，复用K20的6组结果；P1温度1、距离不除维度、Backbone/损失/预算冻结。六档Proto均值均高于FC，15/18配对胜出；**ABL均值没有随K增大上升，K40波动较大。只有Val结果，没有Test评估。**
 

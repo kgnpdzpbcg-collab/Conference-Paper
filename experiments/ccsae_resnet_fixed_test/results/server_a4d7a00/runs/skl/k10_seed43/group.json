@@ -1,0 +1,13 @@
+{
+  "case": "skl",
+  "k": 10,
+  "seed": 43,
+  "status": "completed",
+  "methods": [
+    "fc",
+    "proto",
+    "resnet1d"
+  ],
+  "seconds": 1.3057575590064516,
+  "test_evaluated": true
+}
