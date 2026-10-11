@@ -1,0 +1,622 @@
+{
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "protocol": "Frozen P1 shot-scale validation, Train K=10/20/40, fixed Val 5/class",
+  "test_evaluated": false,
+  "distance_normalization": "none",
+  "temperature": 1,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "new_pairs": 12,
+  "reused_k20_pairs": 6,
+  "training_window_seconds_new_pairs": 100.27202470399789,
+  "summary_by_case_and_k": {
+    "skl": {
+      "10": {
+        "fc_val_macro_f1_percent": {
+          "mean": 59.759834182911106,
+          "sample_std": 9.320969746212715,
+          "n": 3
+        },
+        "proto_val_macro_f1_percent": {
+          "mean": 65.27902297133066,
+          "sample_std": 5.7357456099978545,
+          "n": 3
+        },
+        "proto_minus_fc_pp": {
+          "mean": 5.519188788419548,
+          "sample_std": 13.290439531047667,
+          "n": 3
+        },
+        "fc_val_accuracy_percent": {
+          "mean": 61.02564102564102,
+          "sample_std": 8.882311833686547,
+          "n": 3
+        },
+        "proto_val_accuracy_percent": {
+          "mean": 66.15384615384615,
+          "sample_std": 5.329387100211927,
+          "n": 3
+        },
+        "proto_wins_vs_fc": 2,
+        "train_size": 130,
+        "val_size": 65,
+        "stage1_updates": 30
+      },
+      "20": {
+        "fc_val_macro_f1_percent": {
+          "mean": 59.736787429095116,
+          "sample_std": 1.8668953209614334,
+          "n": 3
+        },
+        "proto_val_macro_f1_percent": {
+          "mean": 70.27307450384373,
+          "sample_std": 3.432980007086206,
+          "n": 3
+        },
+        "proto_minus_fc_pp": {
+          "mean": 10.536287074748614,
+          "sample_std": 4.434740340337636,
+          "n": 3
+        },
+        "fc_val_accuracy_percent": {
+          "mean": 62.56410256410256,
+          "sample_std": 0.8882311833686519,
+          "n": 3
+        },
+        "proto_val_accuracy_percent": {
+          "mean": 72.3076923076923,
+          "sample_std": 3.07692307692308,
+          "n": 3
+        },
+        "proto_wins_vs_fc": 3,
+        "train_size": 260,
+        "val_size": 65,
+        "stage1_updates": 50
+      },
+      "40": {
+        "fc_val_macro_f1_percent": {
+          "mean": 61.77963397420412,
+          "sample_std": 4.971236000759343,
+          "n": 3
+        },
+        "proto_val_macro_f1_percent": {
+          "mean": 70.79069079069079,
+          "sample_std": 5.651917750165997,
+          "n": 3
+        },
+        "proto_minus_fc_pp": {
+          "mean": 9.011056816486667,
+          "sample_std": 6.720152096070875,
+          "n": 3
+        },
+        "fc_val_accuracy_percent": {
+          "mean": 63.07692307692308,
+          "sample_std": 4.070386632407063,
+          "n": 3
+        },
+        "proto_val_accuracy_percent": {
+          "mean": 72.3076923076923,
+          "sample_std": 5.329387100211936,
+          "n": 3
+        },
+        "proto_wins_vs_fc": 3,
+        "train_size": 520,
+        "val_size": 65,
+        "stage1_updates": 90
+      }
+    },
+    "abl": {
+      "10": {
+        "fc_val_macro_f1_percent": {
+          "mean": 64.98468851410028,
+          "sample_std": 8.045933855850548,
+          "n": 3
+        },
+        "proto_val_macro_f1_percent": {
+          "mean": 70.19870701688883,
+          "sample_std": 10.418439459400778,
+          "n": 3
+        },
+        "proto_minus_fc_pp": {
+          "mean": 5.214018502788552,
+          "sample_std": 6.170276379542095,
+          "n": 3
+        },
+        "fc_val_accuracy_percent": {
+          "mean": 67.27272727272728,
+          "sample_std": 8.331955809010621,
+          "n": 3
+        },
+        "proto_val_accuracy_percent": {
+          "mean": 72.12121212121212,
+          "sample_std": 9.330184435357975,
+          "n": 3
+        },
+        "proto_wins_vs_fc": 3,
+        "train_size": 110,
+        "val_size": 55,
+        "stage1_updates": 20
+      },
+      "20": {
+        "fc_val_macro_f1_percent": {
+          "mean": 61.94285512467331,
+          "sample_std": 3.1409538153767813,
+          "n": 3
+        },
+        "proto_val_macro_f1_percent": {
+          "mean": 68.85841431295975,
+          "sample_std": 7.031175823804389,
+          "n": 3
+        },
+        "proto_minus_fc_pp": {
+          "mean": 6.915559188286449,
+          "sample_std": 7.151584128471689,
+          "n": 3
+        },
+        "fc_val_accuracy_percent": {
+          "mean": 66.06060606060606,
+          "sample_std": 2.09945552432591,
+          "n": 3
+        },
+        "proto_val_accuracy_percent": {
+          "mean": 70.30303030303031,
+          "sample_std": 7.348094335140695,
+          "n": 3
+        },
+        "proto_wins_vs_fc": 2,
+        "train_size": 220,
+        "val_size": 55,
+        "stage1_updates": 40
+      },
+      "40": {
+        "fc_val_macro_f1_percent": {
+          "mean": 62.83243692334601,
+          "sample_std": 2.7646786713312013,
+          "n": 3
+        },
+        "proto_val_macro_f1_percent": {
+          "mean": 68.13735086462358,
+          "sample_std": 12.33386374985018,
+          "n": 3
+        },
+        "proto_minus_fc_pp": {
+          "mean": 5.3049139412775785,
+          "sample_std": 9.975907707690642,
+          "n": 3
+        },
+        "fc_val_accuracy_percent": {
+          "mean": 65.45454545454545,
+          "sample_std": 3.149183286488871,
+          "n": 3
+        },
+        "proto_val_accuracy_percent": {
+          "mean": 69.6969696969697,
+          "sample_std": 10.338619460140599,
+          "n": 3
+        },
+        "proto_wins_vs_fc": 2,
+        "train_size": 440,
+        "val_size": 55,
+        "stage1_updates": 70
+      }
+    }
+  },
+  "per_seed": [
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 42,
+      "train_size": 130,
+      "val_size": 65,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k10_sample42_train42_distnone",
+      "stage1_updates": 30,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 48.9973914973915,
+      "fc_val_accuracy_percent": 50.76923076923077,
+      "fc_val_balanced_accuracy_percent": 50.76923076923078,
+      "fc_best_epoch": 33,
+      "fc_checkpoint_sha256": "1ae798ae08a5740aa080e8b89aaa4043d7fbbb3e819dceb197ef360f362601fd",
+      "proto_val_macro_f1_percent": 68.85392385392386,
+      "proto_val_accuracy_percent": 69.23076923076923,
+      "proto_val_balanced_accuracy_percent": 69.23076923076923,
+      "proto_best_epoch": 36,
+      "proto_checkpoint_sha256": "1a363371d5f63db6920b461393167a25e26ed31bfb0dbc23cc2edb9d1021b10d",
+      "proto_minus_fc_pp": 19.856532356532362
+    },
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 43,
+      "train_size": 130,
+      "val_size": 65,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k10_sample43_train43_distnone",
+      "stage1_updates": 30,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 65.05246889862275,
+      "fc_val_accuracy_percent": 66.15384615384615,
+      "fc_val_balanced_accuracy_percent": 66.15384615384615,
+      "fc_best_epoch": 38,
+      "fc_checkpoint_sha256": "fedc09ebc941a26e0ad3c4241164efc7eed9838ab74e6b3bb214f1a08e9e8f16",
+      "proto_val_macro_f1_percent": 58.66313174005481,
+      "proto_val_accuracy_percent": 60.0,
+      "proto_val_balanced_accuracy_percent": 60.0,
+      "proto_best_epoch": 39,
+      "proto_checkpoint_sha256": "0038948adb0439613b933623d06105004266106f54bbf4cb75affad2c090c4f7",
+      "proto_minus_fc_pp": -6.38933715856794
+    },
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 44,
+      "train_size": 130,
+      "val_size": 65,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k10_sample44_train44_distnone",
+      "stage1_updates": 30,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 65.22964215271908,
+      "fc_val_accuracy_percent": 66.15384615384615,
+      "fc_val_balanced_accuracy_percent": 66.15384615384615,
+      "fc_best_epoch": 30,
+      "fc_checkpoint_sha256": "d13a990e3311e0a618357d3c4898bc0bad544d4aff4fb1e619621491978da9bb",
+      "proto_val_macro_f1_percent": 68.3200133200133,
+      "proto_val_accuracy_percent": 69.23076923076923,
+      "proto_val_balanced_accuracy_percent": 69.23076923076923,
+      "proto_best_epoch": 34,
+      "proto_checkpoint_sha256": "4d336a3805b9f470ed3e0c7a337f0d478a189d9a16e38fe6285d508a089807cb",
+      "proto_minus_fc_pp": 3.0903711672942222
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 42,
+      "train_size": 260,
+      "val_size": 65,
+      "origin": "reused_k20",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone",
+      "stage1_updates": 50,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 61.43215758600373,
+      "fc_val_accuracy_percent": 63.07692307692307,
+      "fc_val_balanced_accuracy_percent": 63.07692307692307,
+      "fc_best_epoch": 39,
+      "fc_checkpoint_sha256": "62b8c7d65dbbcddd63b0534f17ede840cd0e3a17efb04851b7cecbde3a3e427a",
+      "proto_val_macro_f1_percent": 66.9039507501046,
+      "proto_val_accuracy_percent": 69.23076923076923,
+      "proto_val_balanced_accuracy_percent": 69.23076923076923,
+      "proto_best_epoch": 29,
+      "proto_checkpoint_sha256": "b46f68f43806469429e8a0bf7074dd077ff4a01b1c2d307f27b08863771c6e8d",
+      "proto_minus_fc_pp": 5.471793164100866
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 43,
+      "train_size": 260,
+      "val_size": 65,
+      "origin": "reused_k20",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone",
+      "stage1_updates": 50,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 57.73602465910158,
+      "fc_val_accuracy_percent": 61.53846153846154,
+      "fc_val_balanced_accuracy_percent": 61.53846153846154,
+      "fc_best_epoch": 35,
+      "fc_checkpoint_sha256": "4c337737c7c1572e8ece6d7f79396202c385b0abb95e39d25570d13feec91a5e",
+      "proto_val_macro_f1_percent": 70.14874014874015,
+      "proto_val_accuracy_percent": 72.3076923076923,
+      "proto_val_balanced_accuracy_percent": 72.3076923076923,
+      "proto_best_epoch": 39,
+      "proto_checkpoint_sha256": "88bdf043fb8c989344ab591d2b610414bbf2f574a9b97de93426c1bdabc02621",
+      "proto_minus_fc_pp": 12.412715489638565
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 44,
+      "train_size": 260,
+      "val_size": 65,
+      "origin": "reused_k20",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone",
+      "stage1_updates": 50,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 60.042180042180036,
+      "fc_val_accuracy_percent": 63.07692307692307,
+      "fc_val_balanced_accuracy_percent": 63.07692307692307,
+      "fc_best_epoch": 33,
+      "fc_checkpoint_sha256": "f45ca527449464e6fde29fb2ea3f8808cf8c92a29b6873ece078009e4935d833",
+      "proto_val_macro_f1_percent": 73.76653261268645,
+      "proto_val_accuracy_percent": 75.38461538461539,
+      "proto_val_balanced_accuracy_percent": 75.3846153846154,
+      "proto_best_epoch": 27,
+      "proto_checkpoint_sha256": "11a20a57b9e3e7ba0664d3b0ad1d94372e2711a00eb71621259b39118b176c3d",
+      "proto_minus_fc_pp": 13.724352570506412
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 42,
+      "train_size": 520,
+      "val_size": 65,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k40_sample42_train42_distnone",
+      "stage1_updates": 90,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 57.07211591826977,
+      "fc_val_accuracy_percent": 60.0,
+      "fc_val_balanced_accuracy_percent": 60.00000000000001,
+      "fc_best_epoch": 25,
+      "fc_checkpoint_sha256": "6024f63742af2b87f8a2e0f06b82d73124e6c24769d0d8715b6a88d689894445",
+      "proto_val_macro_f1_percent": 66.04007104007104,
+      "proto_val_accuracy_percent": 69.23076923076923,
+      "proto_val_balanced_accuracy_percent": 69.23076923076923,
+      "proto_best_epoch": 34,
+      "proto_checkpoint_sha256": "ab9628679007e8e65b3663b2482590fd2612cbeb72e98c86d7ef5938650caf1a",
+      "proto_minus_fc_pp": 8.967955121801268
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 43,
+      "train_size": 520,
+      "val_size": 65,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k40_sample43_train43_distnone",
+      "stage1_updates": 90,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 66.97815005507314,
+      "fc_val_accuracy_percent": 67.6923076923077,
+      "fc_val_balanced_accuracy_percent": 67.69230769230768,
+      "fc_best_epoch": 37,
+      "fc_checkpoint_sha256": "a8366219148d9b818524eb7b8426a7f7c8c2f71062fbcbfc59dafbb4ea32526b",
+      "proto_val_macro_f1_percent": 69.29070929070929,
+      "proto_val_accuracy_percent": 69.23076923076923,
+      "proto_val_balanced_accuracy_percent": 69.23076923076923,
+      "proto_best_epoch": 21,
+      "proto_checkpoint_sha256": "7ec159591b0137b4871851d2aa6a1033c0d48ee144c225a5244ad46fd2d3f951",
+      "proto_minus_fc_pp": 2.3125592356361437
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 44,
+      "train_size": 520,
+      "val_size": 65,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k40_sample44_train44_distnone",
+      "stage1_updates": 90,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 61.288635949269434,
+      "fc_val_accuracy_percent": 61.53846153846154,
+      "fc_val_balanced_accuracy_percent": 61.53846153846153,
+      "fc_best_epoch": 32,
+      "fc_checkpoint_sha256": "3a3f9cb4ff3480c379c9ae6aecb22d2a963f8237173e1b86a50d5a3133a72f62",
+      "proto_val_macro_f1_percent": 77.04129204129202,
+      "proto_val_accuracy_percent": 78.46153846153847,
+      "proto_val_balanced_accuracy_percent": 78.46153846153847,
+      "proto_best_epoch": 26,
+      "proto_checkpoint_sha256": "8d38ed94fccec5c23d57d528384df435dcb65583cdedf3f97e9e1d3a6ea4e9b3",
+      "proto_minus_fc_pp": 15.75265609202259
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 42,
+      "train_size": 110,
+      "val_size": 55,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample42_train42_distnone",
+      "stage1_updates": 20,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 71.56457624372062,
+      "fc_val_accuracy_percent": 74.54545454545455,
+      "fc_val_balanced_accuracy_percent": 74.54545454545453,
+      "fc_best_epoch": 30,
+      "fc_checkpoint_sha256": "84538c70a1ac90ebbbcab6416ebb6a2d09414b19125aa0c4d57ffcae6acb5804",
+      "proto_val_macro_f1_percent": 72.04840613931522,
+      "proto_val_accuracy_percent": 74.54545454545455,
+      "proto_val_balanced_accuracy_percent": 74.54545454545453,
+      "proto_best_epoch": 33,
+      "proto_checkpoint_sha256": "3750c15c4f7eeafe2cb4e02bbd9a087059f3bbbe815e640772e1ac51a83f18af",
+      "proto_minus_fc_pp": 0.4838298955945959
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 43,
+      "train_size": 110,
+      "val_size": 55,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample43_train43_distnone",
+      "stage1_updates": 20,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 67.37504919323102,
+      "fc_val_accuracy_percent": 69.0909090909091,
+      "fc_val_balanced_accuracy_percent": 69.0909090909091,
+      "fc_best_epoch": 32,
+      "fc_checkpoint_sha256": "349d77a0769d44b8c71dd436ca9ca89505be855537d4c6ee0878dc8fb2504814",
+      "proto_val_macro_f1_percent": 79.56841138659321,
+      "proto_val_accuracy_percent": 80.0,
+      "proto_val_balanced_accuracy_percent": 80.0,
+      "proto_best_epoch": 34,
+      "proto_checkpoint_sha256": "48d15fd1ad12a3ee5b719d233f950e7ed5a4835679aae8a2b3fe406f7344331c",
+      "proto_minus_fc_pp": 12.19336219336219
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 44,
+      "train_size": 110,
+      "val_size": 55,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample44_train44_distnone",
+      "stage1_updates": 20,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 56.014440105349195,
+      "fc_val_accuracy_percent": 58.18181818181818,
+      "fc_val_balanced_accuracy_percent": 58.18181818181819,
+      "fc_best_epoch": 24,
+      "fc_checkpoint_sha256": "b7c417552bc67fe1bbfd0a9ab9b12ff11e9af1746bf6ef6ed81a7cd502856114",
+      "proto_val_macro_f1_percent": 58.979303524758066,
+      "proto_val_accuracy_percent": 61.81818181818181,
+      "proto_val_balanced_accuracy_percent": 61.81818181818181,
+      "proto_best_epoch": 40,
+      "proto_checkpoint_sha256": "9e5157705b9db583b9fc0f6a85cb8b85b7224b582389bcb2258d5f0ed30665d5",
+      "proto_minus_fc_pp": 2.9648634194088714
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 42,
+      "train_size": 220,
+      "val_size": 55,
+      "origin": "reused_k20",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone",
+      "stage1_updates": 40,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 58.40220385674931,
+      "fc_val_accuracy_percent": 63.63636363636363,
+      "fc_val_balanced_accuracy_percent": 63.63636363636363,
+      "fc_best_epoch": 22,
+      "fc_checkpoint_sha256": "5c567acdab6e853a02cd0fd27db269c409ac5ed3d53c4f6d8098b75d4aec9045",
+      "proto_val_macro_f1_percent": 65.6651429378702,
+      "proto_val_accuracy_percent": 69.0909090909091,
+      "proto_val_balanced_accuracy_percent": 69.0909090909091,
+      "proto_best_epoch": 39,
+      "proto_checkpoint_sha256": "fe2aa28bae62a8b4edc37b6596756189329043ef2c41fed65f0855d632bccd75",
+      "proto_minus_fc_pp": 7.262939081120891
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 43,
+      "train_size": 220,
+      "val_size": 55,
+      "origin": "reused_k20",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone",
+      "stage1_updates": 40,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 64.3939393939394,
+      "fc_val_accuracy_percent": 67.27272727272727,
+      "fc_val_balanced_accuracy_percent": 67.27272727272727,
+      "fc_best_epoch": 38,
+      "fc_checkpoint_sha256": "ae386d2ad28a73fb68c1bc7d6aadce75975f39e8a944403571ce62bfb95339b3",
+      "proto_val_macro_f1_percent": 63.9905548996458,
+      "proto_val_accuracy_percent": 63.63636363636363,
+      "proto_val_balanced_accuracy_percent": 63.63636363636363,
+      "proto_best_epoch": 40,
+      "proto_checkpoint_sha256": "dacef38866fbfee1e55a6531fec6582c89f811595dbdeb0d56a1aeab8c31e0df",
+      "proto_minus_fc_pp": -0.40338449429360423
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 44,
+      "train_size": 220,
+      "val_size": 55,
+      "origin": "reused_k20",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone",
+      "stage1_updates": 40,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 63.03242212333121,
+      "fc_val_accuracy_percent": 67.27272727272727,
+      "fc_val_balanced_accuracy_percent": 67.27272727272727,
+      "fc_best_epoch": 31,
+      "fc_checkpoint_sha256": "39d1009a89634519cf814bcb37273e452d230428d08aa8ed33256f0519c506b7",
+      "proto_val_macro_f1_percent": 76.91954510136327,
+      "proto_val_accuracy_percent": 78.18181818181819,
+      "proto_val_balanced_accuracy_percent": 78.1818181818182,
+      "proto_best_epoch": 39,
+      "proto_checkpoint_sha256": "9ee85dd2bd7c3b45652e12c313e505483da9b62b0ad9057f983e005f9d148d7e",
+      "proto_minus_fc_pp": 13.88712297803206
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 42,
+      "train_size": 440,
+      "val_size": 55,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k40_sample42_train42_distnone",
+      "stage1_updates": 70,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 60.46831955922865,
+      "fc_val_accuracy_percent": 63.63636363636363,
+      "fc_val_balanced_accuracy_percent": 63.63636363636363,
+      "fc_best_epoch": 35,
+      "fc_checkpoint_sha256": "6471258dc19a71419cc7cd372682d6a3f9e7a799c078517c49b8c599b9f55d85",
+      "proto_val_macro_f1_percent": 54.33556342647252,
+      "proto_val_accuracy_percent": 58.18181818181818,
+      "proto_val_balanced_accuracy_percent": 58.18181818181819,
+      "proto_best_epoch": 31,
+      "proto_checkpoint_sha256": "405c4c520fd0fc0806e5580753381ec6f5810762302b86d96fdcf23768924e25",
+      "proto_minus_fc_pp": -6.132756132756128
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 43,
+      "train_size": 440,
+      "val_size": 55,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k40_sample43_train43_distnone",
+      "stage1_updates": 70,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 62.15663124754034,
+      "fc_val_accuracy_percent": 63.63636363636363,
+      "fc_val_balanced_accuracy_percent": 63.63636363636363,
+      "fc_best_epoch": 23,
+      "fc_checkpoint_sha256": "b860db5f963660fbbf15d81bee754d21a50cad26bcf11e889c05e7e469bbd8c6",
+      "proto_val_macro_f1_percent": 71.99568108659018,
+      "proto_val_accuracy_percent": 72.72727272727273,
+      "proto_val_balanced_accuracy_percent": 72.72727272727273,
+      "proto_best_epoch": 39,
+      "proto_checkpoint_sha256": "14ab91139f2fab37ba83f8c4b65165b3b6aba1a9f05f6f9dafbb179a7fd9c564",
+      "proto_minus_fc_pp": 9.839049839049842
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 44,
+      "train_size": 440,
+      "val_size": 55,
+      "origin": "new_server_run",
+      "job_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k40_sample44_train44_distnone",
+      "stage1_updates": 70,
+      "stage2_updates_per_method": 400,
+      "fc_val_macro_f1_percent": 65.87235996326905,
+      "fc_val_accuracy_percent": 69.0909090909091,
+      "fc_val_balanced_accuracy_percent": 69.0909090909091,
+      "fc_best_epoch": 38,
+      "fc_checkpoint_sha256": "dca5128c62c6ec62f4defc84799dd70f84ff95a4ea2f8eae689e83ec42fd4e4e",
+      "proto_val_macro_f1_percent": 78.08080808080807,
+      "proto_val_accuracy_percent": 78.18181818181819,
+      "proto_val_balanced_accuracy_percent": 78.1818181818182,
+      "proto_best_epoch": 39,
+      "proto_checkpoint_sha256": "920c6ef6641c404f68ddf083cd8d62ae8a9e144d9603d49068781f12c7b79cef",
+      "proto_minus_fc_pp": 12.208448117539021
+    }
+  ],
+  "preservation": {
+    "status": "passed",
+    "protected_file_count": 308,
+    "input_before_sha256": "51243faeb09323047b5c8538c08e83db931d81e57ccf49f13b928da4c23c7ad6",
+    "all_existing_k20_outputs_unchanged": true,
+    "all_existing_d0_p0_data_and_env_unchanged": true,
+    "installed_package_versions_unchanged": true,
+    "training_sources_unchanged": true
+  },
+  "caveats": [
+    "Val 同时用于最佳 epoch 选择和汇总，非独立 Test 泛化成绩",
+    "n=3，样本/训练随机种子耦合；无统计显著性结论",
+    "固定 Stage1 轮数导致不同 K 的更新次数不同；Stage2 固定400次",
+    "标准化仅拟合各 K 的 Train，因此固定 raw Val 的标准化值随 K 改变",
+    "旧 Data_deduplicated/历史 CNN、ResNet 结果不可混入本对照",
+    "波形去重不等于独立板卡/采集批次；物理单位和完整标签字典尚未确认"
+  ]
+}

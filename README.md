@@ -1,6 +1,13 @@
 # CCSAE for Analog Circuit Incipient Fault Diagnosis — V1 Adaptation
 
-## 最新阶段：D0 诊断与 P1 距离尺度服务器验证结果
+## 最新阶段：冻结 P1 的少样本规模验证
+
+在同一数据池、同种子嵌套 Train（K=10/20/40）与固定5 Val/类上，补跑K10/40共12组配对，复用K20的6组结果；P1温度1、距离不除维度、Backbone/损失/预算冻结。六档Proto均值均高于FC，15/18配对胜出；**ABL均值没有随K增大上升，K40波动较大。只有Val结果，没有Test评估。**
+
+- [完整规模验证报告](docs/CCSAE_PROTOTYPE_SHOT_SCALE_SERVER_RESULTS.md)
+- [独立归档与逐种子证据](experiments/ccsae_prototype_shot_scale/README.md)
+
+## 上一阶段：D0 诊断与 P1 距离尺度服务器验证结果
 
 本分支保留 P0 全部历史结果，现已按研究文档完成六组只读 D0 和一次受控 P1。仅将原型距离由除以嵌入维度改为不除以维度；Stage1、FC 和实际样本流均精确复现 P0。P1 Val Macro-F1：SKL **70.27 ± 3.43%**，ABL **68.86 ± 7.03%**（n=3）；对 FC 分别3/3、2/3种子更高。**只评估固定5 Val/类，没有 Test。**
 

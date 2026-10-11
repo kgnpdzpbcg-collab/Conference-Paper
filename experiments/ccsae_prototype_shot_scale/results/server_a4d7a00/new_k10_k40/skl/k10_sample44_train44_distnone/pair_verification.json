@@ -1,0 +1,31 @@
+{
+  "case": "skl",
+  "k": 10,
+  "seed": 44,
+  "distance_normalization": "none",
+  "methods": {
+    "fc": {
+      "initial_state_sha256": "ff9a871a937462139a15265e4c9347da9f78cdbab5caae55b779720be151405e",
+      "embedding_dim": 1000,
+      "classes": 13,
+      "wall_seconds": 10.643443337001372
+    },
+    "proto": {
+      "initial_state_sha256": "ff9a871a937462139a15265e4c9347da9f78cdbab5caae55b779720be151405e",
+      "embedding_dim": 1000,
+      "classes": 13,
+      "wall_seconds": 17.51082620800298
+    }
+  },
+  "stage1_last_sha256": "f77abe8f7abd70f80b67e8ba848231aec9fd21751a5d524ac5ebea82c891e191",
+  "paired_initialization_identical": true,
+  "paired_episodes_identical": true,
+  "updates_per_method": 400,
+  "total_wall_seconds": 29.057663788000355,
+  "episode_stream_sha256": {
+    "fc_support": "fc5d0b6db70f7dd0b2e99a65c2e6bfe03f3140376c14f31db51362e873acd07d",
+    "fc_query": "a380bec5a406235fd4f8a92cd5127280b69ce595190b65713d4132aa84e31bb7",
+    "proto_support": "fc5d0b6db70f7dd0b2e99a65c2e6bfe03f3140376c14f31db51362e873acd07d",
+    "proto_query": "a380bec5a406235fd4f8a92cd5127280b69ce595190b65713d4132aa84e31bb7"
+  }
+}

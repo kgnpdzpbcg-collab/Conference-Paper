@@ -5,3 +5,7 @@ docs/CCSAE_PROTOTYPE_K20_SERVER_RESULTS.md -text
 # 新 D0/P1 服务器证据保留原字节换行，用于跨平台 SHA256 核查。
 experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/** -text
 docs/CCSAE_PROTOTYPE_DIAGNOSTICS_P1_SERVER_RESULTS.md -text
+
+# 冻结 P1 的样本规模验证保留服务器证据原字节。
+experiments/ccsae_prototype_shot_scale/results/server_a4d7a00/** -text
+docs/CCSAE_PROTOTYPE_SHOT_SCALE_SERVER_RESULTS.md -text

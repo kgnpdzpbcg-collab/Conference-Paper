@@ -1,0 +1,101 @@
+[stage1] epoch=1 total=1.06943 recon=1.04724 scl=3.76120
+[stage1] epoch=2 total=1.03946 recon=1.01725 scl=3.76424
+[stage1] epoch=3 total=0.99051 recon=0.96826 scl=3.77102
+[stage1] epoch=4 total=0.93512 recon=0.91279 scl=3.78368
+[stage1] epoch=5 total=0.87892 recon=0.85660 scl=3.78287
+[stage1] epoch=6 total=0.82322 recon=0.80069 scl=3.81939
+[stage1] epoch=7 total=0.76597 recon=0.74331 scl=3.83983
+[stage1] epoch=8 total=0.70590 recon=0.68304 scl=3.87316
+[stage1] epoch=9 total=0.64140 recon=0.61842 scl=3.89549
+[stage1] epoch=10 total=0.57262 recon=0.54952 scl=3.91453
+[fc] epoch=1 train=2.33943 val_F1=0.0881 best=0.0881
+[fc] epoch=2 train=2.02694 val_F1=0.2160 best=0.2160
+[fc] epoch=3 train=1.71157 val_F1=0.2758 best=0.2758
+[fc] epoch=4 train=1.51579 val_F1=0.3127 best=0.3127
+[fc] epoch=5 train=1.26588 val_F1=0.2137 best=0.3127
+[fc] epoch=6 train=1.06182 val_F1=0.1694 best=0.3127
+[fc] epoch=7 train=0.97948 val_F1=0.3002 best=0.3127
+[fc] epoch=8 train=0.88966 val_F1=0.3021 best=0.3127
+[fc] epoch=9 train=0.86562 val_F1=0.3543 best=0.3543
+[fc] epoch=10 train=0.82952 val_F1=0.4262 best=0.4262
+[fc] epoch=11 train=0.79303 val_F1=0.3663 best=0.4262
+[fc] epoch=12 train=0.74570 val_F1=0.3999 best=0.4262
+[fc] epoch=13 train=0.78003 val_F1=0.4376 best=0.4376
+[fc] epoch=14 train=0.85215 val_F1=0.4224 best=0.4376
+[fc] epoch=15 train=0.75049 val_F1=0.5608 best=0.5608
+[fc] epoch=16 train=0.70605 val_F1=0.5698 best=0.5698
+[fc] epoch=17 train=0.66309 val_F1=0.4689 best=0.5698
+[fc] epoch=18 train=0.72496 val_F1=0.4604 best=0.5698
+[fc] epoch=19 train=0.76479 val_F1=0.4588 best=0.5698
+[fc] epoch=20 train=0.78118 val_F1=0.5096 best=0.5698
+[fc] epoch=21 train=0.72177 val_F1=0.3991 best=0.5698
+[fc] epoch=22 train=0.75692 val_F1=0.4958 best=0.5698
+[fc] epoch=23 train=0.65217 val_F1=0.4135 best=0.5698
+[fc] epoch=24 train=0.62992 val_F1=0.5872 best=0.5872
+[fc] epoch=25 train=0.57732 val_F1=0.5594 best=0.5872
+[fc] epoch=26 train=0.58577 val_F1=0.5829 best=0.5872
+[fc] epoch=27 train=0.56464 val_F1=0.5390 best=0.5872
+[fc] epoch=28 train=0.68058 val_F1=0.5624 best=0.5872
+[fc] epoch=29 train=0.57726 val_F1=0.3656 best=0.5872
+[fc] epoch=30 train=0.54821 val_F1=0.5130 best=0.5872
+[fc] epoch=31 train=0.49948 val_F1=0.4938 best=0.5872
+[fc] epoch=32 train=0.42156 val_F1=0.6738 best=0.6738
+[fc] epoch=33 train=0.46509 val_F1=0.5130 best=0.6738
+[fc] epoch=34 train=0.65662 val_F1=0.5646 best=0.6738
+[fc] epoch=35 train=0.63856 val_F1=0.0676 best=0.6738
+[fc] epoch=36 train=0.73918 val_F1=0.4854 best=0.6738
+[fc] epoch=37 train=0.50225 val_F1=0.4916 best=0.6738
+[fc] epoch=38 train=0.43258 val_F1=0.5305 best=0.6738
+[fc] epoch=39 train=0.47790 val_F1=0.5677 best=0.6738
+[fc] epoch=40 train=0.48323 val_F1=0.1380 best=0.6738
+[proto] epoch=1 train=1.56738 val_F1=0.4684 best=0.4684
+[proto] epoch=2 train=1.51069 val_F1=0.4873 best=0.4873
+[proto] epoch=3 train=1.29795 val_F1=0.4520 best=0.4873
+[proto] epoch=4 train=1.23100 val_F1=0.5252 best=0.5252
+[proto] epoch=5 train=1.22484 val_F1=0.6000 best=0.6000
+[proto] epoch=6 train=1.20285 val_F1=0.5062 best=0.6000
+[proto] epoch=7 train=1.11446 val_F1=0.5768 best=0.6000
+[proto] epoch=8 train=1.04136 val_F1=0.6148 best=0.6148
+[proto] epoch=9 train=1.17554 val_F1=0.6329 best=0.6329
+[proto] epoch=10 train=1.11409 val_F1=0.5934 best=0.6329
+[proto] epoch=11 train=1.19890 val_F1=0.5538 best=0.6329
+[proto] epoch=12 train=1.15695 val_F1=0.6093 best=0.6329
+[proto] epoch=13 train=1.12344 val_F1=0.5207 best=0.6329
+[proto] epoch=14 train=1.18629 val_F1=0.5001 best=0.6329
+[proto] epoch=15 train=1.07701 val_F1=0.5856 best=0.6329
+[proto] epoch=16 train=1.17914 val_F1=0.5706 best=0.6329
+[proto] epoch=17 train=1.07769 val_F1=0.6109 best=0.6329
+[proto] epoch=18 train=1.15342 val_F1=0.6515 best=0.6515
+[proto] epoch=19 train=1.10661 val_F1=0.5826 best=0.6515
+[proto] epoch=20 train=1.05416 val_F1=0.5031 best=0.6515
+[proto] epoch=21 train=1.04027 val_F1=0.5732 best=0.6515
+[proto] epoch=22 train=1.13229 val_F1=0.5891 best=0.6515
+[proto] epoch=23 train=1.12200 val_F1=0.5591 best=0.6515
+[proto] epoch=24 train=1.04124 val_F1=0.6132 best=0.6515
+[proto] epoch=25 train=0.97978 val_F1=0.6867 best=0.6867
+[proto] epoch=26 train=1.09546 val_F1=0.6830 best=0.6867
+[proto] epoch=27 train=0.92389 val_F1=0.7266 best=0.7266
+[proto] epoch=28 train=0.91318 val_F1=0.5632 best=0.7266
+[proto] epoch=29 train=0.99182 val_F1=0.7008 best=0.7266
+[proto] epoch=30 train=0.81126 val_F1=0.7143 best=0.7266
+[proto] epoch=31 train=0.72732 val_F1=0.7630 best=0.7630
+[proto] epoch=32 train=0.70691 val_F1=0.7247 best=0.7630
+[proto] epoch=33 train=0.66747 val_F1=0.7523 best=0.7630
+[proto] epoch=34 train=0.71157 val_F1=0.7957 best=0.7957
+[proto] epoch=35 train=0.98906 val_F1=0.5556 best=0.7957
+[proto] epoch=36 train=0.69744 val_F1=0.7936 best=0.7957
+[proto] epoch=37 train=0.74282 val_F1=0.7033 best=0.7957
+[proto] epoch=38 train=0.74051 val_F1=0.7894 best=0.7957
+[proto] epoch=39 train=0.67973 val_F1=0.7607 best=0.7957
+[proto] epoch=40 train=0.69399 val_F1=0.7064 best=0.7957
+
+{
+  "case": "abl",
+  "k": 10,
+  "val_macro_f1": {
+    "fc": 0.6737504919323102,
+    "proto": 0.7956841138659321
+  },
+  "output": "/home/wang/projects/\u4f1a\u8bae\u8bba\u6587/Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample43_train43_distnone",
+  "test_evaluated": false
+}

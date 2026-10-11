@@ -2,6 +2,9 @@
 
 ## 当前算法研究（先读）
 
+- [冻结P1的K=10/20/40规模验证](CCSAE_PROTOTYPE_SHOT_SCALE_SERVER_RESULTS.md) —— 固定5 Val/类，12组新配对+6组K20复用，无Test。
+- [少样本规模验证独立归档](../experiments/ccsae_prototype_shot_scale/README.md) —— 嵌套样本、逐种子结果、独立核验与冻结证据。
+
 - [D0 / P1 最新服务器验证结果](CCSAE_PROTOTYPE_DIAGNOSTICS_P1_SERVER_RESULTS.md) —— 单因素距离尺度对照，固定5 Val/类，未评估Test。
 - [D0 / P1 实验原始证据](../experiments/ccsae_prototype_scale_p1/README.md) —— 与P0独立归档。
 
@@ -20,6 +23,6 @@
 
 1. 模型原始源码保留在 src/ccsae；新增诊断使用独立模块 proto_diagnostics.py。
 2. 分支 research/ccsae-prototype-k20 的 P0 历史结果和实验记录保持不变；新诊断分支为 research/ccsae-prototype-diagnostics-v1。
-3. 新实测结果应新建 experiments/ccsae_prototype_scale_p1/，不要覆盖 P0。
+3. D0/P1距离尺度实测归档到experiments/ccsae_prototype_scale_p1/；冻结P1规模验证归档到experiments/ccsae_prototype_shot_scale/，均不覆盖旧结果。
 4. 本地 data/、outputs/、模型权重与环境文件禁止提交 GitHub；记录可复验的文本摘要和哈希。
 5. 方法选择只参考 Train/Val；最终 Test 需在模型冻结后使用，并报告已存在的先前探索限制。

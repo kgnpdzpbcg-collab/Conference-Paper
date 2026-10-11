@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "new_paired_runs": 12,
+  "reused_k20_paired_runs": 6,
+  "total_paired_runs": 18,
+  "nested_train_prefixes_exact": true,
+  "fixed_raw_val_exact": true,
+  "same_pools_as_k20": true,
+  "all_configs_match_k20_except_k_and_output": true,
+  "new_checkpoints_reloaded_predictions_exact": true,
+  "manual_metrics_and_actual_paired_episodes_verified": true,
+  "test_evaluated": false,
+  "preservation": {
+    "status": "passed",
+    "protected_file_count": 308,
+    "input_before_sha256": "51243faeb09323047b5c8538c08e83db931d81e57ccf49f13b928da4c23c7ad6",
+    "all_existing_k20_outputs_unchanged": true,
+    "all_existing_d0_p0_data_and_env_unchanged": true,
+    "installed_package_versions_unchanged": true,
+    "training_sources_unchanged": true
+  }
+}

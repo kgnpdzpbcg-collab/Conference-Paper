@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "combinations": 18,
+  "new_pairs": 12,
+  "reused_k20_pairs": 6,
+  "nested_train_prefixes_exact": true,
+  "fixed_raw_val_exact": true,
+  "same_pools_as_k20": true,
+  "independent_dedup_split_sampling_and_scaler_verified": true,
+  "protected_file_count": 308,
+  "test_evaluated": false,
+  "jobs": [
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 42,
+      "train_size": 130,
+      "val_size": 65,
+      "stage1_updates": 30,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": -0.007760009811725577,
+      "train_scaler_std": 1.0320258456903366
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 42,
+      "train_size": 260,
+      "val_size": 65,
+      "stage1_updates": 50,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": -0.007748685072927907,
+      "train_scaler_std": 1.03222800701099
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 42,
+      "train_size": 520,
+      "val_size": 65,
+      "stage1_updates": 90,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": -0.007717141691122605,
+      "train_scaler_std": 1.0327800205095337
+    },
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 43,
+      "train_size": 130,
+      "val_size": 65,
+      "stage1_updates": 30,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": -0.00804538192858998,
+      "train_scaler_std": 1.0317212992699656
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 43,
+      "train_size": 260,
+      "val_size": 65,
+      "stage1_updates": 50,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": -0.007871316848824405,
+      "train_scaler_std": 1.0318626690187915
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 43,
+      "train_size": 520,
+      "val_size": 65,
+      "stage1_updates": 90,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": -0.007808915878042959,
+      "train_scaler_std": 1.0330159913056094
+    },
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 44,
+      "train_size": 130,
+      "val_size": 65,
+      "stage1_updates": 30,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": -0.007639436341071573,
+      "train_scaler_std": 1.035570551639534
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 44,
+      "train_size": 260,
+      "val_size": 65,
+      "stage1_updates": 50,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": -0.0076637123259649265,
+      "train_scaler_std": 1.0340079447308832
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 44,
+      "train_size": 520,
+      "val_size": 65,
+      "stage1_updates": 90,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": -0.007734758968880262,
+      "train_scaler_std": 1.0335527075916013
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 42,
+      "train_size": 110,
+      "val_size": 55,
+      "stage1_updates": 20,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": 0.10197712911637365,
+      "train_scaler_std": 0.023436010730558662
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 42,
+      "train_size": 220,
+      "val_size": 55,
+      "stage1_updates": 40,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": 0.10223654235059487,
+      "train_scaler_std": 0.023467082837979606
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 42,
+      "train_size": 440,
+      "val_size": 55,
+      "stage1_updates": 70,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": 0.10232544019169688,
+      "train_scaler_std": 0.023589264909244675
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 43,
+      "train_size": 110,
+      "val_size": 55,
+      "stage1_updates": 20,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": 0.10226372061745659,
+      "train_scaler_std": 0.023563013384521898
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 43,
+      "train_size": 220,
+      "val_size": 55,
+      "stage1_updates": 40,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": 0.10238285288157184,
+      "train_scaler_std": 0.023551367632061865
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 43,
+      "train_size": 440,
+      "val_size": 55,
+      "stage1_updates": 70,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": 0.1023663241784187,
+      "train_scaler_std": 0.023562888309556794
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 44,
+      "train_size": 110,
+      "val_size": 55,
+      "stage1_updates": 20,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": 0.10189675998171713,
+      "train_scaler_std": 0.02348940697459375
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 44,
+      "train_size": 220,
+      "val_size": 55,
+      "stage1_updates": 40,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": 0.10233317795501101,
+      "train_scaler_std": 0.023536641813471433
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 44,
+      "train_size": 440,
+      "val_size": 55,
+      "stage1_updates": 70,
+      "stage2_updates_per_method": 400,
+      "train_scaler_mean": 0.10250095967441124,
+      "train_scaler_std": 0.023544563687063348
+    }
+  ]
+}
