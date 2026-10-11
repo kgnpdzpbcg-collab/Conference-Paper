@@ -1,0 +1,40 @@
+{
+  "completed_pairs": 2,
+  "total_pairs": 2,
+  "results": [
+    {
+      "case": "abl",
+      "seed": 42,
+      "seconds": 18.093784163007513,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6363636363636364,
+          "macro_f1": 0.5840220385674931,
+          "balanced_accuracy": 0.6363636363636364
+        },
+        "proto": {
+          "accuracy": 0.6909090909090909,
+          "macro_f1": 0.656651429378702,
+          "balanced_accuracy": 0.6909090909090909
+        }
+      }
+    },
+    {
+      "case": "skl",
+      "seed": 42,
+      "seconds": 18.36064011399867,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6307692307692307,
+          "macro_f1": 0.6143215758600373,
+          "balanced_accuracy": 0.6307692307692307
+        },
+        "proto": {
+          "accuracy": 0.6923076923076923,
+          "macro_f1": 0.669039507501046,
+          "balanced_accuracy": 0.6923076923076923
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "validation_only": true,
+  "num_train": 220,
+  "num_validation": 55,
+  "prototype_dim": 600,
+  "stage1_full_K_val_macro_f1": 0.46159396159396165,
+  "stage1_full_K_val_accuracy": 0.4909090909090909,
+  "fixed_embedding_logits": {
+    "dim": {
+      "mean_class_logit_spread": 0.004805645439773798,
+      "mean_top1_minus_top2_logit": 0.0004204896977171302,
+      "mean_max_softmax_probability": 0.09136201441287994
+    },
+    "none": {
+      "mean_class_logit_spread": 2.883387327194214,
+      "mean_top1_minus_top2_logit": 0.25229379534721375,
+      "mean_max_softmax_probability": 0.30998334288597107
+    },
+    "dim_vs_none_prediction_differences": 0,
+    "dim_vs_fp64_reference_prediction_differences": 0
+  },
+  "embedding_geometry": {
+    "class_mean_within_rms_distance": 0.7927436828613281,
+    "class_mean_nearest_center_distance": 0.43129071593284607,
+    "mean_within_to_nearest_center_ratio": 3.0069479942321777
+  },
+  "support_stability": {
+    "support_per_class": 3,
+    "repeats": 32,
+    "three_shot_to_full_center_relative_drift": {
+      "mean": 1.5136594191955572,
+      "std": 1.4418483621159974,
+      "min": 0.06341209262609482,
+      "max": 7.730147838592529
+    },
+    "val_macro_f1_across_sampled_supports": {
+      "mean": 0.3644670034919032,
+      "std": 0.056428527197346895,
+      "min": 0.2618758247100493,
+      "max": 0.4595747389865037
+    }
+  },
+  "one_episode_train_mode_gradients": {
+    "dim": {
+      "episode_ce": 2.3931305408477783,
+      "query_logit_stats": {
+        "mean_class_logit_spread": 0.005802674684673548,
+        "mean_top1_minus_top2_logit": 0.000463065633084625,
+        "mean_max_softmax_probability": 0.09149191528558731
+      },
+      "projection_gradient_l2": 0.009413939900696278,
+      "first_complex_conv_gradient_l2": 0.028838027268648148
+    },
+    "none": {
+      "episode_ce": 2.0394203662872314,
+      "query_logit_stats": {
+        "mean_class_logit_spread": 3.4816043376922607,
+        "mean_top1_minus_top2_logit": 0.2778393626213074,
+        "mean_max_softmax_probability": 0.371162086725235
+      },
+      "projection_gradient_l2": 1.4801424741744995,
+      "first_complex_conv_gradient_l2": 4.474184036254883
+    }
+  },
+  "batchnorm_proxy": {
+    "same_batch_train_vs_eval_mean_cosine": 0.9991136193275452,
+    "same_batch_train_vs_eval_mean_relative_l2": 0.05468812957406044
+  },
+  "interpretation_limits": "Feature geometry and stability do not isolate causal training effects. Fixed-checkpoint logit scaling normally leaves argmax unchanged; only retraining can test optimization effects. BN proxy is a same-batch mode comparison, not a full attribution of episode-to-evaluation mismatch.",
+  "source_run_directory": "/home/wang/projects/会议论文/Conference-Paper-ccsae-prototype-k20/outputs/server_proto_k20_7ef4042/abl/k20_sample42_train42",
+  "case": "abl",
+  "seed": 42,
+  "k": 20,
+  "test_evaluated": false,
+  "stage1_checkpoint": "shared_stage1_last.pt",
+  "data_manifest_verified": true
+}

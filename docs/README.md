@@ -2,7 +2,10 @@
 
 ## 当前算法研究（先读）
 
-- [K=20 Proto 负结果分析、数值/特征诊断与 P1 最小修订](research/CCSAE_PROTO_K20_FAILURE_ANALYSIS.md) —— **最新诊断开发分支**，不代表性能已改善。
+- [D0 / P1 最新服务器验证结果](CCSAE_PROTOTYPE_DIAGNOSTICS_P1_SERVER_RESULTS.md) —— 单因素距离尺度对照，固定5 Val/类，未评估Test。
+- [D0 / P1 实验原始证据](../experiments/ccsae_prototype_scale_p1/README.md) —— 与P0独立归档。
+
+- [K=20 Proto 负结果分析、数值/特征诊断与 P1 最小修订](research/CCSAE_PROTO_K20_FAILURE_ANALYSIS.md) —— 原负结果与预定门槛，D0/P1执行状态见最新报告。
 - [CCSAE＋Prototype 原始 K-shot 研究方案](CCSAE_PROTOTYPE_FEWSHOT_V1.md) —— P0 冻结协议、模型公式与实验设计。
 - [K=20 服务器验证结果](CCSAE_PROTOTYPE_K20_SERVER_RESULTS.md) —— FC 优于 Prototype 的六组验证对照；没有 Test。
 - [K=20 完整实验索引与原始证据](../experiments/ccsae_prototype_k20/README.md) —— 训练曲线、逐 seed 指标、核验与环境信息。

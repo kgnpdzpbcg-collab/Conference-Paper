@@ -1,0 +1,447 @@
+{
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "copy_records": {
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/abl/k20_seed42_stage1.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/abl/k20_seed42_stage1.json",
+      "sha256": "cc9160123d4cd1bdab44f996f079e92e195e023421a483b6cba4e0d8176def95"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/abl/k20_seed42_stage1.log": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/abl/k20_seed42_stage1.log",
+      "sha256": "7a5527ff224917c20a8f709a1094bc8b7bcab893a24c4969f932c519c15c2521"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/abl/k20_seed43_stage1.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/abl/k20_seed43_stage1.json",
+      "sha256": "8412c943363a13ef2289eb431d97b28258b62e84101a72f20b933d8682bd04e2"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/abl/k20_seed43_stage1.log": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/abl/k20_seed43_stage1.log",
+      "sha256": "dcbb51d3d4fa691bd565258bd46242af398a2f0d0bec5d4bb3e46becd8536bd1"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/abl/k20_seed44_stage1.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/abl/k20_seed44_stage1.json",
+      "sha256": "90cdb781a803893eb8fd54837681c3e58725b29981829d9db20a8709fb94000f"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/abl/k20_seed44_stage1.log": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/abl/k20_seed44_stage1.log",
+      "sha256": "e3c0393b2c5d2a3e1fc726b240d24ea08b1d77dcaf207d018696704d9f4179bd"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/input_after.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/input_after.json",
+      "sha256": "68478cf40022e5a5b71c6cab0d3b900fad766381c07c0a29be398834d2356e8c"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/input_before.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/input_before.json",
+      "sha256": "68478cf40022e5a5b71c6cab0d3b900fad766381c07c0a29be398834d2356e8c"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/runtime.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/runtime.json",
+      "sha256": "6d33477bd9fe719a3f877dc0b150229169928417b6255d39aa1896e66464dab1"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/skl/k20_seed42_stage1.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/skl/k20_seed42_stage1.json",
+      "sha256": "a3da507bd8652f9eb4ad59071e2079408e7aea1aeace6ef689a3875d24f27221"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/skl/k20_seed42_stage1.log": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/skl/k20_seed42_stage1.log",
+      "sha256": "2cee148c90615a7db8764de208a179eee1f9d0be8173be83ed80425babe775f0"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/skl/k20_seed43_stage1.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/skl/k20_seed43_stage1.json",
+      "sha256": "66a743c886a89c4e3cc92dfabf124ce690b144973b08646a581575528d5f86ff"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/skl/k20_seed43_stage1.log": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/skl/k20_seed43_stage1.log",
+      "sha256": "472bf28c20e223d68c124ae51683aef711a052fade80ff64acf424d57054a64c"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/skl/k20_seed44_stage1.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/skl/k20_seed44_stage1.json",
+      "sha256": "9c6cdd3e4c2044f9abb33f5e83250ff1602bf158d7375cc864921eb7923dfdff"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/skl/k20_seed44_stage1.log": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/skl/k20_seed44_stage1.log",
+      "sha256": "88ddbb0fcf264498a7c1b4d04150ca33d566293d1b2039e8d5c0efa609748dc5"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/SUMMARY.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/SUMMARY.json",
+      "sha256": "a6317d6df4b9486ed55a486797de30e42b8bb4fad3211ea943d9a3fb33afe1b3"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/d0/VERIFICATION.json": {
+      "server_original_relative_path": "outputs/proto_diagnostics/server_a4d7a00/VERIFICATION.json",
+      "sha256": "f8cf5bee5b52437dc8c8d49d54a4b6ed78ba640f4983e6417b9f49ae280f40e8"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/COMPLETION_VERIFICATION.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/COMPLETION_VERIFICATION.json",
+      "sha256": "3b3226203f3999e83ad567b740c5533bdac155cadae1517d8a3c6883a19c4cd3"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/PER_SEED_RESULTS.csv": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/PER_SEED_RESULTS.csv",
+      "sha256": "f39efca3e662e19fe4965c87c5457fc6e3c2a3f725176471c38c1b0144b4b5f2"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/config.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/config.json",
+      "sha256": "90804d9cd12d1e6a102e12580643c84dbeff912ac25111034b522eaa07eb13e5"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/fc_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/fc_history.json",
+      "sha256": "09a6ecc1dc7207d773e21d1ac39409a98749d56a7304009ac7b3ada51daffd30"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/fc_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/fc_val_predictions.json",
+      "sha256": "0cf222218bd804a56a052a0a5bc2b9d87342254b3f8493bc0dbed0ab05377ba7"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/pair_verification.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/pair_verification.json",
+      "sha256": "020c70594df13b860ca7c6d11eb5805d6e55579fc12eba4eea65c8bafc19e046"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/progress.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/progress.json",
+      "sha256": "461daf3da5c5522e1d6618162bb2b0f68e92eac0d884df719732e52ffba99ee3"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/proto_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/proto_history.json",
+      "sha256": "962bfd4b59781cf523ceca7218ec8a1983b963c08701541bb7ba5ba32d3eb268"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/proto_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/proto_val_predictions.json",
+      "sha256": "1f9975af05382c24b830432fbe75ae58656768a191976213d4ba86e64857bfae"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/shared_stage1_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/shared_stage1_history.json",
+      "sha256": "88950551bd9c665913b1fc5f6f772abfdeeed315fe5bacc44c238e4967581e40"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/split_audit.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/split_audit.json",
+      "sha256": "7768cfd3dba9415bb4b658c0505323b28ae526dcfca5629d3e9aa0caa188beef"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/summary.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/summary.json",
+      "sha256": "3ee38b20594fbe17a00fdfc2160bf46a74769d3335e58a5f5b087387c3c0aa8b"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/abl/k20_sample42_train42_distnone/train.log": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone/train.log",
+      "sha256": "6b08821cbe10aeadb44a2ca3d9c8046fed585d00e7a7e94f8be052c0ab08779f"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/progress.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/progress.json",
+      "sha256": "f394504155b4c7d489b269b3fe5d81de7a97bed9e3d05560089e2ab7977691f1"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/resource_usage.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/resource_usage.json",
+      "sha256": "7045f62a06e39d142de032b81d456c6e984db4c56366fd4ce405162db2ba2761"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/config.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/config.json",
+      "sha256": "57afc5dc6ae058daec01b312754655f789abd6f9be6d1ab635b1ea620b2ed754"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/fc_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/fc_history.json",
+      "sha256": "310e1308cfe227912b6636a57dc780ce37b74e295070a53f7ac173d9b833a2cd"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/fc_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/fc_val_predictions.json",
+      "sha256": "61028e9707f51dfd92819af89870951a065e8cb76f8ea01a352cc636c7f20b0c"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/pair_verification.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/pair_verification.json",
+      "sha256": "67f0d08289fd31fcb19c9caf6d9d916048d6fcd7094028babefd13ed838c0ca2"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/progress.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/progress.json",
+      "sha256": "50bd23c09049be593e285bd823f56a01e83846fcad86650693f3e7c63f6cc170"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/proto_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/proto_history.json",
+      "sha256": "3976d8031243129786f40e3c7db404ced3b0465865fd1f98768bbf736d2add7d"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/proto_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/proto_val_predictions.json",
+      "sha256": "49d53399745fea982574b256c8c731f7254667c253490d8a32fb352fea333900"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/shared_stage1_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/shared_stage1_history.json",
+      "sha256": "f9c40ecb01814c619a6974641bd2b8c2bb27fa7dfa2b6fef486d69c6624d3723"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/split_audit.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/split_audit.json",
+      "sha256": "528c10e05f6cbe2c0ab5ad605f77fac2e92bba93ff052595e68612a8dc2bce22"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/summary.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/summary.json",
+      "sha256": "84acb3f34aa28201476ca7f4d8e9a43bdb3557de1b95bf40e7e67eef5b20a4d0"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/skl/k20_sample42_train42_distnone/train.log": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone/train.log",
+      "sha256": "a492deb8fda61be136994ac535e30fbc0a01a56019a509e3bae62f450c24de98"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/timing.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/timing.json",
+      "sha256": "a232389e8ffb81975eae97de308e27a96008f7633aef6e2d37818b8db05d1ef5"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seed42_precheck/verification.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/verification.json",
+      "sha256": "58dc8189e1c67d2664a36e2ccde2a71a6f4e233457f76a9b74b416d059a29f50"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/config.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/config.json",
+      "sha256": "d8337cb143c7d394c7933d4d50170a173cf6435b05c6a72d269d1f7535895ebf"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/fc_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/fc_history.json",
+      "sha256": "c1e2abfb591e7ca9578d63df0884c46fe3af34c8e2b4849f69bb1430ad0602e9"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/fc_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/fc_val_predictions.json",
+      "sha256": "c31132ff6ccf037dbecced90242497b3e24982d99fbfbf5aa21b0f0ca6be5128"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/pair_verification.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/pair_verification.json",
+      "sha256": "f02e63f3252e88e792316f97be27fcefa2a15111f2633b344cc2e550c5ed6a16"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/progress.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/progress.json",
+      "sha256": "ff6029c34edb52cce179e768eb6e56ede62aa87ff6ac76b63e4996724d474444"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/proto_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/proto_history.json",
+      "sha256": "c23eea531987af57b1e28d39970cf4f777eae164be448a30c08c7c735416ee0d"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/proto_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/proto_val_predictions.json",
+      "sha256": "361d46e5afc5f4587f6ef888e1cf95b49a910d0055a2ebaeab24b14b37f432b4"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/shared_stage1_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/shared_stage1_history.json",
+      "sha256": "77bb0db0146bac3be21a50fe8c96db5d1e3cdf9b2f7913b11836f9ef820912fd"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/split_audit.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/split_audit.json",
+      "sha256": "7ce67e99a1db8e1c5cc040eafef5d47bcc3dc073cf27af708f6d12965092200f"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/summary.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/summary.json",
+      "sha256": "32a5f296126a64df6f372e2418cf9ae86c2510f7ac043d6f444fccc1f0035cd5"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample43_train43_distnone/train.log": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone/train.log",
+      "sha256": "dc6b947cc96b0bdd94103a98f82795017a9c31e7e47ba61186a3bc58dceeba4f"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/config.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/config.json",
+      "sha256": "abf67dd2d28fb79739ef55ee29bee360781e129f6c73ab5953c5d60b7ce6bc71"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/fc_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/fc_history.json",
+      "sha256": "cc70d3ae771da699e528c18604b2ecd38a5f41e9f8b67cc03195e88e9b54858b"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/fc_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/fc_val_predictions.json",
+      "sha256": "7789c59dd43daa3fa111a44e597003787f998b724e67bf21918cf8153f9d37b9"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/pair_verification.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/pair_verification.json",
+      "sha256": "7a3b47eb00494b031ee0b0995dfd07c4286d8f905ce07f93f0574739af4305e6"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/progress.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/progress.json",
+      "sha256": "f3695322f1483b05126730641727a3c297d28bf7243491dfe7f76a22f6fc7b2a"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/proto_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/proto_history.json",
+      "sha256": "a0d12aef89933d53da0592c3577a783df93e3e8e3d0f2aad1a3dd895a0f5eba0"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/proto_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/proto_val_predictions.json",
+      "sha256": "320a4879a7b9da43e153d0ebeaddab631976286537ef7b8a5cf9ba7b2adbcfbf"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/shared_stage1_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/shared_stage1_history.json",
+      "sha256": "3d1457a4ed2475e9a701ec992c378fc3e34ed4c75cddd0495546f54653b9ea14"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/split_audit.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/split_audit.json",
+      "sha256": "75f1d467885c3384d54a09492eb345bba3c4e0ce7aa87f199e4cfa8ced3907bc"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/summary.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/summary.json",
+      "sha256": "fc6be1432578038b1169efafe4c16d75f4dab8f57ad7e41786aa18b9d57a678a"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/abl/k20_sample44_train44_distnone/train.log": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone/train.log",
+      "sha256": "f5c976420e4540e8ba308242f0ed64bff69365a9d5c2a8a8756ef9ddae282180"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/progress.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/progress.json",
+      "sha256": "ed6c2a999ab57d9943dbd3c06bafac57eb8b68170c309018fd58a1cf64193e8f"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/resource_usage.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/resource_usage.json",
+      "sha256": "d323dd0bba788d43569457c6cbc87959fe5a16ea1819211b005769f7cd7d4386"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/config.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/config.json",
+      "sha256": "9a49152666c45a439565d569c2171867b196cd9e33db7c492cca881b36811dd0"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/fc_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/fc_history.json",
+      "sha256": "455d08d0aacb616bfc2da3c62514c6dbb994ab0900bcdfc4bf918d7f1461af7a"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/fc_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/fc_val_predictions.json",
+      "sha256": "96da07fa4bb72c03e01b2d5745749d977de0f24c83732475c56ab2e828d74615"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/pair_verification.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/pair_verification.json",
+      "sha256": "0c7d96edea1f2165b2c809d66d23db8e58b77b1c805c94f5dd3d7bdc6397d2e3"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/progress.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/progress.json",
+      "sha256": "65f0290f37c2a1043b604eeb59b58c14e9a2006f9d6054ef821ee679328ffb3f"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/proto_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/proto_history.json",
+      "sha256": "867580c4033092fb5ca7e1353168479b2183d60426e913df6f2d7644de2cca1a"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/proto_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/proto_val_predictions.json",
+      "sha256": "7fb01cdd88305cc829f29dcd1c55ca644c25db66ce9bffa9b96e3fbdbfe598a5"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/shared_stage1_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/shared_stage1_history.json",
+      "sha256": "759a727dbda9c02daa67317f6712c3a6820638f89d609adb50ee100a228a9b02"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/split_audit.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/split_audit.json",
+      "sha256": "40e2153781b014c552a61959e2edf510578267f62a684f706bec393e30eb9355"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/summary.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/summary.json",
+      "sha256": "faffcdfcfc9aa66eae4a739ed1c98c54be7609af5f423416876d717847ecbd71"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample43_train43_distnone/train.log": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone/train.log",
+      "sha256": "32c7612dc9bd0dbcf69db83a751ed12609692920b14ee24de4f12ac04a72c42a"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/config.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/config.json",
+      "sha256": "989160f54a108ff88e90bc8dadc256df6ccea29e12d0790d88c308380c2cab3c"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/fc_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/fc_history.json",
+      "sha256": "3a0b9530ac516c05247e619f7253c103d77f1e04e57332782dc4aa6f28a12387"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/fc_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/fc_val_predictions.json",
+      "sha256": "dc653ff2ec00650d4aa6ae3a680e7d31f6a91ddecafccb7c521a40ebbbfb42d0"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/pair_verification.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/pair_verification.json",
+      "sha256": "271eca3254c29a40900270733994520607f74c29ffaf690d9caef8a7e6b9d6b6"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/progress.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/progress.json",
+      "sha256": "5d1e9e481c46282bc3a058a0790fa877b1ea8b4979bb15def2427e6d9e8d9649"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/proto_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/proto_history.json",
+      "sha256": "d9077aef668c5031d2e12e3a4f8296ef84f2ee77ab0d5b09ab27065c2e9ec431"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/proto_val_predictions.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/proto_val_predictions.json",
+      "sha256": "2bbf1db24d722b3ab742938f5665e20b79ca8a684a6bf49582bd119c336771de"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/shared_stage1_history.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/shared_stage1_history.json",
+      "sha256": "daef21a293abc66fc908e736d5d496c92d6e2be73687eec4fa0b8c6923746c6c"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/split_audit.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/split_audit.json",
+      "sha256": "3e76f5f7c94edfc603136aba4232b04c6b0d5f697925cd1344ffe19d5ca5089f"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/summary.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/summary.json",
+      "sha256": "e3e187543af010203f69c2884b6bfc0a87fb8dff8e0a22702a0427a62b28b7f9"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/skl/k20_sample44_train44_distnone/train.log": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone/train.log",
+      "sha256": "831a815fb411953a3e12bec604d4347d2d2d321a7684fa1b4e720f9cec398ce7"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/timing.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/timing.json",
+      "sha256": "4dd8b2d264e6cb9029a1d408fdbca8a8573320eeb467aba6b5db1bd44bf37b00"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/seeds43_44_followup/verification.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/verification.json",
+      "sha256": "1395ee3497b12e60513c74c663b7a42a69b94913aed6591425bfbc8040e18a7c"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/SERVER_RESULTS.md": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/SERVER_RESULTS.md",
+      "sha256": "306aa66f7bb49c745b3348fa23762ba5f5d90664e1f1a5ea7aaa8c7547dbcbc0"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/SOURCE_MANIFEST.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/SOURCE_MANIFEST.json",
+      "sha256": "5721fb0545382780e1e5e37c7734e860b5606155700b08357220e94cf5deee4d"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/p1/SUMMARY.json": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/SUMMARY.json",
+      "sha256": "9d375cd109bc526725dcf5d02931d7f2a4994ccfa241388cee578bf258cf7215"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/common.py": {
+      "server_original_relative_path": "server_experiment/common.py",
+      "sha256": "0b4f26fa281c8b0424b46baada25053c2d0f1f03c04d236846ca40a4cb75557b"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/d0.log": {
+      "server_original_relative_path": "server_experiment/d0.log",
+      "sha256": "383b206443ebd04a4c1a0b7882c890335c9621827b6c73d899eeaea8047199e4"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/p1_seed42.log": {
+      "server_original_relative_path": "server_experiment/p1_seed42.log",
+      "sha256": "392a5ab0593fbaec59c3671d81ab6180f7ad1620060c5daa381fa36a88a7f860"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/p1_seeds43_44.log": {
+      "server_original_relative_path": "server_experiment/p1_seeds43_44.log",
+      "sha256": "ef5af74b95aee6fa075ff4d0b98244d9caa3e159b770bbd9ee57f1fbbc885f88"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/report.py": {
+      "server_original_relative_path": "server_experiment/report.py",
+      "sha256": "6456ef2f694ff49677d882ef485191aeb67edb9d5b4b203ac7317d67af11843a"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/run_d0.py": {
+      "server_original_relative_path": "server_experiment/run_d0.py",
+      "sha256": "8b963e58f5af5d7ab3e6516337b96745a3ba1576fa43ce2a330f86553b5f35b8"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/run_p1.py": {
+      "server_original_relative_path": "server_experiment/run_p1.py",
+      "sha256": "f770fd750077044e6bcea9c830a1a66487217b214c115af772a0f5614d3ff5a9"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/upstream_tests.log": {
+      "server_original_relative_path": "server_experiment/upstream_tests.log",
+      "sha256": "493b67a1c1c961d68002cd285a24bcdce4793ffdc614f288dfb5080fe8371463"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/verify_d0.log": {
+      "server_original_relative_path": "server_experiment/verify_d0.log",
+      "sha256": "593557ba8bebdbad6267e57b3cecdbdf753a5ee217a49a7f8a9a0238a876f539"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/verify_d0.py": {
+      "server_original_relative_path": "server_experiment/verify_d0.py",
+      "sha256": "7664a032549441ad7f94f30042afddd53a8bc88c37f4e9219e4a727b8e7f2763"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/verify_p1.py": {
+      "server_original_relative_path": "server_experiment/verify_p1.py",
+      "sha256": "3cda829e961b310f342ab6f5ae881c0e68591b51cda1431796fd3404bf4609ad"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/verify_p1_seed42.log": {
+      "server_original_relative_path": "server_experiment/verify_p1_seed42.log",
+      "sha256": "98db447a18e872129f07818b64b9bfdb187e157e9f2e895ecdc93b7b188b90a3"
+    },
+    "experiments/ccsae_prototype_scale_p1/results/server_a4d7a00/runtime_source/verify_p1_seeds43_44.log": {
+      "server_original_relative_path": "server_experiment/verify_p1_seeds43_44.log",
+      "sha256": "28e318c77aaf1d356cc13c0abc51b916fd32dece12c2463572ee79e32c2fa05d"
+    },
+    "docs/CCSAE_PROTOTYPE_DIAGNOSTICS_P1_SERVER_RESULTS.md": {
+      "server_original_relative_path": "outputs/proto_scale_p1/server_a4d7a00/SERVER_RESULTS.md",
+      "sha256": "306aa66f7bb49c745b3348fa23762ba5f5d90664e1f1a5ea7aaa8c7547dbcbc0"
+    }
+  },
+  "raw_data_or_weights_published": false,
+  "server_run_and_local_sync_verified": true
+}

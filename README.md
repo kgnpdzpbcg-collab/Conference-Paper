@@ -1,9 +1,11 @@
 # CCSAE for Analog Circuit Incipient Fault Diagnosis — V1 Adaptation
 
-## 最新分支：Prototype P0 负结果诊断（不是新的性能结果）
+## 最新阶段：D0 诊断与 P1 距离尺度服务器验证结果
 
-本分支继承 research/ccsae-prototype-k20 的**全部已完成实验与历史代码**。P0 的 FC 在 SKL/ABL 三种 seed 下都高于普通 Prototype；因此不直接开发加权原型，而是新增最小机制诊断与可选距离尺度对照。
+本分支保留 P0 全部历史结果，现已按研究文档完成六组只读 D0 和一次受控 P1。仅将原型距离由除以嵌入维度改为不除以维度；Stage1、FC 和实际样本流均精确复现 P0。P1 Val Macro-F1：SKL **70.27 ± 3.43%**，ABL **68.86 ± 7.03%**（n=3）；对 FC 分别3/3、2/3种子更高。**只评估固定5 Val/类，没有 Test。**
 
+- [完整 D0/P1 服务器结果](docs/CCSAE_PROTOTYPE_DIAGNOSTICS_P1_SERVER_RESULTS.md)
+- [新阶段原始证据与复现边界](experiments/ccsae_prototype_scale_p1/README.md)
 - [详细负结果分析及诊断执行顺序](docs/research/CCSAE_PROTO_K20_FAILURE_ANALYSIS.md)
 - [全部文档索引](docs/README.md)
 - [P0 冻结实验报告](docs/CCSAE_PROTOTYPE_K20_SERVER_RESULTS.md)
@@ -16,7 +18,7 @@ pytest -q
 ccsae-proto-diagnose --data data/Data.zip --run-dir outputs/server_proto_k20_7ef4042/skl/k20_sample42_train42 --device auto
 ~~~
 
-**可选 P1 单因素重训（默认仍是原 P0 距离 /D；只有显式指定 none 才修改）：**
+**P1 单因素重训复现入口（服务器实测已完成；只有显式指定 none 才修改）：**
 
 ~~~bash
 ccsae-fewshot --data data/Data.zip --case skl --k 20 --seed 42 --distance-normalization none --output outputs/proto_scale_p1

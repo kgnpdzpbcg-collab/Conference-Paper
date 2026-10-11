@@ -1,6 +1,6 @@
 # CCSAE-Proto K=20 负结果分析与最小诊断修订（2026-10-11）
 
-> 状态：分析基于已完成的服务器 P0 实验；诊断工具与距离尺度选项已实现，**新诊断及 P1 重训尚无正式结果**。本文件存放在 docs/research；历史结果与原始代码在原分支保持不变。
+> 状态更新：已按下述门槛完成六组 D0 和一次 P1 距离尺度服务器对照。P1 原型 Val Macro-F1：SKL 70.27 ± 3.43%，ABL 68.86 ± 7.03%（n=3）；相对FC分别3/3、2/3种子更高。**仅固定5 Val/类，没有Test。** [完整实测结果](../CCSAE_PROTOTYPE_DIAGNOSTICS_P1_SERVER_RESULTS.md)及[独立新归档](../../experiments/ccsae_prototype_scale_p1/README.md)。原P0负结果和下面预定方案保留。
 
 ## 1. 核心结论（已观测，不是推测）
 

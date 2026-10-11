@@ -1,0 +1,79 @@
+{
+  "started_utc": "2026-10-11T07:28:38.702908+00:00",
+  "ended_utc": "2026-10-11T07:29:13.926645+00:00",
+  "wall_seconds": 35.22375243299757,
+  "workers": 4,
+  "cpu_threads_per_worker": 4,
+  "smoke": false,
+  "pairs": [
+    {
+      "case": "abl",
+      "seed": 44,
+      "seconds": 32.503031610001926,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6727272727272727,
+          "macro_f1": 0.6303242212333121,
+          "balanced_accuracy": 0.6727272727272727
+        },
+        "proto": {
+          "accuracy": 0.7818181818181819,
+          "macro_f1": 0.7691954510136327,
+          "balanced_accuracy": 0.781818181818182
+        }
+      }
+    },
+    {
+      "case": "abl",
+      "seed": 43,
+      "seconds": 32.53922359101125,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6727272727272727,
+          "macro_f1": 0.643939393939394,
+          "balanced_accuracy": 0.6727272727272727
+        },
+        "proto": {
+          "accuracy": 0.6363636363636364,
+          "macro_f1": 0.639905548996458,
+          "balanced_accuracy": 0.6363636363636364
+        }
+      }
+    },
+    {
+      "case": "skl",
+      "seed": 44,
+      "seconds": 32.98772738099797,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6307692307692307,
+          "macro_f1": 0.6004218004218004,
+          "balanced_accuracy": 0.6307692307692307
+        },
+        "proto": {
+          "accuracy": 0.7538461538461538,
+          "macro_f1": 0.7376653261268645,
+          "balanced_accuracy": 0.7538461538461539
+        }
+      }
+    },
+    {
+      "case": "skl",
+      "seed": 43,
+      "seconds": 33.15140268999676,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6153846153846154,
+          "macro_f1": 0.5773602465910158,
+          "balanced_accuracy": 0.6153846153846154
+        },
+        "proto": {
+          "accuracy": 0.7230769230769231,
+          "macro_f1": 0.7014874014874015,
+          "balanced_accuracy": 0.7230769230769231
+        }
+      }
+    }
+  ],
+  "test_evaluated": false
+}

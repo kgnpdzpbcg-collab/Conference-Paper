@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "d0_runs": 6,
+  "p1_paired_runs": 6,
+  "source_files_match_training_commit": true,
+  "p0_stage1_and_fc_state_exact": true,
+  "p0_episode_stream_exact": true,
+  "independent_checkpoint_reload_predictions_and_metrics_verified": true,
+  "all_old_input_hashes_match": true,
+  "test_evaluated": false,
+  "preservation": {
+    "status": "passed",
+    "protected_file_count": 170,
+    "before_sha256": "68478cf40022e5a5b71c6cab0d3b900fad766381c07c0a29be398834d2356e8c",
+    "old_p0_all_files_preserved": true,
+    "raw_data_and_frozen_splits_preserved": true,
+    "existing_uv_configuration_and_packages_preserved": true
+  }
+}

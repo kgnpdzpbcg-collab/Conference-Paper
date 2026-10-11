@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "jobs": [
+    {
+      "case": "abl",
+      "seed": 42,
+      "model_state_restored": true,
+      "repeated_diagnostic_identical": true,
+      "fp64_direct_distance_and_sklearn_metrics_match": true,
+      "checkpoint_state_sha256": "abc98d7f2e87103e99e073f3dabd15fec7e731c5077c89d4c6f6049b14bbe234"
+    },
+    {
+      "case": "abl",
+      "seed": 43,
+      "model_state_restored": true,
+      "repeated_diagnostic_identical": true,
+      "fp64_direct_distance_and_sklearn_metrics_match": true,
+      "checkpoint_state_sha256": "e37dda66efe2d3d66fae9ed988771de0ada8ad9f118c9904a5d5e2c2062e51ff"
+    },
+    {
+      "case": "abl",
+      "seed": 44,
+      "model_state_restored": true,
+      "repeated_diagnostic_identical": true,
+      "fp64_direct_distance_and_sklearn_metrics_match": true,
+      "checkpoint_state_sha256": "8961cfcb8cb3012f4d4b2fb9e3ad218862ae45780a1ebd91f2ac01b0d9b5bd47"
+    },
+    {
+      "case": "skl",
+      "seed": 42,
+      "model_state_restored": true,
+      "repeated_diagnostic_identical": true,
+      "fp64_direct_distance_and_sklearn_metrics_match": true,
+      "checkpoint_state_sha256": "465592389fb3d591c48530c7da701a20c12e8e452882ee304ac96cd76da727c5"
+    },
+    {
+      "case": "skl",
+      "seed": 43,
+      "model_state_restored": true,
+      "repeated_diagnostic_identical": true,
+      "fp64_direct_distance_and_sklearn_metrics_match": true,
+      "checkpoint_state_sha256": "ca62a3b394ad61a611b2bd33599f4664f4daf78d903addd45e8363978fe31355"
+    },
+    {
+      "case": "skl",
+      "seed": 44,
+      "model_state_restored": true,
+      "repeated_diagnostic_identical": true,
+      "fp64_direct_distance_and_sklearn_metrics_match": true,
+      "checkpoint_state_sha256": "b51e8b6d3f9c235741ff18262154c21d946bae84ee42144af770631ba4cd100f"
+    }
+  ],
+  "all_old_input_file_hashes_match": true,
+  "test_evaluated": false,
+  "limitation": "Stage1 初始化状态的机制诊断，不是训练结束 Proto best 的表征因果分析。"
+}

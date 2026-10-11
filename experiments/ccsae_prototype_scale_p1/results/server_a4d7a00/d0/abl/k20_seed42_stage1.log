@@ -1,0 +1,8 @@
+{
+  "output": "/home/wang/projects/\u4f1a\u8bae\u8bba\u6587/Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_diagnostics/server_a4d7a00/abl/k20_seed42_stage1.json",
+  "case": "abl",
+  "seed": 42,
+  "stage1_full_K_val_macro_f1": 0.46159396159396165,
+  "dim_vs_none_prediction_differences": 0,
+  "test_evaluated": false
+}

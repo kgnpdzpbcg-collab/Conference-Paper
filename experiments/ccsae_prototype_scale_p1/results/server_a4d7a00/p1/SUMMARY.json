@@ -1,0 +1,166 @@
+{
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "p0_training_commit": "7ef4042fe18275f2f366c06c5aa19aa817c45258",
+  "stage": "D0 checkpoint diagnostics then gated P1 distance normalization ablation",
+  "test_evaluated": false,
+  "distance_normalization": "none",
+  "temperature": 1,
+  "d0_seconds": 4.190177024007426,
+  "p1_training_window_sum_seconds": 55.40950367398909,
+  "summary_by_case": {
+    "skl": {
+      "p1_fc_val_macro_f1_percent": {
+        "mean": 59.736787429095116,
+        "sample_std": 1.8668953209614334,
+        "n": 3
+      },
+      "p0_proto_val_macro_f1_percent": {
+        "mean": 46.994849879465264,
+        "sample_std": 3.095406128419218,
+        "n": 3
+      },
+      "p1_proto_val_macro_f1_percent": {
+        "mean": 70.27307450384373,
+        "sample_std": 3.432980007086206,
+        "n": 3
+      },
+      "p1_proto_minus_fc_pp": {
+        "mean": 10.536287074748614,
+        "sample_std": 4.434740340337636,
+        "n": 3
+      },
+      "p1_proto_minus_p0_proto_pp": {
+        "mean": 23.278224624378463,
+        "sample_std": 3.702992585647433,
+        "n": 3
+      },
+      "p1_proto_wins_vs_fc": 3,
+      "p1_proto_wins_vs_p0_proto": 3
+    },
+    "abl": {
+      "p1_fc_val_macro_f1_percent": {
+        "mean": 61.94285512467331,
+        "sample_std": 3.1409538153767813,
+        "n": 3
+      },
+      "p0_proto_val_macro_f1_percent": {
+        "mean": 42.98110979929162,
+        "sample_std": 1.207448965838659,
+        "n": 3
+      },
+      "p1_proto_val_macro_f1_percent": {
+        "mean": 68.85841431295975,
+        "sample_std": 7.031175823804389,
+        "n": 3
+      },
+      "p1_proto_minus_fc_pp": {
+        "mean": 6.915559188286449,
+        "sample_std": 7.151584128471689,
+        "n": 3
+      },
+      "p1_proto_minus_p0_proto_pp": {
+        "mean": 25.877304513668133,
+        "sample_std": 8.146666358434953,
+        "n": 3
+      },
+      "p1_proto_wins_vs_fc": 2,
+      "p1_proto_wins_vs_p0_proto": 3
+    }
+  },
+  "per_seed": [
+    {
+      "case": "abl",
+      "seed": 42,
+      "p0_fc_val_macro_f1_percent": 58.40220385674931,
+      "p0_proto_val_macro_f1_percent": 42.95290568017842,
+      "p1_fc_val_macro_f1_percent": 58.40220385674931,
+      "p1_proto_val_macro_f1_percent": 65.6651429378702,
+      "p1_proto_best_epoch": 39,
+      "phase": "seed42_precheck",
+      "job_relative_path": "seed42_precheck/abl/k20_sample42_train42_distnone",
+      "p1_proto_minus_fc_pp": 7.262939081120891,
+      "p1_proto_minus_p0_proto_pp": 22.712237257691783
+    },
+    {
+      "case": "abl",
+      "seed": 43,
+      "p0_fc_val_macro_f1_percent": 64.3939393939394,
+      "p0_proto_val_macro_f1_percent": 44.2024137478683,
+      "p1_fc_val_macro_f1_percent": 64.3939393939394,
+      "p1_proto_val_macro_f1_percent": 63.9905548996458,
+      "p1_proto_best_epoch": 40,
+      "phase": "seeds43_44_followup",
+      "job_relative_path": "seeds43_44_followup/abl/k20_sample43_train43_distnone",
+      "p1_proto_minus_fc_pp": -0.40338449429360423,
+      "p1_proto_minus_p0_proto_pp": 19.788141151777502
+    },
+    {
+      "case": "abl",
+      "seed": 44,
+      "p0_fc_val_macro_f1_percent": 63.03242212333121,
+      "p0_proto_val_macro_f1_percent": 41.78800996982815,
+      "p1_fc_val_macro_f1_percent": 63.03242212333121,
+      "p1_proto_val_macro_f1_percent": 76.91954510136327,
+      "p1_proto_best_epoch": 39,
+      "phase": "seeds43_44_followup",
+      "job_relative_path": "seeds43_44_followup/abl/k20_sample44_train44_distnone",
+      "p1_proto_minus_fc_pp": 13.88712297803206,
+      "p1_proto_minus_p0_proto_pp": 35.13153513153512
+    },
+    {
+      "case": "skl",
+      "seed": 42,
+      "p0_fc_val_macro_f1_percent": 61.43215758600373,
+      "p0_proto_val_macro_f1_percent": 44.1437622206853,
+      "p1_fc_val_macro_f1_percent": 61.43215758600373,
+      "p1_proto_val_macro_f1_percent": 66.9039507501046,
+      "p1_proto_best_epoch": 29,
+      "phase": "seed42_precheck",
+      "job_relative_path": "seed42_precheck/skl/k20_sample42_train42_distnone",
+      "p1_proto_minus_fc_pp": 5.471793164100866,
+      "p1_proto_minus_p0_proto_pp": 22.760188529419295
+    },
+    {
+      "case": "skl",
+      "seed": 43,
+      "p0_fc_val_macro_f1_percent": 57.73602465910158,
+      "p0_proto_val_macro_f1_percent": 50.28721278721279,
+      "p1_fc_val_macro_f1_percent": 57.73602465910158,
+      "p1_proto_val_macro_f1_percent": 70.14874014874015,
+      "p1_proto_best_epoch": 39,
+      "phase": "seeds43_44_followup",
+      "job_relative_path": "seeds43_44_followup/skl/k20_sample43_train43_distnone",
+      "p1_proto_minus_fc_pp": 12.412715489638565,
+      "p1_proto_minus_p0_proto_pp": 19.861527361527358
+    },
+    {
+      "case": "skl",
+      "seed": 44,
+      "p0_fc_val_macro_f1_percent": 60.042180042180036,
+      "p0_proto_val_macro_f1_percent": 46.55357463049771,
+      "p1_fc_val_macro_f1_percent": 60.042180042180036,
+      "p1_proto_val_macro_f1_percent": 73.76653261268645,
+      "p1_proto_best_epoch": 27,
+      "phase": "seeds43_44_followup",
+      "job_relative_path": "seeds43_44_followup/skl/k20_sample44_train44_distnone",
+      "p1_proto_minus_fc_pp": 13.724352570506412,
+      "p1_proto_minus_p0_proto_pp": 27.21295798218874
+    }
+  ],
+  "old_artifact_preservation": {
+    "status": "passed",
+    "protected_file_count": 170,
+    "before_sha256": "68478cf40022e5a5b71c6cab0d3b900fad766381c07c0a29be398834d2356e8c",
+    "old_p0_all_files_preserved": true,
+    "raw_data_and_frozen_splits_preserved": true,
+    "existing_uv_configuration_and_packages_preserved": true
+  },
+  "next_action": "本轮止于预先指定的 D0/P1；不新增模块、温度搜索或 Test 方案筛选。",
+  "caveats": [
+    "只评估固定 5 Val/类",
+    "n=3，样本选择与训练随机种子耦合",
+    "ABL seed43 略低于 FC，整体波动较大",
+    "D0 分析 Stage1 last，不能等同于 Proto best 的最终表征因果机制",
+    "先前数据探索限制持续存在"
+  ]
+}
