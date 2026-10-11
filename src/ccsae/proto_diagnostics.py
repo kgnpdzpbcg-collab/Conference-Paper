@@ -191,7 +191,7 @@ def run(args: argparse.Namespace) -> dict:
         args.data, config["case"], k=int(config["k"]),
         val_per_class=int(config["val_per_class"]),
         split_seed=int(config["split_seed"]),
-        sample_seed=int(config["sample_seed"] or seed),
+        sample_seed=int(config["sample_seed"]) if config.get("sample_seed") is not None else seed,
         val_seed=int(config["val_seed"]),
     )
     for key in ("selected_train_hashes_by_class", "selected_val_hashes_by_class",
@@ -215,7 +215,9 @@ def run(args: argparse.Namespace) -> dict:
         "stage1_checkpoint": "shared_stage1_last.pt",
         "data_manifest_verified": True,
     })
-    output = Path(args.output) if args.output else run_dir / "prototype_diagnostics.json"
+    output = (Path(args.output) if args.output else
+              Path("outputs/proto_diagnostics") / config["case"] /
+              f"{run_dir.name}_stage1.json")
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps({
