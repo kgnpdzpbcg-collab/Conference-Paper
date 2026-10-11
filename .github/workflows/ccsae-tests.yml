@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - reproduction/ccsae-v1
+      - research/ccsae-prototype-k20
   workflow_dispatch:
 
 jobs:
