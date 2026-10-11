@@ -1,0 +1,947 @@
+{
+  "status": "passed",
+  "ccsae_source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "original_resnet_model_sha256": "b9c96fa1d78ca0c4a1e7a7626a4f5a6a5e29456faa091ff5db4dcd47048e5263",
+  "server_archive_sha256": "e8a02f3eec40d9d9336844141f5201548732b8dea421952d7df5f0d2911fbdde",
+  "server_files_verified_locally": 276,
+  "server_byte_exact_text_copies": [
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/COMPLETION_VERIFICATION.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/COMPLETION_VERIFICATION.json",
+      "sha256": "94564e58c7010d503d7e7433b0a4eb33bf531f38438390c256796c37b174cfdc"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/PER_SEED_RESULTS.csv",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/PER_SEED_RESULTS.csv",
+      "sha256": "1c434415eec6180edbfec4cc591f172cb0b9c241550d268e1c46aa4d9617ceb9"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/progress.json",
+      "sha256": "d42bdb8bd0cd2251aff86ed389b4e87821ffcaa8ad0589057712ac66e46e80e6"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/input_before.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/input_before.json",
+      "sha256": "376b7200943d97d63692a90f9f9eee8224e0cc70f3d3c8535f794768b29e8d2d"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/preflight.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/preflight.json",
+      "sha256": "2188f22b530bb6bd511062ef3b8c6f62a73dbe2b149a2f299b04ad3e890eaf8e"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/runtime_before.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/runtime_before.json",
+      "sha256": "3f3087b5c73053eb37b19c71cadb04c32a1f6da366ddbc477cc6115194548348"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/abl_k10_seed42.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/abl_k10_seed42.json",
+      "sha256": "5f45dc82e0a2a17a6fe8fe0986995943897d8311ec18069d4851a7e21992cf64"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/abl_k10_seed43.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/abl_k10_seed43.json",
+      "sha256": "e2d1fe5a567747d39e8cbbebeaa6eb631aac07872d27b59a8399b2063f96327c"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/abl_k10_seed44.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/abl_k10_seed44.json",
+      "sha256": "229f1c1b7f0d5a344edabf3c4a0665acd65d9d979c3425a49f6e098434ca7305"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/abl_k20_seed42.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/abl_k20_seed42.json",
+      "sha256": "7768cfd3dba9415bb4b658c0505323b28ae526dcfca5629d3e9aa0caa188beef"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/abl_k20_seed43.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/abl_k20_seed43.json",
+      "sha256": "7ce67e99a1db8e1c5cc040eafef5d47bcc3dc073cf27af708f6d12965092200f"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/abl_k20_seed44.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/abl_k20_seed44.json",
+      "sha256": "75f1d467885c3384d54a09492eb345bba3c4e0ce7aa87f199e4cfa8ced3907bc"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/abl_k40_seed42.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/abl_k40_seed42.json",
+      "sha256": "a17343dab8e1de1707e184eb15c09230bea4bc8dab38e5a722d0927ae2a40c5c"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/abl_k40_seed43.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/abl_k40_seed43.json",
+      "sha256": "de78a77453c472ee26794e83690088b6a79f107355b2e68a6acb37e239a178b7"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/abl_k40_seed44.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/abl_k40_seed44.json",
+      "sha256": "a7bf4377d077bd48f6d4eda2c3e6cc5a1f62235fcebe4af79fc5d235034c03be"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/skl_k10_seed42.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/skl_k10_seed42.json",
+      "sha256": "ff786d94e8fa0fe2c99ae922bd4144ff1f5f4f11c6a8a9f41248e07fa93ce969"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/skl_k10_seed43.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/skl_k10_seed43.json",
+      "sha256": "81c22ccf98141b927ec51ea3cb574af5e614d13356ce2c7c68f4ef95fc9212b2"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/skl_k10_seed44.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/skl_k10_seed44.json",
+      "sha256": "158d1858b75a0192d0b0f499054150a1321b3db0d08e066822cfaad366e00be7"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/skl_k20_seed42.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/skl_k20_seed42.json",
+      "sha256": "528c10e05f6cbe2c0ab5ad605f77fac2e92bba93ff052595e68612a8dc2bce22"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/skl_k20_seed43.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/skl_k20_seed43.json",
+      "sha256": "40e2153781b014c552a61959e2edf510578267f62a684f706bec393e30eb9355"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/skl_k20_seed44.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/skl_k20_seed44.json",
+      "sha256": "3e76f5f7c94edfc603136aba4232b04c6b0d5f697925cd1344ffe19d5ca5089f"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/skl_k40_seed42.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/skl_k40_seed42.json",
+      "sha256": "69794357b5431e1ac0a08596f6e3fb827a36cfe5fce4784cab0943a6eb3393a6"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/skl_k40_seed43.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/skl_k40_seed43.json",
+      "sha256": "1baffc0cfbaff6c2c30693b274213737dcf1d9acdd42f6a31012b43078235954"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/provenance/splits/skl_k40_seed44.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/provenance/splits/skl_k40_seed44.json",
+      "sha256": "5b7044a522ce9b5ee84bad5279f16ee5a72f093ee30fa73173c7fc68dd308c57"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/resource_usage.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/resource_usage.json",
+      "sha256": "1a77a20c8ab5a75d99b4e6849b8b32324bc390558f567797820fec9686d84c67"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample42_train42/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample42_train42/config.json",
+      "sha256": "73a8168e812148a6709aad51df9351dd3c3b6aad4e73ae0ee32e3056312c426b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample42_train42/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample42_train42/history.json",
+      "sha256": "e5ddd5fbb8de27d28ce6d51c7f56c059e0fecc3f9c4ee9e98d418c4e04c6324b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample42_train42/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample42_train42/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample42_train42/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample42_train42/split_audit.json",
+      "sha256": "5f45dc82e0a2a17a6fe8fe0986995943897d8311ec18069d4851a7e21992cf64"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample42_train42/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample42_train42/summary.json",
+      "sha256": "593489456405498943f1cc9bd08cf9ef723ec4fb91269847cd202da0960b1b17"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample42_train42/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample42_train42/train.log",
+      "sha256": "ff343f98ea8fb85969203d42af1927bbada0513dd802892a55f1e2635aa44390"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample42_train42/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample42_train42/training_verification.json",
+      "sha256": "a1e1ec873355b6b78ebff3d48a8e03095e3cf5e7213bed86ae52fa1589f25f92"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample42_train42/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample42_train42/val_predictions.json",
+      "sha256": "cac01c42e15238da407ff51edb51851593805a0fefb4c0e35514e3c2ffb4daa5"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample43_train43/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample43_train43/config.json",
+      "sha256": "3d7e95fe46e82e2be09d13e0549f831de19fe6389293ac75468dfcf78c4e464e"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample43_train43/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample43_train43/history.json",
+      "sha256": "a2a5eea3ae24b924490751071771f0013c3f458e95721cee50479fd5a4b950ef"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample43_train43/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample43_train43/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample43_train43/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample43_train43/split_audit.json",
+      "sha256": "e2d1fe5a567747d39e8cbbebeaa6eb631aac07872d27b59a8399b2063f96327c"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample43_train43/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample43_train43/summary.json",
+      "sha256": "8378ccdcaa637e3003cad1a06d7456cae2f901d4b68f6a82e7854080b27981d2"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample43_train43/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample43_train43/train.log",
+      "sha256": "a9cbe40dba987f3a129b235a8b9708a39276c4577e4388e753f46e71de9da561"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample43_train43/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample43_train43/training_verification.json",
+      "sha256": "e6d781dcf1713f3d43501058458f5fa60d031d3b6c9ff8f89ba22d5f7949345c"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample43_train43/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample43_train43/val_predictions.json",
+      "sha256": "5741407f0c4afb9d5697b95f461120c0c1e1c3bde49aca0ac0aadd6b239b6ac5"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample44_train44/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample44_train44/config.json",
+      "sha256": "5022db9a1129758365ffa8b356d763360969eec4f938314d9260840e097d50f5"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample44_train44/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample44_train44/history.json",
+      "sha256": "e949a2ba654d0cc10dc6a666f9664e79dc2765ff81afef64dd00d67ec5cf8f69"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample44_train44/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample44_train44/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample44_train44/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample44_train44/split_audit.json",
+      "sha256": "229f1c1b7f0d5a344edabf3c4a0665acd65d9d979c3425a49f6e098434ca7305"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample44_train44/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample44_train44/summary.json",
+      "sha256": "0fda0b20d9d4d05eb4052089ee1e918b8b9e2c0a26d6147030bb5861ace5e0d1"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample44_train44/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample44_train44/train.log",
+      "sha256": "edb7bdc005bcdc438ad5ff2c4a86dd16477221a086ec049f40ca6335be41c632"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample44_train44/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample44_train44/training_verification.json",
+      "sha256": "28e7f23caa1b42305a4250033bed3e46916562b133245f595f2d32614455e3ea"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample44_train44/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k10_sample44_train44/val_predictions.json",
+      "sha256": "33939729eac508f5b81f7d73aa7b14c761066e7978441f21cb3ec0f6f10f33b2"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample42_train42/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample42_train42/config.json",
+      "sha256": "56eceea90dfd9020aadc0dc40461f4747ea154578f794ffa81b3d282059f04a5"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample42_train42/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample42_train42/history.json",
+      "sha256": "f67bd846a3232d040c07024f1291b3588c1dc87b22eceac5f2104067522be80b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample42_train42/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample42_train42/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample42_train42/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample42_train42/split_audit.json",
+      "sha256": "7768cfd3dba9415bb4b658c0505323b28ae526dcfca5629d3e9aa0caa188beef"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample42_train42/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample42_train42/summary.json",
+      "sha256": "f873be72a4a4fe66cb740c98fe1fc1813215cfdf6d7b4216b71bdb720e70e999"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample42_train42/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample42_train42/train.log",
+      "sha256": "908fe1a78b4158bd8fecbe416721e26dd721b60865b0f25ecda16bf572723331"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample42_train42/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample42_train42/training_verification.json",
+      "sha256": "2f4e75d4d469d1a1076ffe477a9c362240cd1d650def1175d45c6b79d00d3b06"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample42_train42/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample42_train42/val_predictions.json",
+      "sha256": "375455c3ebfed5368dc316828d0d4b53fc060803e584cf964c6c277b85ba6541"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample43_train43/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample43_train43/config.json",
+      "sha256": "8cdbe011875e057424fe02c27f6f9e76bf70800454913a32fff2d18a34b79d16"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample43_train43/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample43_train43/history.json",
+      "sha256": "a55f9d53fca5258ed0e9deda50f61656e5df7711b89b33240f6218d7928bff5d"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample43_train43/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample43_train43/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample43_train43/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample43_train43/split_audit.json",
+      "sha256": "7ce67e99a1db8e1c5cc040eafef5d47bcc3dc073cf27af708f6d12965092200f"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample43_train43/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample43_train43/summary.json",
+      "sha256": "e3257a237cc471a37da76f8f6ce2cc7afc58b90a1573f9e80caab75c5e3b69df"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample43_train43/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample43_train43/train.log",
+      "sha256": "0c7d00feafbd2e20ccfa7d5c39032919cd35dc3ec96748d8ecb35507a32dcc11"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample43_train43/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample43_train43/training_verification.json",
+      "sha256": "1564a42d74bcc9ef7995e7b5dec01ae6ed22925c862071bb8787a2346cc3030b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample43_train43/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample43_train43/val_predictions.json",
+      "sha256": "ebb2feb77359fc88254d374287314c343e36570733119dc1b875a74de0b9a402"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample44_train44/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample44_train44/config.json",
+      "sha256": "c1ec89c5b8f9164f2fe2196c1cf43757e1bf24cbff8705c869b784dfa22993b3"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample44_train44/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample44_train44/history.json",
+      "sha256": "a7c35f9dc859edc311bf22abb785bc891892c1abdd211345cbf7ae8c34210f44"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample44_train44/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample44_train44/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample44_train44/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample44_train44/split_audit.json",
+      "sha256": "75f1d467885c3384d54a09492eb345bba3c4e0ce7aa87f199e4cfa8ced3907bc"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample44_train44/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample44_train44/summary.json",
+      "sha256": "2d8586a14284920dc63d5039f965fda481b88b79d6ce8139d612eac909434a5a"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample44_train44/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample44_train44/train.log",
+      "sha256": "be071b0a941f4b245d25ebf6c82fbd797e8ec6fb7af59bd4779810122a557896"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample44_train44/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample44_train44/training_verification.json",
+      "sha256": "0969f319b1032ea3726b25f7c8ef34062c3f73c67fe22d012fcd9b12c08ef79f"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample44_train44/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k20_sample44_train44/val_predictions.json",
+      "sha256": "5f19e6b46c8f000c07cb4af67a00a650b0654f4cf6d7b8a1c09d2f073f74bb0d"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample42_train42/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample42_train42/config.json",
+      "sha256": "89c75c84fdb7f82e9856d375cc7e98f3b4eb36fa8a075e9ba20e125905f5e1cd"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample42_train42/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample42_train42/history.json",
+      "sha256": "be8dcfe725eb92c6da4389ec560f7f52ffaefdc14a92680e15af5ff1dbdf5273"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample42_train42/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample42_train42/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample42_train42/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample42_train42/split_audit.json",
+      "sha256": "a17343dab8e1de1707e184eb15c09230bea4bc8dab38e5a722d0927ae2a40c5c"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample42_train42/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample42_train42/summary.json",
+      "sha256": "d1d6efafc29ebe17e55b0815424f2badfbd78281ac4aafd50993f5eaca488fee"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample42_train42/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample42_train42/train.log",
+      "sha256": "362ee6e9faab359e65f18816d5048b250d067bc670e1986c43b363636f49cfa6"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample42_train42/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample42_train42/training_verification.json",
+      "sha256": "e1fce70539c776d46d2943d224bf4265fb363adf1bbcab9381cacb7b37e80956"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample42_train42/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample42_train42/val_predictions.json",
+      "sha256": "34b7476cddd4553124bed3167ccf30eff313633e71a20494e8261842b8640d60"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample43_train43/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample43_train43/config.json",
+      "sha256": "ed15dda915d6bd4df355605c7cf5cf4efbab74b62ffcc2018f8cee7a1c880d56"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample43_train43/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample43_train43/history.json",
+      "sha256": "5d610918c38b474ca0b9d8561fc9de2a34cee4b47b561e36792de269cf2853cd"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample43_train43/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample43_train43/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample43_train43/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample43_train43/split_audit.json",
+      "sha256": "de78a77453c472ee26794e83690088b6a79f107355b2e68a6acb37e239a178b7"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample43_train43/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample43_train43/summary.json",
+      "sha256": "b1d57eee10a198d00397169aae887ec5c8c6be2df90b7f09d2cac73cc611a470"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample43_train43/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample43_train43/train.log",
+      "sha256": "18d0d3c8069661f1ccf3cb58a17c9e696f04f62306c7b764ee9300d941ea83e5"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample43_train43/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample43_train43/training_verification.json",
+      "sha256": "a5f5fb3923773034fee71b4a3c78bf9e870da04a2f9975465fd8036aad1d496b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample43_train43/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample43_train43/val_predictions.json",
+      "sha256": "b83f38b616a50b695980c37a3dbd9c072f6aca9688335a7088eb23a4630c4f55"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample44_train44/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample44_train44/config.json",
+      "sha256": "3aeafee4a3befd5ac2f3378ecbdee29d20069065f9f3179b55702bdbf3896df9"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample44_train44/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample44_train44/history.json",
+      "sha256": "1610c702ad7f59dd1eb67ff84522b30f21b24c8f80c5a23391c7e42bca3fd12c"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample44_train44/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample44_train44/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample44_train44/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample44_train44/split_audit.json",
+      "sha256": "a7bf4377d077bd48f6d4eda2c3e6cc5a1f62235fcebe4af79fc5d235034c03be"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample44_train44/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample44_train44/summary.json",
+      "sha256": "5579b18ed419037bbab89621933046aff741ca99a6b05eb43c285250b2418f10"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample44_train44/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample44_train44/train.log",
+      "sha256": "66cbea7d456a9b6bb95498c9ec1452bfae0dcc394941339fb0fd398c85bfc651"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample44_train44/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample44_train44/training_verification.json",
+      "sha256": "cfce9242d0089a6a5b4874e26160c1dceca4506463ba6055f17f7deb31442cce"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample44_train44/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/abl/k40_sample44_train44/val_predictions.json",
+      "sha256": "5801569b66a99048bd27c1dbd32693f858d545312f681da7caeb1a4dd2213c29"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample42_train42/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample42_train42/config.json",
+      "sha256": "042b076fcb75a7d6635f123c49136f5c130d339df08d569ea7ee4a62763cef19"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample42_train42/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample42_train42/history.json",
+      "sha256": "66363c7a60f31c8f66690d9c3fdd4f26407ca5b0e7324280a46ae5f31f7045f2"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample42_train42/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample42_train42/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample42_train42/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample42_train42/split_audit.json",
+      "sha256": "ff786d94e8fa0fe2c99ae922bd4144ff1f5f4f11c6a8a9f41248e07fa93ce969"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample42_train42/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample42_train42/summary.json",
+      "sha256": "e19165cdd084f5497db7ce9566cf368b1b92384d9684d8f4ea94841b403f35b8"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample42_train42/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample42_train42/train.log",
+      "sha256": "c345f2baa22b00017e1c107cd379263c6edda9eb4cf6d4f24bdc826d9644a6dc"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample42_train42/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample42_train42/training_verification.json",
+      "sha256": "e787a8b0d1a730301aa941146c5e72215428a1c833b6f82b0e69e4675d913850"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample42_train42/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample42_train42/val_predictions.json",
+      "sha256": "41d06feea3c75f696c71f6ba003cb3473411286cdf42d5233889d9315b48e8e4"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample43_train43/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample43_train43/config.json",
+      "sha256": "a28128c4205ae707bd30565564c56ec2feb1d305c31eaa4e19b4ed9e92246aa7"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample43_train43/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample43_train43/history.json",
+      "sha256": "65176cde81b4b48e200cec10f57fb0a8300ac0c9ee56cd09b196fa217c789ce8"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample43_train43/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample43_train43/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample43_train43/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample43_train43/split_audit.json",
+      "sha256": "81c22ccf98141b927ec51ea3cb574af5e614d13356ce2c7c68f4ef95fc9212b2"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample43_train43/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample43_train43/summary.json",
+      "sha256": "1d2f4950257ea2ca628a913819c056e60e5f7e992d6a974339ca123988dd97ea"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample43_train43/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample43_train43/train.log",
+      "sha256": "8719546f4499f0b5b66af42e846eb748867d7df5d226bf6c42c046d3a711e120"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample43_train43/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample43_train43/training_verification.json",
+      "sha256": "7ee3480a3707b203c3865d1d761670ac40a3c7db1876dcbd2813246477e7f821"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample43_train43/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample43_train43/val_predictions.json",
+      "sha256": "ea65b03d320e562e9373bbb2e0e903a6c353cb5e3eb47454c04473600673b08d"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample44_train44/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample44_train44/config.json",
+      "sha256": "d0a8f95954b86b7be3c18dde76e38f88a1c22139bfc20cbbf897fc89225a34bf"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample44_train44/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample44_train44/history.json",
+      "sha256": "27b8a5a89ce9f1866f630bb96bacd7586224ab8eea0ea57f090eb824392a555c"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample44_train44/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample44_train44/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample44_train44/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample44_train44/split_audit.json",
+      "sha256": "158d1858b75a0192d0b0f499054150a1321b3db0d08e066822cfaad366e00be7"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample44_train44/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample44_train44/summary.json",
+      "sha256": "5410cd562806d4fcd5577846895a6af3e609eb96c3c18121b67de0057ac3a04f"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample44_train44/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample44_train44/train.log",
+      "sha256": "7c14192c9d5a48ef26ab4b6814c62a335c630754e836a353ab42d3813f27ad8a"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample44_train44/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample44_train44/training_verification.json",
+      "sha256": "4311df640a4d1c4ad6f037715d043ea1750ec64110a860dd9e4db2afd2b43c97"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample44_train44/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k10_sample44_train44/val_predictions.json",
+      "sha256": "29dc98395f92e10e87ccc2a239c17b6b5846349356b8d90d3f294210a92ab7d3"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample42_train42/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample42_train42/config.json",
+      "sha256": "fcb1503efc0f7d8a3f383b5b6cacf45a1b0fdf8060234f20b84831420396814e"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample42_train42/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample42_train42/history.json",
+      "sha256": "4f7899929110185583622148c17151ab17445493495789c6364b4dad04e1e91e"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample42_train42/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample42_train42/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample42_train42/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample42_train42/split_audit.json",
+      "sha256": "528c10e05f6cbe2c0ab5ad605f77fac2e92bba93ff052595e68612a8dc2bce22"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample42_train42/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample42_train42/summary.json",
+      "sha256": "91bf59cf480c4d79e7afb86f599845c6e3e88f8483911f1e956d11bdaac63a04"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample42_train42/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample42_train42/train.log",
+      "sha256": "e94593dbab8359b40435d6cdda754096933b434a1e00c809c7002aa27511f5d0"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample42_train42/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample42_train42/training_verification.json",
+      "sha256": "906343d0ca684587ea11e64ecd2d8f20b39109c6ccc2950ce14b6f34090f47ce"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample42_train42/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample42_train42/val_predictions.json",
+      "sha256": "af7d760d445942d86dbced636cd112a8377315e66207df6d3e072fef00b0f6e5"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample43_train43/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample43_train43/config.json",
+      "sha256": "fc9d71ebee1f20e623ed1f9ba0f49a789eed55deda5b67d64d824ec0a8bcb4c2"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample43_train43/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample43_train43/history.json",
+      "sha256": "52804a87e5fd691bf57fbe651d618ad6bb9b51f0ea993cd81d362f9cf5fc7ac0"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample43_train43/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample43_train43/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample43_train43/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample43_train43/split_audit.json",
+      "sha256": "40e2153781b014c552a61959e2edf510578267f62a684f706bec393e30eb9355"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample43_train43/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample43_train43/summary.json",
+      "sha256": "f57b515fe9da1d195f32fd59979522b378432cbd84103b10c34f852d82f6fa5a"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample43_train43/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample43_train43/train.log",
+      "sha256": "9be51f257a4921863371a973614082e32126371a4107a2ea8b963fa375aa50f2"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample43_train43/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample43_train43/training_verification.json",
+      "sha256": "bf921662233be7b61eb9024ad656e4588fc34175cc7cddd36652664abb31effb"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample43_train43/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample43_train43/val_predictions.json",
+      "sha256": "3d09fc1c65b2876cb4d8fd2b134f18aecff48b9529c85bb470519bb9020eb9ae"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample44_train44/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample44_train44/config.json",
+      "sha256": "808afbe4715ab7667706e1c19bba4870f8ead7f1efaf7fbfc8bdc953dc589449"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample44_train44/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample44_train44/history.json",
+      "sha256": "756bd8ac7b9a16cb25f9b6185412d0c7e6c473a572147fca6840a21ae621864e"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample44_train44/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample44_train44/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample44_train44/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample44_train44/split_audit.json",
+      "sha256": "3e76f5f7c94edfc603136aba4232b04c6b0d5f697925cd1344ffe19d5ca5089f"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample44_train44/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample44_train44/summary.json",
+      "sha256": "42a23378f5106efcfeff2fddba87589b0247cd10d4c275cfa256ac21352dfd5a"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample44_train44/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample44_train44/train.log",
+      "sha256": "36fdb123201d0fff1b37ff929fe4fd3f11323048679ce484e70003f63dcf7cd1"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample44_train44/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample44_train44/training_verification.json",
+      "sha256": "6a4ef6db96682502e3ff3a61710893404f4b1b7da5ff96a35467365d68b7e941"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample44_train44/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k20_sample44_train44/val_predictions.json",
+      "sha256": "645b844f5cd932951a7f7c24b673f16cba0c486f01b80c7139ef37ec3de87b50"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample42_train42/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample42_train42/config.json",
+      "sha256": "89138f65cdc1f66cbbca6cc995fa6ee345337a89e2231225a1bf8b5d7e45f934"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample42_train42/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample42_train42/history.json",
+      "sha256": "faf854bbf02092ea056cea3a61d3d2140b342a4bd693301eb57901b4d6728b9a"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample42_train42/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample42_train42/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample42_train42/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample42_train42/split_audit.json",
+      "sha256": "69794357b5431e1ac0a08596f6e3fb827a36cfe5fce4784cab0943a6eb3393a6"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample42_train42/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample42_train42/summary.json",
+      "sha256": "2c61650d1e6db2ee638420935383920ea344bd03067d4db56cfd9d4e8c6ecb1f"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample42_train42/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample42_train42/train.log",
+      "sha256": "70787764fa236a482007cc1ca57a8eb9a4efa5f687bdae97fe6e60c632f45e56"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample42_train42/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample42_train42/training_verification.json",
+      "sha256": "b199bf3729f81f52b22d2877f668fa268d8d62a6c496a315c69d22c51fcfd596"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample42_train42/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample42_train42/val_predictions.json",
+      "sha256": "cbaf73b3668c925aba34de34c36e2e2985d26fb9b66e181eb9076bab6d5cb4b8"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample43_train43/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample43_train43/config.json",
+      "sha256": "79355b64ed470ded9473e11d26765e8b018780276c0b6a9c635af1316e893113"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample43_train43/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample43_train43/history.json",
+      "sha256": "91d59edf5e8de01477c16a0400319a081fa21376f038913f3c4a11ea01b36f7f"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample43_train43/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample43_train43/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample43_train43/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample43_train43/split_audit.json",
+      "sha256": "1baffc0cfbaff6c2c30693b274213737dcf1d9acdd42f6a31012b43078235954"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample43_train43/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample43_train43/summary.json",
+      "sha256": "887a7a1feda776a602ec3b05474712a48f124d7d99c085e4622fa6f0b7421319"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample43_train43/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample43_train43/train.log",
+      "sha256": "51a4f47f556484986aed1613067a4031f02f01bf1a644bcab2b97d9d857ed959"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample43_train43/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample43_train43/training_verification.json",
+      "sha256": "188d48e133e4cded68acf09b503b2367a0944157bd187b337b8eff4472be0562"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample43_train43/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample43_train43/val_predictions.json",
+      "sha256": "d09a2836bf5f26a5c8138839a27198a484b79dd8dd8028cc69c8ec06133851a1"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample44_train44/config.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample44_train44/config.json",
+      "sha256": "c648b852921a81dfa8d9a28f1ff86d61a84b5c5ccf19f2be62b36d6731dcdd73"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample44_train44/history.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample44_train44/history.json",
+      "sha256": "4f05e4949f635bb57550a26197cc6f32cdbf944d862ae9fa1d128552abd46156"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample44_train44/progress.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample44_train44/progress.json",
+      "sha256": "669dccd59434ac81b33aaa22b235388e7a819d03a10a32a08ef114298835103b"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample44_train44/split_audit.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample44_train44/split_audit.json",
+      "sha256": "5b7044a522ce9b5ee84bad5279f16ee5a72f093ee30fa73173c7fc68dd308c57"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample44_train44/summary.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample44_train44/summary.json",
+      "sha256": "a23d3e3edb729c324790ad3d410d6b79a20082b2cc6d0db96e36dd3b64710e20"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample44_train44/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample44_train44/train.log",
+      "sha256": "e6a8fb90c9ef2603028209df1a897fd05d42f234f853ade4677d792f0d9afa73"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample44_train44/training_verification.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample44_train44/training_verification.json",
+      "sha256": "414ca4b91f5731c1bc952589fe8b15eb8d082a0cca9e50a051bd7815134d20d6"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample44_train44/val_predictions.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runs/skl/k40_sample44_train44/val_predictions.json",
+      "sha256": "b56bf3ac663d4451b044ac8c3c54789c79025b191da2509504cc56182e4b1056"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/SERVER_RESULTS.md",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/SERVER_RESULTS.md",
+      "sha256": "d4d189db5f0bd034f630ad4381963c2258dc6c6327682b4865448c75698b94c1"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/SOURCE_MANIFEST.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/SOURCE_MANIFEST.json",
+      "sha256": "482ed8260efa81d5e7ad8c1cc096efdd8d305bf4b5a82cdb7942ab45d5a2a766"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/SUMMARY.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/SUMMARY.json",
+      "sha256": "2dc469c137022033984027bdc052fa88c67bd64b3dcb19e13f5a1d56b622ed58"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/timing.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/timing.json",
+      "sha256": "96bcd15e4681c195a7c728228e389c2dc9e6e2d7601386ea7fcf6a4d57ae5cc0"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/VERIFICATION.json",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/VERIFICATION.json",
+      "sha256": "6e429aa81b7925c91c8d91b7bd97def41a65aa22f94bacb1742289f855ac00bd"
+    },
+    {
+      "server_relative_path": "server_experiment/resnet_shot_scale/audit.py",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/resnet_shot_scale/audit.py",
+      "sha256": "b1621baf72125d78964566a1570a183f29b84d48fd5c85f987735aa1efa35e5b"
+    },
+    {
+      "server_relative_path": "server_experiment/resnet_shot_scale/reference_models.py",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/resnet_shot_scale/reference_models.py",
+      "sha256": "b9c96fa1d78ca0c4a1e7a7626a4f5a6a5e29456faa091ff5db4dcd47048e5263"
+    },
+    {
+      "server_relative_path": "server_experiment/resnet_shot_scale/report.py",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/resnet_shot_scale/report.py",
+      "sha256": "78ccd429971939412ce27ec43659fc0f25550c2fc72c42e2066c010762407842"
+    },
+    {
+      "server_relative_path": "server_experiment/resnet_shot_scale/run.py",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/resnet_shot_scale/run.py",
+      "sha256": "bfbc49a3d2d7984fe20c179227ff635dd7d4179e0b946fdc7d7a5f683df69e79"
+    },
+    {
+      "server_relative_path": "server_experiment/resnet_shot_scale/verify.py",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/resnet_shot_scale/verify.py",
+      "sha256": "9a43340ec9040e98ba3614e24e62caf68579644f542c316be5dd5908129ba3b5"
+    },
+    {
+      "server_relative_path": "server_experiment/common.py",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/common.py",
+      "sha256": "0b4f26fa281c8b0424b46baada25053c2d0f1f03c04d236846ca40a4cb75557b"
+    },
+    {
+      "server_relative_path": "server_experiment/run_shot_scale.py",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/run_shot_scale.py",
+      "sha256": "c09051f65202eca1be675923585ddfe15fadf0b23cf9e1b9a2b1d2e5f798a502"
+    },
+    {
+      "server_relative_path": "server_experiment/verify_shot_scale.py",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/verify_shot_scale.py",
+      "sha256": "57bdb3f1c8ca911eee6b3f93d86a580c1ee12618993b0388f114d5bf9dc41e3f"
+    },
+    {
+      "server_relative_path": "server_experiment/resnet_shot_scale/preflight.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/resnet_shot_scale/preflight.log",
+      "sha256": "ff3a1ff75d64215a536b69eaf340a98dc9e6b0e352b9c5d8c75bca8cf7dd81d7"
+    },
+    {
+      "server_relative_path": "server_experiment/resnet_shot_scale/train.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/resnet_shot_scale/train.log",
+      "sha256": "4c1fbc2d2a13c6c063fe590ca9d97b99b08c4c25f99650baddefc185d0c6af05"
+    },
+    {
+      "server_relative_path": "server_experiment/resnet_shot_scale/verify.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/resnet_shot_scale/verify.log",
+      "sha256": "25deec9b668d4848b2130458dbf84c0cbbe0c07ea8f9e7182e7d8e53ca1ed1bc"
+    },
+    {
+      "server_relative_path": "server_experiment/resnet_shot_scale/report.log",
+      "repo_relative_path": "experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/runtime_source/server_experiment/resnet_shot_scale/report.log",
+      "sha256": "5d2a7dd657c85ff7ff7bd2d1e46f1e33c27a1dc79d31ecec93abbfc11083cc2e"
+    },
+    {
+      "server_relative_path": "outputs/resnet_shot_scale/server_a4d7a00/SERVER_RESULTS.md",
+      "repo_relative_path": "docs/RESNET1D_P1_CLASSIFICATION_PROTOCOL_SERVER_RESULTS.md",
+      "sha256": "d4d189db5f0bd034f630ad4381963c2258dc6c6327682b4865448c75698b94c1"
+    }
+  ],
+  "copied_server_text_count": 187,
+  "stage1_epochs_resnet": 0,
+  "data_weights_npz_and_environment_excluded": true
+}

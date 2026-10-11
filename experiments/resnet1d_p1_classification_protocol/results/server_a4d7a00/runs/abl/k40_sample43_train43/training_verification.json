@@ -1,0 +1,34 @@
+{
+  "initial_state_sha256": "b79a1a9776f32d66edbacc300ac4b575bc5b78caca4d57434ca21111b0814a4a",
+  "last_state_sha256": "77e679ecdcb3adb47edbb3396411c6cbfe8a5401c1ececc7f0f14c9d22051e66",
+  "episode_stream_sha256": {
+    "support": "0186dae7ceddcdb5c880e388527249599977118201e9f60d4ddde2ae9e6a2272",
+    "query": "51d23b548c1a90896011a1f2b79e67513bfc306edb2a875702e569a83653cba2"
+  },
+  "actual_updates": 400,
+  "reference_episode_indices_exact": true,
+  "train_row_coverage": 440,
+  "last_bn_batches_tracked": {
+    "features.1.num_batches_tracked": 400,
+    "features.4.main.1.num_batches_tracked": 400,
+    "features.4.main.4.num_batches_tracked": 400,
+    "features.5.main.1.num_batches_tracked": 400,
+    "features.5.main.4.num_batches_tracked": 400,
+    "features.6.main.1.num_batches_tracked": 400,
+    "features.6.main.4.num_batches_tracked": 400,
+    "features.6.shortcut.1.num_batches_tracked": 400,
+    "features.7.main.1.num_batches_tracked": 400,
+    "features.7.main.4.num_batches_tracked": 400,
+    "features.8.main.1.num_batches_tracked": 400,
+    "features.8.main.4.num_batches_tracked": 400,
+    "features.8.shortcut.1.num_batches_tracked": 400,
+    "features.9.main.1.num_batches_tracked": 400,
+    "features.9.main.4.num_batches_tracked": 400,
+    "features.10.main.1.num_batches_tracked": 400,
+    "features.10.main.4.num_batches_tracked": 400,
+    "features.10.shortcut.1.num_batches_tracked": 400,
+    "features.11.main.1.num_batches_tracked": 400,
+    "features.11.main.4.num_batches_tracked": 400
+  },
+  "wall_seconds": 5.366480174998287
+}

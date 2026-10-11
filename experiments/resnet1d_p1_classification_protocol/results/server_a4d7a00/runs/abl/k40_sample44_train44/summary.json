@@ -1,0 +1,18 @@
+{
+  "case": "abl",
+  "k": 40,
+  "seed": 44,
+  "stage1_epochs": 0,
+  "best_epoch": 24,
+  "val": {
+    "accuracy": 0.6545454545454545,
+    "macro_f1": 0.6368555686737505,
+    "balanced_accuracy": 0.6545454545454545
+  },
+  "train_size": 440,
+  "val_size": 55,
+  "parameters": 966315,
+  "wall_seconds": 5.355428681999911,
+  "test_evaluated": false,
+  "checkpoint_sha256": "abd2b906a06bdaa7ab7beac7ae9c38d0d9742086bfca0ce40b1cd811a1f89c93"
+}

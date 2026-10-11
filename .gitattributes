@@ -12,3 +12,7 @@ docs/CCSAE_PROTOTYPE_SHOT_SCALE_SERVER_RESULTS.md -text
 
 # 历史少样本服务器 Test 文本证据保留原字节。
 experiments/analog_circuit_fewshot_server_v1/results/server_fewshot_v1/** -text
+
+# ResNet对齐P1分类协议的服务器证据保留原字节。
+experiments/resnet1d_p1_classification_protocol/results/server_a4d7a00/** -text
+docs/RESNET1D_P1_CLASSIFICATION_PROTOCOL_SERVER_RESULTS.md -text

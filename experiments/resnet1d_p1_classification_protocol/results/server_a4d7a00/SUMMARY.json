@@ -1,0 +1,566 @@
+{
+  "protocol": "Original ResNet1D, random initialization, same P1 data and classification protocol only",
+  "stage1_epochs_resnet": 0,
+  "stage1_epochs_ccsae": 10,
+  "stage2_updates_all_models": 400,
+  "test_evaluated": false,
+  "runs": 18,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "training_window_seconds": 53.217365762000554,
+  "summary_by_case_and_k": {
+    "skl": {
+      "10": {
+        "resnet_val_macro_f1_percent": {
+          "mean": 58.59189243804628,
+          "sample_std": 3.5849278864920917,
+          "n": 3
+        },
+        "resnet_val_accuracy_percent": {
+          "mean": 60.0,
+          "sample_std": 3.0769230769230766,
+          "n": 3
+        },
+        "ccsae_fc_val_macro_f1_percent": {
+          "mean": 59.759834182911106,
+          "sample_std": 9.320969746212715,
+          "n": 3
+        },
+        "ccsae_proto_val_macro_f1_percent": {
+          "mean": 65.27902297133066,
+          "sample_std": 5.7357456099978545,
+          "n": 3
+        },
+        "resnet_minus_ccsae_fc_pp": {
+          "mean": -1.1679417448648266,
+          "sample_std": 12.904165879435093,
+          "n": 3
+        },
+        "resnet_minus_ccsae_proto_pp": {
+          "mean": -6.687130533284375,
+          "sample_std": 5.017088484904074,
+          "n": 3
+        },
+        "resnet_wins_vs_fc": 1,
+        "resnet_wins_vs_proto": 0
+      },
+      "20": {
+        "resnet_val_macro_f1_percent": {
+          "mean": 61.093123400815706,
+          "sample_std": 4.306835020881317,
+          "n": 3
+        },
+        "resnet_val_accuracy_percent": {
+          "mean": 62.56410256410256,
+          "sample_std": 5.402899360437304,
+          "n": 3
+        },
+        "ccsae_fc_val_macro_f1_percent": {
+          "mean": 59.736787429095116,
+          "sample_std": 1.8668953209614334,
+          "n": 3
+        },
+        "ccsae_proto_val_macro_f1_percent": {
+          "mean": 70.27307450384373,
+          "sample_std": 3.432980007086206,
+          "n": 3
+        },
+        "resnet_minus_ccsae_fc_pp": {
+          "mean": 1.3563359717205923,
+          "sample_std": 5.188057513756502,
+          "n": 3
+        },
+        "resnet_minus_ccsae_proto_pp": {
+          "mean": -9.179951103028023,
+          "sample_std": 0.8883968783307796,
+          "n": 3
+        },
+        "resnet_wins_vs_fc": 2,
+        "resnet_wins_vs_proto": 0
+      },
+      "40": {
+        "resnet_val_macro_f1_percent": {
+          "mean": 61.49205830201306,
+          "sample_std": 4.297035947088614,
+          "n": 3
+        },
+        "resnet_val_accuracy_percent": {
+          "mean": 63.07692307692307,
+          "sample_std": 2.6646935501059597,
+          "n": 3
+        },
+        "ccsae_fc_val_macro_f1_percent": {
+          "mean": 61.77963397420412,
+          "sample_std": 4.971236000759343,
+          "n": 3
+        },
+        "ccsae_proto_val_macro_f1_percent": {
+          "mean": 70.79069079069079,
+          "sample_std": 5.651917750165997,
+          "n": 3
+        },
+        "resnet_minus_ccsae_fc_pp": {
+          "mean": -0.2875756721910629,
+          "sample_std": 3.061224089260056,
+          "n": 3
+        },
+        "resnet_minus_ccsae_proto_pp": {
+          "mean": -9.29863248867773,
+          "sample_std": 8.46262566236623,
+          "n": 3
+        },
+        "resnet_wins_vs_fc": 1,
+        "resnet_wins_vs_proto": 0
+      }
+    },
+    "abl": {
+      "10": {
+        "resnet_val_macro_f1_percent": {
+          "mean": 62.2527220254493,
+          "sample_std": 3.6424510393506315,
+          "n": 3
+        },
+        "resnet_val_accuracy_percent": {
+          "mean": 64.24242424242424,
+          "sample_std": 2.7773186030035384,
+          "n": 3
+        },
+        "ccsae_fc_val_macro_f1_percent": {
+          "mean": 64.98468851410028,
+          "sample_std": 8.045933855850548,
+          "n": 3
+        },
+        "ccsae_proto_val_macro_f1_percent": {
+          "mean": 70.19870701688883,
+          "sample_std": 10.418439459400778,
+          "n": 3
+        },
+        "resnet_minus_ccsae_fc_pp": {
+          "mean": -2.731966488650978,
+          "sample_std": 6.547036492269915,
+          "n": 3
+        },
+        "resnet_minus_ccsae_proto_pp": {
+          "mean": -7.945984991439531,
+          "sample_std": 7.014161432363509,
+          "n": 3
+        },
+        "resnet_wins_vs_fc": 1,
+        "resnet_wins_vs_proto": 0
+      },
+      "20": {
+        "resnet_val_macro_f1_percent": {
+          "mean": 61.196513923786654,
+          "sample_std": 3.7927612913407307,
+          "n": 3
+        },
+        "resnet_val_accuracy_percent": {
+          "mean": 65.45454545454545,
+          "sample_std": 4.810456929208346,
+          "n": 3
+        },
+        "ccsae_fc_val_macro_f1_percent": {
+          "mean": 61.94285512467331,
+          "sample_std": 3.1409538153767813,
+          "n": 3
+        },
+        "ccsae_proto_val_macro_f1_percent": {
+          "mean": 68.85841431295975,
+          "sample_std": 7.031175823804389,
+          "n": 3
+        },
+        "resnet_minus_ccsae_fc_pp": {
+          "mean": -0.7463412008866518,
+          "sample_std": 5.432127518913731,
+          "n": 3
+        },
+        "resnet_minus_ccsae_proto_pp": {
+          "mean": -7.661900389173101,
+          "sample_std": 10.822275433540547,
+          "n": 3
+        },
+        "resnet_wins_vs_fc": 1,
+        "resnet_wins_vs_proto": 0
+      },
+      "40": {
+        "resnet_val_macro_f1_percent": {
+          "mean": 63.30294284839739,
+          "sample_std": 0.8029024762640198,
+          "n": 3
+        },
+        "resnet_val_accuracy_percent": {
+          "mean": 65.45454545454545,
+          "sample_std": 3.6363636363636402,
+          "n": 3
+        },
+        "ccsae_fc_val_macro_f1_percent": {
+          "mean": 62.83243692334601,
+          "sample_std": 2.7646786713312013,
+          "n": 3
+        },
+        "ccsae_proto_val_macro_f1_percent": {
+          "mean": 68.13735086462358,
+          "sample_std": 12.33386374985018,
+          "n": 3
+        },
+        "resnet_minus_ccsae_fc_pp": {
+          "mean": 0.4705059250513817,
+          "sample_std": 2.78893413102361,
+          "n": 3
+        },
+        "resnet_minus_ccsae_proto_pp": {
+          "mean": -4.834408016226196,
+          "sample_std": 12.648226258149604,
+          "n": 3
+        },
+        "resnet_wins_vs_fc": 2,
+        "resnet_wins_vs_proto": 1
+      }
+    }
+  },
+  "per_seed": [
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 42,
+      "train_size": 130,
+      "val_size": 65,
+      "resnet_best_epoch": 35,
+      "resnet_val_macro_f1_percent": 62.727016573170424,
+      "resnet_val_accuracy_percent": 63.07692307692307,
+      "resnet_val_balanced_accuracy_percent": 63.07692307692307,
+      "ccsae_fc_val_macro_f1_percent": 48.9973914973915,
+      "ccsae_proto_val_macro_f1_percent": 68.85392385392386,
+      "resnet_checkpoint_sha256": "1779f706f2d6dda9844ca7f9fe6506814700864c2c91fa9ab03cd6c43f91bb44",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample42_train42",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k10_sample42_train42_distnone",
+      "resnet_minus_ccsae_fc_pp": 13.729625075778927,
+      "resnet_minus_ccsae_proto_pp": -6.126907280753436
+    },
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 43,
+      "train_size": 130,
+      "val_size": 65,
+      "resnet_best_epoch": 25,
+      "resnet_val_macro_f1_percent": 56.68946438177207,
+      "resnet_val_accuracy_percent": 60.0,
+      "resnet_val_balanced_accuracy_percent": 59.999999999999986,
+      "ccsae_fc_val_macro_f1_percent": 65.05246889862275,
+      "ccsae_proto_val_macro_f1_percent": 58.66313174005481,
+      "resnet_checkpoint_sha256": "de192e13d0d78e533b64a1e82a589cec57934cab6830c9f1cd9fc713dac6dedd",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample43_train43",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k10_sample43_train43_distnone",
+      "resnet_minus_ccsae_fc_pp": -8.36300451685068,
+      "resnet_minus_ccsae_proto_pp": -1.9736673582827393
+    },
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 44,
+      "train_size": 130,
+      "val_size": 65,
+      "resnet_best_epoch": 30,
+      "resnet_val_macro_f1_percent": 56.35919635919635,
+      "resnet_val_accuracy_percent": 56.92307692307692,
+      "resnet_val_balanced_accuracy_percent": 56.92307692307692,
+      "ccsae_fc_val_macro_f1_percent": 65.22964215271908,
+      "ccsae_proto_val_macro_f1_percent": 68.3200133200133,
+      "resnet_checkpoint_sha256": "17833064dd4c310e697473dcc7c0f52cdec5328e7a5ac33103933049b7734a9c",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k10_sample44_train44",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k10_sample44_train44_distnone",
+      "resnet_minus_ccsae_fc_pp": -8.870445793522727,
+      "resnet_minus_ccsae_proto_pp": -11.960816960816949
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 42,
+      "train_size": 260,
+      "val_size": 65,
+      "resnet_best_epoch": 34,
+      "resnet_val_macro_f1_percent": 56.97913197913198,
+      "resnet_val_accuracy_percent": 56.92307692307692,
+      "resnet_val_balanced_accuracy_percent": 56.92307692307692,
+      "ccsae_fc_val_macro_f1_percent": 61.43215758600373,
+      "ccsae_proto_val_macro_f1_percent": 66.9039507501046,
+      "resnet_checkpoint_sha256": "6a1ff1b15f8fdc0e8d41fb9d388aba3a0b5a6e1dfc25d9731f19b72b9bda30cf",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample42_train42",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone",
+      "resnet_minus_ccsae_fc_pp": -4.453025606871755,
+      "resnet_minus_ccsae_proto_pp": -9.924818770972621
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 43,
+      "train_size": 260,
+      "val_size": 65,
+      "resnet_best_epoch": 22,
+      "resnet_val_macro_f1_percent": 60.73038073038073,
+      "resnet_val_accuracy_percent": 63.07692307692307,
+      "resnet_val_balanced_accuracy_percent": 63.07692307692307,
+      "ccsae_fc_val_macro_f1_percent": 57.73602465910158,
+      "ccsae_proto_val_macro_f1_percent": 70.14874014874015,
+      "resnet_checkpoint_sha256": "f55cd003d224b1b6164ccea87d615fecaaddf98d29d75ab69c2295b871b5121d",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample43_train43",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone",
+      "resnet_minus_ccsae_fc_pp": 2.9943560712791495,
+      "resnet_minus_ccsae_proto_pp": -9.418359418359415
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 44,
+      "train_size": 260,
+      "val_size": 65,
+      "resnet_best_epoch": 40,
+      "resnet_val_macro_f1_percent": 65.56985749293442,
+      "resnet_val_accuracy_percent": 67.6923076923077,
+      "resnet_val_balanced_accuracy_percent": 67.69230769230768,
+      "ccsae_fc_val_macro_f1_percent": 60.042180042180036,
+      "ccsae_proto_val_macro_f1_percent": 73.76653261268645,
+      "resnet_checkpoint_sha256": "8802052682bcabf0746d53ad6fd3f6752baa9071b038f51b2034fc1e053207d3",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k20_sample44_train44",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone",
+      "resnet_minus_ccsae_fc_pp": 5.527677450754382,
+      "resnet_minus_ccsae_proto_pp": -8.19667511975203
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 42,
+      "train_size": 520,
+      "val_size": 65,
+      "resnet_best_epoch": 36,
+      "resnet_val_macro_f1_percent": 60.00829236123353,
+      "resnet_val_accuracy_percent": 61.53846153846154,
+      "resnet_val_balanced_accuracy_percent": 61.53846153846154,
+      "ccsae_fc_val_macro_f1_percent": 57.07211591826977,
+      "ccsae_proto_val_macro_f1_percent": 66.04007104007104,
+      "resnet_checkpoint_sha256": "973c2ad26590d14b176d72b82b1d8da429c3e308fe53ffc26ebc917361d4d2de",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample42_train42",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k40_sample42_train42_distnone",
+      "resnet_minus_ccsae_fc_pp": 2.936176442963756,
+      "resnet_minus_ccsae_proto_pp": -6.031778678837512
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 43,
+      "train_size": 520,
+      "val_size": 65,
+      "resnet_best_epoch": 23,
+      "resnet_val_macro_f1_percent": 66.3343494112725,
+      "resnet_val_accuracy_percent": 66.15384615384615,
+      "resnet_val_balanced_accuracy_percent": 66.15384615384615,
+      "ccsae_fc_val_macro_f1_percent": 66.97815005507314,
+      "ccsae_proto_val_macro_f1_percent": 69.29070929070929,
+      "resnet_checkpoint_sha256": "2d1a83a3a8824467272decaaf35d8f63b7b836d190c6b87f17f0ada9405e328a",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample43_train43",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k40_sample43_train43_distnone",
+      "resnet_minus_ccsae_fc_pp": -0.6438006438006454,
+      "resnet_minus_ccsae_proto_pp": -2.956359879436789
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 44,
+      "train_size": 520,
+      "val_size": 65,
+      "resnet_best_epoch": 10,
+      "resnet_val_macro_f1_percent": 58.133533133533135,
+      "resnet_val_accuracy_percent": 61.53846153846154,
+      "resnet_val_balanced_accuracy_percent": 61.53846153846153,
+      "ccsae_fc_val_macro_f1_percent": 61.288635949269434,
+      "ccsae_proto_val_macro_f1_percent": 77.04129204129202,
+      "resnet_checkpoint_sha256": "05bb3b93aa29adf72f07ec067f704b314bb8799197754662e13fefaf0f4369e7",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/skl/k40_sample44_train44",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k40_sample44_train44_distnone",
+      "resnet_minus_ccsae_fc_pp": -3.1551028157362992,
+      "resnet_minus_ccsae_proto_pp": -18.90775890775889
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 42,
+      "train_size": 110,
+      "val_size": 55,
+      "resnet_best_epoch": 30,
+      "resnet_val_macro_f1_percent": 61.662075298438936,
+      "resnet_val_accuracy_percent": 63.63636363636363,
+      "resnet_val_balanced_accuracy_percent": 63.63636363636363,
+      "ccsae_fc_val_macro_f1_percent": 71.56457624372062,
+      "ccsae_proto_val_macro_f1_percent": 72.04840613931522,
+      "resnet_checkpoint_sha256": "ac0eeb8be05601068dc3930477aecd5ae7ed167698edeba5894a7ff74504dedf",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample42_train42",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample42_train42_distnone",
+      "resnet_minus_ccsae_fc_pp": -9.902500945281687,
+      "resnet_minus_ccsae_proto_pp": -10.386330840876283
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 43,
+      "train_size": 110,
+      "val_size": 55,
+      "resnet_best_epoch": 30,
+      "resnet_val_macro_f1_percent": 66.15440115440116,
+      "resnet_val_accuracy_percent": 67.27272727272727,
+      "resnet_val_balanced_accuracy_percent": 67.27272727272727,
+      "ccsae_fc_val_macro_f1_percent": 67.37504919323102,
+      "ccsae_proto_val_macro_f1_percent": 79.56841138659321,
+      "resnet_checkpoint_sha256": "436e5052c9abde125463675a0301c4a25b165e45989537a390d128a1e9814bb4",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample43_train43",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample43_train43_distnone",
+      "resnet_minus_ccsae_fc_pp": -1.2206480388298644,
+      "resnet_minus_ccsae_proto_pp": -13.414010232192055
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 44,
+      "train_size": 110,
+      "val_size": 55,
+      "resnet_best_epoch": 21,
+      "resnet_val_macro_f1_percent": 58.94168962350781,
+      "resnet_val_accuracy_percent": 61.81818181818181,
+      "resnet_val_balanced_accuracy_percent": 61.81818181818181,
+      "ccsae_fc_val_macro_f1_percent": 56.014440105349195,
+      "ccsae_proto_val_macro_f1_percent": 58.979303524758066,
+      "resnet_checkpoint_sha256": "00bd35e74edfb6b9ae3ac42abc6dc0a01bf10c7064ed97c039a366cfc2631f51",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k10_sample44_train44",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample44_train44_distnone",
+      "resnet_minus_ccsae_fc_pp": 2.927249518158618,
+      "resnet_minus_ccsae_proto_pp": -0.037613901250253434
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 42,
+      "train_size": 220,
+      "val_size": 55,
+      "resnet_best_epoch": 22,
+      "resnet_val_macro_f1_percent": 63.06572215663125,
+      "resnet_val_accuracy_percent": 69.0909090909091,
+      "resnet_val_balanced_accuracy_percent": 69.0909090909091,
+      "ccsae_fc_val_macro_f1_percent": 58.40220385674931,
+      "ccsae_proto_val_macro_f1_percent": 65.6651429378702,
+      "resnet_checkpoint_sha256": "99ca0fbd4bf6ff622e34ffe893f89706acc1fe19c392606ed603a17beb6d9461",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample42_train42",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone",
+      "resnet_minus_ccsae_fc_pp": 4.663518299881943,
+      "resnet_minus_ccsae_proto_pp": -2.5994207812389476
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 43,
+      "train_size": 220,
+      "val_size": 55,
+      "resnet_best_epoch": 29,
+      "resnet_val_macro_f1_percent": 63.691863691863695,
+      "resnet_val_accuracy_percent": 67.27272727272727,
+      "resnet_val_balanced_accuracy_percent": 67.27272727272727,
+      "ccsae_fc_val_macro_f1_percent": 64.3939393939394,
+      "ccsae_proto_val_macro_f1_percent": 63.9905548996458,
+      "resnet_checkpoint_sha256": "2915f10f814a30a732bef597f7351e92de8754a4115bd5b1db79c8016bd7beeb",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample43_train43",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone",
+      "resnet_minus_ccsae_fc_pp": -0.7020757020757102,
+      "resnet_minus_ccsae_proto_pp": -0.298691207782106
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 44,
+      "train_size": 220,
+      "val_size": 55,
+      "resnet_best_epoch": 14,
+      "resnet_val_macro_f1_percent": 56.83195592286502,
+      "resnet_val_accuracy_percent": 60.0,
+      "resnet_val_balanced_accuracy_percent": 60.0,
+      "ccsae_fc_val_macro_f1_percent": 63.03242212333121,
+      "ccsae_proto_val_macro_f1_percent": 76.91954510136327,
+      "resnet_checkpoint_sha256": "7244c92496970ac76ed372577671b9a831805ccf7a8cd89e79bac38854c9fdf8",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k20_sample44_train44",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone",
+      "resnet_minus_ccsae_fc_pp": -6.200466200466188,
+      "resnet_minus_ccsae_proto_pp": -20.08758917849825
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 42,
+      "train_size": 440,
+      "val_size": 55,
+      "resnet_best_epoch": 27,
+      "resnet_val_macro_f1_percent": 63.84297520661156,
+      "resnet_val_accuracy_percent": 69.0909090909091,
+      "resnet_val_balanced_accuracy_percent": 69.0909090909091,
+      "ccsae_fc_val_macro_f1_percent": 60.46831955922865,
+      "ccsae_proto_val_macro_f1_percent": 54.33556342647252,
+      "resnet_checkpoint_sha256": "14463785554b2d526c3ded5655d4c3b97305750f0d63e07de100ddf85ef58d20",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample42_train42",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k40_sample42_train42_distnone",
+      "resnet_minus_ccsae_fc_pp": 3.374655647382916,
+      "resnet_minus_ccsae_proto_pp": 9.507411780139044
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 43,
+      "train_size": 440,
+      "val_size": 55,
+      "resnet_best_epoch": 25,
+      "resnet_val_macro_f1_percent": 62.38029647120557,
+      "resnet_val_accuracy_percent": 61.81818181818181,
+      "resnet_val_balanced_accuracy_percent": 61.81818181818181,
+      "ccsae_fc_val_macro_f1_percent": 62.15663124754034,
+      "ccsae_proto_val_macro_f1_percent": 71.99568108659018,
+      "resnet_checkpoint_sha256": "c99e1bf774c72377bea554bd1c0716faf9c0f7c1e143738b46a0e0592a330d40",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample43_train43",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k40_sample43_train43_distnone",
+      "resnet_minus_ccsae_fc_pp": 0.223665223665229,
+      "resnet_minus_ccsae_proto_pp": -9.615384615384613
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 44,
+      "train_size": 440,
+      "val_size": 55,
+      "resnet_best_epoch": 24,
+      "resnet_val_macro_f1_percent": 63.68555686737505,
+      "resnet_val_accuracy_percent": 65.45454545454545,
+      "resnet_val_balanced_accuracy_percent": 65.45454545454545,
+      "ccsae_fc_val_macro_f1_percent": 65.87235996326905,
+      "ccsae_proto_val_macro_f1_percent": 78.08080808080807,
+      "resnet_checkpoint_sha256": "abd2b906a06bdaa7ab7beac7ae9c38d0d9742086bfca0ce40b1cd811a1f89c93",
+      "resnet_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/resnet_shot_scale/server_a4d7a00/runs/abl/k40_sample44_train44",
+      "ccsae_reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k40_sample44_train44_distnone",
+      "resnet_minus_ccsae_fc_pp": -2.1868030958939997,
+      "resnet_minus_ccsae_proto_pp": -14.39525121343302
+    }
+  ],
+  "preservation": {
+    "status": "passed",
+    "protected_file_count": 1100,
+    "input_before_sha256": "376b7200943d97d63692a90f9f9eee8224e0cc70f3d3c8535f794768b29e8d2d",
+    "old_ccsae_p0_p1_and_historical_baselines_unchanged": true,
+    "data_and_existing_uv_configuration_unchanged": true,
+    "installed_package_versions_unchanged": true,
+    "ccsae_model_and_training_source_unchanged": true,
+    "original_resnet_architecture_unchanged": true
+  },
+  "limitations": [
+    "相同的是数据及分类训练协议；CCSAE有Stage1，ResNet没有，不能称完整两阶段训练相同",
+    "Val同时用于最佳epoch选择和汇总，非独立Test成绩",
+    "n=3，抽样与训练种子耦合，无显著性结论",
+    "原始记录缺少独立板卡/采集批次元数据，去重不保证来源独立"
+  ]
+}

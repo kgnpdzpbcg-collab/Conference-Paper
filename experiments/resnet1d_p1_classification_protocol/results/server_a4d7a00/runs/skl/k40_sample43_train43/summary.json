@@ -1,0 +1,18 @@
+{
+  "case": "skl",
+  "k": 40,
+  "seed": 43,
+  "stage1_epochs": 0,
+  "best_epoch": 23,
+  "val": {
+    "accuracy": 0.6615384615384615,
+    "macro_f1": 0.663343494112725,
+    "balanced_accuracy": 0.6615384615384615
+  },
+  "train_size": 520,
+  "val_size": 65,
+  "parameters": 966829,
+  "wall_seconds": 11.242081364005571,
+  "test_evaluated": false,
+  "checkpoint_sha256": "2d1a83a3a8824467272decaaf35d8f63b7b836d190c6b87f17f0ada9405e328a"
+}

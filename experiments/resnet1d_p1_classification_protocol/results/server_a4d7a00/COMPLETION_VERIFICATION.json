@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "runs": 18,
+  "same_train_val_and_scaler_exact": true,
+  "same_actual_episode_indices_to_ccsae_fc": true,
+  "initialization_random_and_same_across_k": true,
+  "all_400_updates_bn_and_checkpoint_reloads_verified": true,
+  "independent_val_metrics_verified": true,
+  "test_evaluated": false,
+  "stage1_epochs_resnet": 0,
+  "stage1_epochs_ccsae": 10,
+  "preservation": {
+    "status": "passed",
+    "protected_file_count": 1100,
+    "input_before_sha256": "376b7200943d97d63692a90f9f9eee8224e0cc70f3d3c8535f794768b29e8d2d",
+    "old_ccsae_p0_p1_and_historical_baselines_unchanged": true,
+    "data_and_existing_uv_configuration_unchanged": true,
+    "installed_package_versions_unchanged": true,
+    "ccsae_model_and_training_source_unchanged": true,
+    "original_resnet_architecture_unchanged": true
+  }
+}

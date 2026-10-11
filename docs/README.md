@@ -2,6 +2,9 @@
 
 ## 当前算法研究（先读）
 
+- [ResNet1D对齐P1数据与分类训练协议](RESNET1D_P1_CLASSIFICATION_PROTOCOL_SERVER_RESULTS.md) —— 原ResNet无Stage1，400次分类更新，固定5 Val/类，无Test。
+- [ResNet对照独立归档](../experiments/resnet1d_p1_classification_protocol/README.md) —— 18次训练、真实Episode/权重/指标核验。
+
 - [冻结P1的K=10/20/40规模验证](CCSAE_PROTOTYPE_SHOT_SCALE_SERVER_RESULTS.md) —— 固定5 Val/类，12组新配对+6组K20复用，无Test。
 - [少样本规模验证独立归档](../experiments/ccsae_prototype_shot_scale/README.md) —— 嵌套样本、逐种子结果、独立核验与冻结证据。
 

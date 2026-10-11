@@ -1,0 +1,177 @@
+{
+  "status": "passed",
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "resnet_model_sha256": "b9c96fa1d78ca0c4a1e7a7626a4f5a6a5e29456faa091ff5db4dcd47048e5263",
+  "combinations": 18,
+  "all_split_audits_exact": true,
+  "all_reference_episode_indices_exact": true,
+  "independent_train_only_scaler_verified": true,
+  "protected_file_count": 1100,
+  "stage1_epochs": 0,
+  "stage2_updates": 400,
+  "test_evaluated": false,
+  "jobs": [
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 42,
+      "train_size": 130,
+      "val_size": 65,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k10_sample42_train42_distnone",
+      "reference_episode_file_sha256": "1f391cc8e4abb31bec996651f616dbd23da570d6c0201ca7feca5dcb8fc4b0f8"
+    },
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 43,
+      "train_size": 130,
+      "val_size": 65,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k10_sample43_train43_distnone",
+      "reference_episode_file_sha256": "93c8e54bc2082a41994f348190f368d3d604ed13db96accbf5479bca5257a246"
+    },
+    {
+      "case": "skl",
+      "k": 10,
+      "seed": 44,
+      "train_size": 130,
+      "val_size": 65,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k10_sample44_train44_distnone",
+      "reference_episode_file_sha256": "52653aed2fd159a60467a378734c64854d7a573f613ac0de98185424f10c3589"
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 42,
+      "train_size": 260,
+      "val_size": 65,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/skl/k20_sample42_train42_distnone",
+      "reference_episode_file_sha256": "63706ff710dcb4da030ddf8ce26e014482f1034e664013eec58c121ec3ba05d7"
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 43,
+      "train_size": 260,
+      "val_size": 65,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample43_train43_distnone",
+      "reference_episode_file_sha256": "a79e996634574236b9d3b787654445db6c7c27f86d9beca18f682894b664eecd"
+    },
+    {
+      "case": "skl",
+      "k": 20,
+      "seed": 44,
+      "train_size": 260,
+      "val_size": 65,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/skl/k20_sample44_train44_distnone",
+      "reference_episode_file_sha256": "b35b982e415b21b434fe6776d6dbb4feac4e957536ba840f598ab21ed35cfa55"
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 42,
+      "train_size": 520,
+      "val_size": 65,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k40_sample42_train42_distnone",
+      "reference_episode_file_sha256": "17ef27aa36e358a9b248d1f48d6173fbe5b82b56679d32002421c56b2ea293e1"
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 43,
+      "train_size": 520,
+      "val_size": 65,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k40_sample43_train43_distnone",
+      "reference_episode_file_sha256": "28e6f28fb7dd11c0b6d990656f15a72e358d28d73cf27cc794884d15a3c5d7cf"
+    },
+    {
+      "case": "skl",
+      "k": 40,
+      "seed": 44,
+      "train_size": 520,
+      "val_size": 65,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/skl/k40_sample44_train44_distnone",
+      "reference_episode_file_sha256": "b80be47ed3f4bb834628569ffea6b187ab4341818f426bc2b2c5ee0cd395ca1b"
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 42,
+      "train_size": 110,
+      "val_size": 55,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample42_train42_distnone",
+      "reference_episode_file_sha256": "2342a69820efd859597617bcd142a0adf9dc24c1de41594609d3d52f377b9b90"
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 43,
+      "train_size": 110,
+      "val_size": 55,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample43_train43_distnone",
+      "reference_episode_file_sha256": "661105c0cac27c7afc944dcdfa06209e2a754dc8ca0ecf410d81158c96cde0fc"
+    },
+    {
+      "case": "abl",
+      "k": 10,
+      "seed": 44,
+      "train_size": 110,
+      "val_size": 55,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k10_sample44_train44_distnone",
+      "reference_episode_file_sha256": "96d6c014f8fd593f618b396aeaf80ed67107cfe626dbb1fb05c141f821cfadb2"
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 42,
+      "train_size": 220,
+      "val_size": 55,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seed42_precheck/abl/k20_sample42_train42_distnone",
+      "reference_episode_file_sha256": "84c1277908777157d78f6b38d5d05a6c21af371a33474a53939d4fcdc3318c65"
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 43,
+      "train_size": 220,
+      "val_size": 55,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample43_train43_distnone",
+      "reference_episode_file_sha256": "4b74cd4075405a132464cdd71e19540cf3e4d16a478859d9bfbc405ecf600911"
+    },
+    {
+      "case": "abl",
+      "k": 20,
+      "seed": 44,
+      "train_size": 220,
+      "val_size": 55,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_scale_p1/server_a4d7a00/seeds43_44_followup/abl/k20_sample44_train44_distnone",
+      "reference_episode_file_sha256": "d2bdf85c3d933e7da2a1a22922f35de3253a34d22a113122119b15f92a5887a4"
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 42,
+      "train_size": 440,
+      "val_size": 55,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k40_sample42_train42_distnone",
+      "reference_episode_file_sha256": "40e97cbd8dbb1a753e7e3284151bdcaff56c7213e88c379e201b524432057909"
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 43,
+      "train_size": 440,
+      "val_size": 55,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k40_sample43_train43_distnone",
+      "reference_episode_file_sha256": "733ad8fd03a15a207a55520f835e9c5e59011d5db9150de379204ccaf267529b"
+    },
+    {
+      "case": "abl",
+      "k": 40,
+      "seed": 44,
+      "train_size": 440,
+      "val_size": 55,
+      "reference_relative_to_work": "Conference-Paper-ccsae-prototype-diagnostics-v1/outputs/proto_shot_scale/server_a4d7a00/new_k10_k40/abl/k40_sample44_train44_distnone",
+      "reference_episode_file_sha256": "4b2f50d4336d22aaf6137d9f3b3e4904869b7157d65b405cce6679aa2cc19ac9"
+    }
+  ]
+}

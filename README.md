@@ -4,6 +4,10 @@
 
 在同一数据池、同种子嵌套 Train（K=10/20/40）与固定5 Val/类上，补跑K10/40共12组配对，复用K20的6组结果；P1温度1、距离不除维度、Backbone/损失/预算冻结。六档Proto均值均高于FC，15/18配对胜出；**ABL均值没有随K增大上升，K40波动较大。只有Val结果，没有Test评估。**
 
+按相同P1数据和分类协议新增18次原ResNet1D对照：ResNet不做Stage1，固定SGD/400步；与FC均值接近，17/18组低于Proto。该比较保留CCSAE有Stage1、ResNet无Stage1的差异，只报告Val。
+
+- [ResNet分类协议对照报告](docs/RESNET1D_P1_CLASSIFICATION_PROTOCOL_SERVER_RESULTS.md)
+- [ResNet独立归档及核验](experiments/resnet1d_p1_classification_protocol/README.md)
 - [完整规模验证报告](docs/CCSAE_PROTOTYPE_SHOT_SCALE_SERVER_RESULTS.md)
 - [独立归档与逐种子证据](experiments/ccsae_prototype_shot_scale/README.md)
 - [历史CNN / ResNet1D / CCSAE v1少样本Test成绩](docs/FEWSHOT_BASELINES_CCSAE_V1_SERVER_TEST_RESULTS.md)（不同划分与预算，独立归档）
