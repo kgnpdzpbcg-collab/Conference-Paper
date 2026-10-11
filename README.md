@@ -1,5 +1,31 @@
 # CCSAE for Analog Circuit Incipient Fault Diagnosis — V1 Adaptation
 
+## 最新分支：Prototype P0 负结果诊断（不是新的性能结果）
+
+本分支继承 research/ccsae-prototype-k20 的**全部已完成实验与历史代码**。P0 的 FC 在 SKL/ABL 三种 seed 下都高于普通 Prototype；因此不直接开发加权原型，而是新增最小机制诊断与可选距离尺度对照。
+
+- [详细负结果分析及诊断执行顺序](docs/research/CCSAE_PROTO_K20_FAILURE_ANALYSIS.md)
+- [全部文档索引](docs/README.md)
+- [P0 冻结实验报告](docs/CCSAE_PROTOTYPE_K20_SERVER_RESULTS.md)
+
+**新命令（不需要重新训练，但需本地保留 shared_stage1_last.pt）：**
+
+~~~bash
+python -m pip install -e '.[dev]'
+pytest -q
+ccsae-proto-diagnose --data data/Data.zip --run-dir outputs/server_proto_k20_7ef4042/skl/k20_sample42_train42 --device auto
+~~~
+
+**可选 P1 单因素重训（默认仍是原 P0 距离 /D；只有显式指定 none 才修改）：**
+
+~~~bash
+ccsae-fewshot --data data/Data.zip --case skl --k 20 --seed 42 --distance-normalization none --output outputs/proto_scale_p1
+~~~
+
+新 P1 运行保存到带 _distnone 后缀的独立目录，不覆盖 P0；任何新实验都先用 Val 比较，默认没有 Test 推理。诊断详细参数和结果判据见上面的 MD。
+
+---
+
 ## 当前开发分支：CCSAE＋Prototype（K=20 少标注实验）
 
 此分支从 **reproduction/ccsae-v1** 继承，保留 V1 signed_real 有符号重构，新增 **FC 与 Proto 的配对验证训练**；原有 ccsae-train 命令仍可用。
