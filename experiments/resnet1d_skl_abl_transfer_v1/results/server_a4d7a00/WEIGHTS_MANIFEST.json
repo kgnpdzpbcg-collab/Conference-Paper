@@ -1,0 +1,1208 @@
+{
+  "files": {
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed42/best.pt": {
+      "bytes": 3923467,
+      "sha256": "fdbe77ec845be9de73f4a62e9b35190701176e0598d27cfd9508e1a975611785"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed42/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "c1c33abc8c9ddfd3fbcd6b6f96d6eb0070636b17f2e53656dd1bcd784e823379"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed42/last.pt": {
+      "bytes": 3923467,
+      "sha256": "57bb7905ffce35e7c7476e8d15d403a98af7a9017b8598d163b9cad17e8608f5"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed43/best.pt": {
+      "bytes": 3923467,
+      "sha256": "801ccfc098c44bdcd78dbc3ebaebcac241864d677b63ffc37d94c4178918741a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed43/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "662c48686cfa85d26072c4be03d2d19a976cee2d6845e12f05e19b956fa2ba40"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed43/last.pt": {
+      "bytes": 3923467,
+      "sha256": "3c22505428701a00412523b89ff24c61df8b85d5885f4fbe4344f63507c0b73d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed44/best.pt": {
+      "bytes": 3923467,
+      "sha256": "f88304f2e46b446ec4b1cfe08750c0786959683b5f6a43f3f3e3278ff1805dd8"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed44/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "048aaa9b507542a69882f453893722dbbfadda2bdc27b00bcf7a4a05216e3a0b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed44/last.pt": {
+      "bytes": 3923467,
+      "sha256": "06a0ea8043c42b9e298e9422591fb1977b56fc3e16e127d60a0055efc92a716f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed45/best.pt": {
+      "bytes": 3923467,
+      "sha256": "adfe4034fc8459ac2bfb84bb7fdd22b16c9a7894529a21e33b15baf61f73f1f9"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed45/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "d6c76ab89bae4bad4ab8a29761f2e114a3fcd3fbb33d3c04a866b5bd558aa4cb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed45/last.pt": {
+      "bytes": 3923467,
+      "sha256": "e144febb9dcec9bafc7bd6520ff319293df6213b77f52195a5a80a304d770524"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed46/best.pt": {
+      "bytes": 3923467,
+      "sha256": "bbc6b1e515b46d1952517efa5fc44264e68328749774cfcdfc3cf03fa7927ab6"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed46/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "2665290b3f1e6abb4c72a8e87af4485b49d15851568792e688cc223ca11baf36"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed46/last.pt": {
+      "bytes": 3923467,
+      "sha256": "8b829d7e1e76907e5cb4465d149093f8070ffdc6770155652f6cc6d4d43de030"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed47/best.pt": {
+      "bytes": 3923467,
+      "sha256": "d3ef52d554825f5e1213097a52053d7b9653315c7d44eb31a9e539170c6e8b2d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed47/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "4bdf14f411e8bd3a559de65d3ad97239b45372753b5d30b342d4fa4ca6cadcf2"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed47/last.pt": {
+      "bytes": 3923467,
+      "sha256": "5613b43743f6b08a286d9b0d6f82c0ebc091b803b4cbf84fb074b87e24cbb533"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed48/best.pt": {
+      "bytes": 3923467,
+      "sha256": "751a49a932cc18933cf436e2249a9966f896fb6cb442d8f778627585a0429bdf"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed48/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "c5b2fd68a00e1dd027ef55af2e5213cfa1c1f5b191a6f07614bb0f0c33d50299"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed48/last.pt": {
+      "bytes": 3923467,
+      "sha256": "155d0ff0b172d6db4d9ab06e211ac1581d66b44b73d23f0fe0b0866ffc5237e3"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed49/best.pt": {
+      "bytes": 3923467,
+      "sha256": "fe4df48b0bd3cb318fe0a5939935aeed17888131d342185c93540e2ad46de053"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed49/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "0ed596123b087a22a7e055f83fdf216248f8a0db28b96a41458df7521fad8f74"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed49/last.pt": {
+      "bytes": 3923467,
+      "sha256": "8fcc3c370abc764fed979b424436397cd20b3df7659b886e69ce6ed09322992b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed50/best.pt": {
+      "bytes": 3923467,
+      "sha256": "df70f205794d436a24abfb418ee3b729c71b9a2f63648fd00a1b1760e3aa5e67"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed50/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "9cc36888eabd53cd86ff1b56cfbe5248a355f40b46674182d2e8962ed7c75ff7"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed50/last.pt": {
+      "bytes": 3923467,
+      "sha256": "d4e64270934e2b14dee2a845a5f44bcbebba91dcc75f26cb1910d06b91170b7c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed51/best.pt": {
+      "bytes": 3923467,
+      "sha256": "71f5ad95d73285a39a5d3058d50e8be9242e79bf97bd76ba9e9247364fefdea4"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed51/initial.pt": {
+      "bytes": 3923467,
+      "sha256": "c425df27ab5e610828d596905089895becca47b17e672d6c35a15b63b938562b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/source/seed51/last.pt": {
+      "bytes": 3923467,
+      "sha256": "b8e2c20f6bbe7ceba8e85b62995f04c3e9115612404d8ca8d8675d6c365221a8"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed42/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "319ec81882d4c41302349ef9479242a3832c25fac579c8d8a2724c40184b8521"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed42/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "3c3a56c73d81f8810e011f6553551386cb8c0a1c672a9986e977a3a2e76dc648"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed42/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "86c49c9d0b16c687f40dafd53fe7619f1299167c202f6b123a4785ba6411a76c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed42/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "aba14675b4255b7f622cc8affed22e29a9fe474cac557572a02ed0ed31d0889f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed42/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "62e20044dff8eacc96556e07ec65d9743f0bdcea15377e3098f92c0d70003b02"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed42/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "9e22270e604299109a8988f6b3c0f5b6c105bd8f87f7ef3c71e5ab6738dc8566"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed42/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "ca3c1592f6e7682d596ff4fbecaa2c2cf785f99aa7b68911657abe0156cc82ec"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed42/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "a844df7e54aabd1f61bfbcce0e629b918df56cf052f207eea3ee6de8b547ebe5"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed42/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "e903a6b643359765adc48c5072c822581d1bd67fc5e1a3656b4bffcc51deaa1b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed43/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "880341b84930baa910ddd515bdc0be1e1fb91e9e148fe8bc93794e75cbb2add0"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed43/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "61c8154f147c12df98a9a42b1c1c9978efa5ed56dfa4937bdf033701aab8f4e4"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed43/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "a1d5a99b7e055306881fb0feece1e7a7f98e1727fc7acc3c291975bfee87498c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed43/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "439dcbeb12649c1b5a8ea2ed9bf7674294464f7ab888e3972b6b9a5fb0f8722b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed43/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "c13c5f07db457eb6928d232bf3254705f3feaf3520ef2a21a5cf3e86e15b388c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed43/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "439dcbeb12649c1b5a8ea2ed9bf7674294464f7ab888e3972b6b9a5fb0f8722b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed43/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "2ecfbcdecc2294788621a3786c656377c9ac85c382834e3f2980f1e344dea0fc"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed43/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "7b8ec211bb8a0e6cdc0dd8be690adabc68b18a81f758c6987faa74b41349fa14"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed43/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "64235c6f9383c2bf544ff9fd2df1a9d15b461e664007ac4f7a59f9a594a29ecb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed44/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "78c8d6efc08aec49a9680856b2dbb72b5e3aa0b787cd7648148806f9ed532464"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed44/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "bf45cf3fedd1ff6f22fd5fae85a6d7f4863db348ea4bcdb9c73f41b33fa05620"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed44/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "f9dbc0e8635aff00996821f9bd73b1ac0c96bf9b58b7c8cae68da1efe903ffea"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed44/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "8b8f32784e72e4b1ae716d9c85877dfc63b15323bf9f5bc0db22d7bd96343816"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed44/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "ca1d1c2b7a1d0a9a6b9a5359c7248c59e637429a47bc1c6ee2153cb9dbd337de"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed44/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "90287385e502ebccd331ab5647dbb41040543471433b1e8f36c2294589c7699f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed44/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "13d12e1fbf19f52867583bd584dfb35e212d18992f2e5afde59d77442a26c73f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed44/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "2d2e0e2f63046ae72bc6bf707f103b6ae8fc85275ce24abe0b1f0b87202a0474"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed44/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "cb3c9d991503c6bfb281f59c20927647075ee4f9b6e7e8c98037851b2f0fc920"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed45/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "6a7b99a0f1d62d076de8ed38a6bc743d22be27a4328be16aeabdd85de96f9dee"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed45/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "2fd0da09a10510c75ad8e877775ab6011137a4a0f493a9e46cd592d232973ce1"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed45/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "ed23ab834ffc6438cba99e02870905537e37acf4fc1ecd1ef08ca536691601fb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed45/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "2b1d9644eddb5262b3580e363ee6963feb330f0fe55b944ff9c07881f33ed057"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed45/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "f81a9a45de8b3ee8fea63a7613dd81dc19a2cb55d6a906a7f4d1e61ca2ba2c7a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed45/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "856fffba317ad0f09b5924b118a04c1e007b195d17a20636a52fa999d0774ef8"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed45/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "0c85722c88e7690e954ccaf87df7559fdb9e46f456965eba452515c8b3a7a247"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed45/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "03941cb7d02fd94c8706debf36e8750215909a8da2a4d7620030ada2c03cc139"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed45/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "478ad751cf97598c9d9bf2d4c7ffd8a5b221e04f191644899ef5b9ef111b3d26"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed46/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "aa951d76b06bae195a0eb51a1ca5888078a27b3673224fb273bf6cc5a6dc37d8"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed46/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "5d1b8fe2a6558565840c1cb1de0103c563bf391581000d135e251bcfee431fa2"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed46/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "afdbf9389bbb5a51b4797871f5b472139ea2edbc3b10db9b6953340edcffb480"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed46/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "05b9b0b8fdd94858f2dcf6fb3d9cd29754b33b0b11fac91caf328fec44186c82"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed46/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "2bf71e9a3c0866050e01948a57abbc66cd54cf7103467947b729910fbe041a2f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed46/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "3c16dde54ecb1c18e72196ec0065e632e40550ca152ff31ba5742ddecc0ca578"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed46/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "fd21fbfa2ad75914e0b15e323acf511a2c58102eb7076efd57889f0d432696cd"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed46/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "a758fdcc63641779c4e66a76a25be4a43936bdc735632875a83b658edbaf09a4"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed46/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "0d57cb8b7e99fe4515c8e17e2a700d67cd7b998ad340aa22860fe741bce65d6f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed47/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "e3fdc8c46768651c5d80712d2d91094cc1bfa35a2263d18912156ea59b8e8dff"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed47/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "b199e773fda29a76d45b816d6efbb84b503675c4d4a7177747b6c1001b63eede"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed47/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "11f6d2a3eb397a23185561c471bca7a2a6f33d9413d1605d21ebc5b36fef6767"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed47/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "c323eb217f8511d01cf9d04343489e25c12161067837189cc2d2ce1f15d807e9"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed47/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "9b7bf44565de766074393f4dc8a06b1efbc93aa296527ad7cf826dfc59026105"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed47/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "f7ec0b57d7f118a46dfa972c573161ae3ea6a4eb4ce873c90115a917b587041c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed47/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "f150e59c144877c71a720619e21098a413af0790671b1e282ab80d8f3d295edb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed47/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "12abbe32638582498a9f25752b1043541fa2854e527a623dbbb13a749b41f11b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed47/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "c0281f79a9018d76dcf3a8f954c1f244297a52df08e0b5377172900f5473fa39"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed48/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "8b727d71462f096aafde4aa47dec39ec1df100d7e1ac15f2a948f6a792f7944e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed48/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "50465cacca525c368dc7dbef96532c7a15b0e9c3e82434be075570c987567c5d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed48/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "9d295d217ddd9f3f33e75b2061949a03193b6da508329f73a4e5aeeae0f30195"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed48/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "6eb912232722408dc8b2d51ee5ffb00c8bb4d3e21c124030b814f373d1b48865"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed48/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "9e8e40a3f9fa845a8dcabf8d717f3dfd48b027f575ddcc1cdcc64f599ae6cfa4"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed48/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "602107e703ca5b23d7e7e4b54e4d8a65f0c287f8554d41c11d06ddebc14b5517"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed48/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "e92cca7cfb113f2b2973d8e474cae89e9ae0ff53d8615af0f3c45228a49e7e5c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed48/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "748897f51faa00cc12c6555d3f9f476b746f7a821a973d27e27c1885fee4fb18"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed48/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "0b45ef822c18eadf51af403748c229e09e4173551a599760ea1d0f6fcfcbe681"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed49/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "835721ba146d0567c633e55ed8e71a0fa4f3eaf3daf52e62ea4411e0533cb5cc"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed49/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "e3e5c9de6312590e4d6decef5af85bc1c372df4fad717916636b3497593a7858"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed49/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "9129ab46d217afa2dcfe2f9bf0ec59ee35ec04bed63ed6231f1d94eca975c0c9"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed49/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "dedaa5283874eb12c678edcfbbcc20ee77d1b3bc12136b771cf119f213d48c2b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed49/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "402707761ba84e40cb30634cd116ed2e69290e0433d389b8cad79a4732398da1"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed49/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "ba8800c699b1871ec01a658ccd0afbaa71c55c3f78e622ddcdc479c79e69c64b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed49/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "1c998cc2aea823233e4a5447c238864b0d36242734d81af9afa56a09b2df74b7"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed49/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "4b34b5a2b56b5f6098dac854acfeb6dc3ea2c09e58ad761a82d4cd4d2bfbddc7"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed49/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "9987462da2bd61ae104178cbbde60a8ce234c232428f41797b9a938339ed9db4"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed50/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "d539f6b96eb18edb27bb45eb1415911cb9bc753b9e9f26bae293403d6666c6f8"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed50/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "b401ef17a415a3717a9b6e34950982e3409408e80f8fc1be6ddc322a9fd0f0ef"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed50/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "fc3f5d4d2233f3215ef6507bbff096bc9ab2a8e97fa0d1ffe04fa1bdaef82aff"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed50/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "867d7a94534ee9a7d02ee1dfa42be37cee440675d15925ada27a1865c2f5b0b2"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed50/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "3a84aca1a4735d9b8e2a3361a66c585fee36885ddb6b64d884f34d255f43a52e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed50/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "d22ab6b676e5a096ac43cfcae60748894df5d9fe5e49a51f226b82294451ddaf"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed50/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "4463684ca461853a01d9fb0fe9c9533c8008146a22f3e878e51b3f80b2766b26"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed50/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "56c417c2cb9eed6ec8ddd5a9e64eed71885e7cb8f16e7da49adfa60836014c74"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed50/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "4463684ca461853a01d9fb0fe9c9533c8008146a22f3e878e51b3f80b2766b26"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed51/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "c260c19bd52f6cd70631312936d5cd5a31e4a9a00903499fad32a38aa308d25d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed51/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "fc86e90666457435fd4040b5c0108d48e5ed611aa4ec90f3f7ad028923ced63d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed51/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "267399b97a44738733d85573f4bde40d471e0e89c5f13a595cf840c3d65f2db0"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed51/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "59d77a88eb706fa60f2e5b551da9e8748ae454bcc8e6f0b062a2865178065668"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed51/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "669f8ca043e3fd711001b7f9c6c89f2e321efea55180e560fa957741c13c509d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed51/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "262a9d2716d14851646973d7ca409ce642f2ea7d7b88b67a203b629561a8b8ab"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed51/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "f5ba415fe0e33ab92beeb3808df74bc622a85496ea8e142cf2c278e6a8b38ff2"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed51/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "a76a0316ab8ef403733eafc153930ebd65498d948f5698f4d59782a4979f2119"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k10_seed51/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "5cd39df6bc20386cbb8d9ec1580bc624667b09d50bc0899b0514bb0e66bda65b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed42/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "4ee8a26df3842f3df88381ca48369ac22b14fdf60f346d619cea46fe5045e582"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed42/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "03d12ed087a8cfb1dca2af9abc69837dd9664ad874c48d86bbfcab43b386e56a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed42/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "a17147388ce44ff1e5c2340ab1fb3d996871a8410ec73d44a759da1c517e030a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed42/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "12b1b8036138036528c26e4a862879c158f35b07adca3c2733e634c85666a65a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed42/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "49dd5c67af0cbd7e5406dd3198394164601e4475648797d641a1f5d8e5d2bc96"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed42/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "7ad90524b6719e0184ee420842a0edb731da916d7752ee06fcd46548ad1fe31c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed42/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "4bdd819b1efc8538e4fe64c1f94fe223c3460885d0fa8111916470b28c164d38"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed42/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "c6d6e08dafe61264b97a3eae2807b70995ea95fafa912595a697dc754cdba9df"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed42/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "f059aaf87e5947fa23f1586d058a153ece6c27f7a5e5107eeb62eae5f6569f20"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed43/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "f8c6aeb62b677c375258975c688d73a6915747664e6c63b1523f2df3601c8592"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed43/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "ecc0d6431d53b6bbf8d2064168c396844159122354697ad94c88a3fa1d7c069d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed43/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "4eace6e4dc437a4f2ee17aa9f21877dffa30305b9150e296c2ea3634d6dbabc5"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed43/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "978778490f0f5576702b15c923d243905846c33a6b404f979616d8e5af58b188"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed43/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "1cd9a1b1fa41fe554162332cf9387262d25d6db1f4b6a6e0b1a1267bd36193ce"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed43/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "4ff0f6c22d763cf098ccc246ea8e89a4dda6ed3b7c875fe996d61e6d917120df"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed43/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "3d1196bc0d2c1d229ef90289eebac2f9422acd05ca2987aa00d4ad232e1bbbd7"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed43/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "88061f3af56d891ee1def1dc077853f3da1104b6254014cc791fde139590620c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed43/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "8357cd4181fa0348068de2a7dff40c6d19510f392082bb95ff26b822d2a027e5"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed44/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "c0269d612cb423ce847f4edd71a757633ff2a7ee8a7301a7bfdb2bcf312d8abd"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed44/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "ce666c836eb771434d926d14dc4206336c1ae6f200a731cb88939810f14af949"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed44/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "e59dac986c2fec5988d1bc9e654791c9c9ae0fa7ac48a121d631819e5df685c5"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed44/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "fecf27ab023845837b0a47a4e9c6da6a312d5a41605bbb9be7649c6db03519cb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed44/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "53b1208c9e5579aeeac7cc9f4caa12d002d252a7bff1936eb03b6e1940d3b173"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed44/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "406e754cecd1452e0d0d520edfb6f831a2beb1a7559c4c68214deae4f047caf9"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed44/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "300532c9ef3a2fb38438352a52cfda55915a89ad09c7aa4331cfbf298f6b03e2"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed44/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "43de0ce226e82176e1d90206ad91276f1e677f6452d80e1edecbb0a2f7b8a3cc"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed44/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "9e0ca66d486d604e337fe8cefcd9d0f6d637639a3851312c393acd9b05f75d45"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed45/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "3716a5543e8761103a260574d7636f4f114592f16b0c9ab30f8019582b7607e2"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed45/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "c98680f93c2c15a0115a5aa3b7b0bc9aab68bb2b9568fc21176ef2ca0ab47ced"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed45/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "e105c0cfa65c645087164ba8d2257ba5afb8eccdde1b8e74b48dad3ddb2754e0"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed45/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "351423eebe36fda68eaf213e94598574b2cc92373626cf6eb452619b322a7514"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed45/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "580ef309201ecd47782fd973d8822ea139f0d70c54de339f879fab32189e1b61"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed45/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "67ae8dd91d6137dfa54a0c1f4ee34ff204277da4cd3477f46a8d55803f961c03"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed45/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "02979845c78dbc9eadca0b2aa1d4ba26321f2aa97219a825c7cec9bceff8f598"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed45/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "45575bc69b50b7a8e9f29fa48797bba469da710b82dc135837a973150ec51caa"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed45/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "b5acecdaf77fb12bae4af64fa85ec1ca638a9831721c1fba8f5484d95a59937c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed46/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "ea767e67790be14bbdce4341c932fc9f183e8c646d27428bc875fbc0d65f8696"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed46/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "6b44483f3935e320f37f2c914e67cde72abf02ade44c5d4a70dcf5f08b5afef9"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed46/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "61b0d154e87c20f9f93a40d426bab32af191032c4080edbccb9193a269427f57"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed46/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "10cb8a2149b0b6d1c811f997198e4eade2d8fa877116a9a2c0398d31e4e48f82"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed46/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "f840e85ea71377fe2eefd59455f9ebc24e134eb43489a7692313958214c0d2aa"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed46/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "87d7f605f1654852ea661c35d8fdbf19710e93aea5e718a207765beb83a0350f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed46/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "3f1019c619345f212ee566b4246d85fc4a8dd77012ebe376ad4cb45ea70d3a46"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed46/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "80cf64e322009d1b73204e67051ac04d5ba7e51c5de5ec5381ff37a9a848ff12"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed46/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "fa77dd00b7cbadae7f9c1158e6473f33680d43b639ab5b953f3fdf7892e3c7dc"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed47/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "3e3ce94523b11459ed4b06ce3053446ec0afadcd59d3a792d90aa2a70642026b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed47/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "7f0730385b63b723102debb5a4137a16f8accc3816694f9fc8571ead98638086"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed47/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "e1482bc10be20953b993c850112114a140cfb3f0e707d487ea887bbdbd72ed3e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed47/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "7abf5d210099da9eb6f13e4f3538ea8854bd2ca2ad217008147f23daa0595a5e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed47/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "46f85c531a90d0cf410722da29f8e92e03acea2831bb9fe4a1c2410f88ff1f45"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed47/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "4d798414b812aa6f6d8ec13caef395c335b35fb912dd767ec5f53b66ce7bb608"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed47/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "58f98bb8a6b0a277db6df16fe3936e903256ee8cb0153552a35184319b4ec644"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed47/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "6fc7fe529c233bb6235bdd521d6589973a41cf613636ede68aa778b480525e89"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed47/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "5c945ad2ffe287216af330a4210f3362c35195396bae481b909421dc8b24a859"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed48/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "ef1f42372b03986f1bfa9fb9291b4c0a783433a3c06ff024d9cb2988f895ff0e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed48/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "9e3a10f431e90a54a885be8d9b39ad3beb5a38fded8e61d50156b385c05f2d00"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed48/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "770e90f23a2ea73f006f480e4b779cc666985a9ee3db18c666b79181948cc41e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed48/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "b1e102cc03a33c3744532bb587d09542db4d1d1b35d8b17feb142001b4d5ba16"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed48/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "92ba8d085fdf712804334ee2be8ccbd83619c1d795ec58331cfdb1b90f8a6dc5"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed48/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "4d432836fa554132615a41ecca1c59410a310a9c430ceab9b6c7dfff9729ce4e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed48/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "0462ae6e5c70f65d7113854f6413b4071080e997a50c37a545489acacfc5c8ee"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed48/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "a27646510e448f13dfd74c5a60809017f8fe687deb1ff3a1fb84d12a35bf12c8"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed48/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "0099e46f2f22e19d8ed7e6ca4098444126981ff64c855631a9857296caa1f61a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed49/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "c3accb3f7381af304428db44fbe557f1de7617422197793639aab3d58d4a6d6b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed49/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "b2347032a2a4529f41f7349671501ffc3a03061ca2bce8ae013699acc18b204e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed49/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "1527dfa783a0485d4c6c34f85e9633be6899c1b3254f69ffcbd4bd68e4558c87"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed49/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "e0ebedcfe339354c9ac35d37427f3919930e9f272662668bf66eec0967a7b1ea"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed49/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "ed37c33b8d09d9e0ad5925486994a7b88329d4d9c1dc6d6bd3893b88f1331c2e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed49/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "dac97a48916d31e645b823a5dd2bf48fbd7f5c1bfb57658435cf7af0263a6267"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed49/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "53b5bf1c107df222746d688084c2363a046980a8e5337fed32a22ed67ee98f27"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed49/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "9f9b0fec59845f43e913aae53b80152884331544e0a8158c06eb99bb81f434d0"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed49/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "ad13a2380f63935ca1ed9272f88fa46e773702abb87e3c5e61d5420b443676e5"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed50/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "3a43c7c6c652fda5a3305a0055944d7eb27668a24acb5b53c24c9179679d53bb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed50/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "ebd9496c3a7d24dfebd6a981d94bba7c19685514edd5c9852efac5c6fd43297a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed50/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "3a43c7c6c652fda5a3305a0055944d7eb27668a24acb5b53c24c9179679d53bb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed50/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "9690ec887555acf14225400bd70320ef1f199491356dfd13080b70c8b7385536"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed50/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "806235ecdb8f8da4ce9d08630a2db131ff71aedc24d51674703f6cca53c88e13"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed50/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "faec88131c33c7c1c927c9211349b0bba60e83ea24684c40b65e3d876f721d6e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed50/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "33f109f65d06c1747e1bc95c827580ba4a049b03ec74b1ed441cfa82e6b429b2"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed50/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "a115df40a7e7644e9ab5a9ef88e803d618bbce254f0bbba6f9f54a0349d497a8"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed50/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "e74e6dfd45d77bd041d105fe739f0cb37cb24a59a7ee1f5d01a097312d54ac0a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed51/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "0a43e4e4844103556705ebc2a340291d022e1fe1d1a1bf0b04e719d152cd330a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed51/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "95207d6c1c6a9c6921f918438153fb1193a2b5c4bc2581e0594c0a080b07df6e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed51/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "ed3f04f567b487a69181ebc948b009d99a3c43f920c4bdfa1d057f44f692b82b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed51/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "6aa5da8f2b1fd2abe3e637d96c49a2886e8bf54e1aedeb414bcbd57f83865038"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed51/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "ee5ba47d2caabe50ae7dbac830edb9c01020b34e90e46b73ae5a9ffa76b18db5"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed51/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "469b9f988dcabd5a5414c00d723aa76d41978fb8ddb0ebfba19089b933846b50"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed51/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "687d0566117002498dbccd8c3bf940ba365cc980eb0cfc7b9ec69ad6abea716e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed51/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "a6b251753e380a4bc08726e882cee98fd0129ed2bbe129cd754b85355e7660fc"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k20_seed51/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "3001be663b781538b257921b532a6560da09b25e9cdc2f3b184a04214d9f7fcc"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed42/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "c60c7b0162d8b6f26d2a4671aa9495e867eecd7c2ec9412d1cc34ee2b3e13ccb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed42/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "955958f2a4ba604f6c062e27b7e589db32f4d739dc0b51cf3732c76fc1ff265f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed42/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "34737b816df4839705a4b218684ac8d645348807b2ff1000f6c717dd9bf8da68"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed42/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "f414ca60cf64fa61c236aece0387fa7149762c5f61c75db213caebd8fed71e5e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed42/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "47b437ca7740f20b541ef15f5c066af3b6f9dcd0f4c564142d4ff4a84ad96b6a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed42/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "c7d41f477512860203a93f82d22d9cd89eb6e78c2ff7cbc8d0e746099daa4d9b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed42/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "ec76da020974d2f16c9b1b41de14d4bfb9569439ad77f5f5b79bfe01b3796fea"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed42/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "0ec84cff0efe013d9ffb829878d635f7ec0d956d49e2c44d0b528b1af4b3bc0d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed42/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "3088918cec2589509f330f349054b66b3966c6f12b71d57125a3fe896873ee89"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed43/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "e55462ac340b1bfdd2e34780d72018d770ccfc86dc27f93e371634054e972398"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed43/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "2368bd3756e584da037f759837c068a8ab8a863daca8e0445b14049b1cc77ae0"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed43/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "bf5dc2153d2fd482bac8807693967e6ec18fe6f55f481ef66cb7fa1692456880"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed43/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "de1ab5c71ae3141f54c02b4e20738e18cdcb8260e6c8edc51296e617ed33010e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed43/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "c1740757895082d1b718441e8738aec5e027a13dd8c2abccabbf612b951439a1"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed43/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "3df3b7f662083014dd4f3fd45422ad310f21ed40494a76a6f69189f0303a97c9"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed43/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "34e7ee530a424bc3bdb5791236c474d4e4ab8a456fd3c6923ba18a97349e52a1"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed43/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "1cb604a1cb254c0e93a12be67c6ed69c24b8f5a6604779cc2456ea190b2b4e23"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed43/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "3884e5863c31e2088640dfb04bb6288f875cc2018f158cec0e4c3e05a770871b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed44/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "acb314fbb54ba46a48ddad4ecdeeb7b41a08178dff23d0e947b23091970d3100"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed44/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "dd5e9a14e3b3893ca54dd50e311853c4d4dad0baff32f7c33a0c415a146970cd"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed44/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "2551caa3b90ef6de9631ffb7fdee201c046b7f3131c4253407c56d96114b4bfa"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed44/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "1d535a84403b644f999899e0a37fcdc674fce7c9cfbb63f93bf0f52cfd1cf151"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed44/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "a6d3b2e8658e449b0572ce5587692efc8e4fe1123164bec01b556ee9df66940b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed44/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "441a8300352bec39326edb618de8853c36e06a67820b137cbaf887256362848a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed44/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "47e569ccef69504248b2901d0e228855cb979dccabf20b408265eaa5e0474931"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed44/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "79e744baf012b407614c7b42d4952424986eb85da83258624ea7c8eb44fe9e5c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed44/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "f8aa51b964e1649abf6aead3995a2bdecf14362a2bdec856910effba8698e7cb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed45/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "4d070477bfd97380ac93892bafc1087198016136447bfc24204ffd639ba6c323"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed45/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "6724a957396ff0efa0105b0493ffabfed94d89be832b76fd4c8a623ca4102c12"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed45/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "edcf3cdc9990365754d6f7b8b7b093e24affa052de3e4095b42adbf333b9dcd7"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed45/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "daab9d9482b46c02e2c6b068938e5dc945b535e1203d1f685f9103552453b2ca"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed45/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "610397026e379b9323cd3986d91d2e43077498e927c4415de0be2bf0438ab3c7"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed45/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "17eff85e0850cd4a84e2907ec4c53ce638ac13ba4d96c3633add268edac66ecf"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed45/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "3b2ac30c395271c5232a84b4629ff398a95a519f9e03d666b3d4df9e38ab299e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed45/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "17a370eb2e34f92b0aa3f8479d06cf0b264234d6e2873a80044e76d584ebf1cc"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed45/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "bb21c7aada239d6096c2d14c6aa8d5068ac426ebba88965d0e7b840764f2ff17"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed46/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "44742fa527a367a370838e36ac6961a08afd2de0ce8d793a91e9bd8e87fd99a0"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed46/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "f00af9957640e14bb254ed28a96a438f7095983ac739cf80e577336bdcc19fa7"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed46/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "0f7d34a96d43e7b6d9df5d4615ae7f5d045e4fcce5c4c22c227922665d927d84"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed46/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "704b27275ce8e29900c8ae375f2f11bd4f9661ddf373398c39b4d3a9c2ea5765"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed46/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "35e58fbdc5b8cf32accb220bca902d89bef723574fd1e0006aac3938274d6eeb"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed46/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "c5c10d97cd2d266aa1270bce13ece9a3327da4660f4a35885186f452fd6f2023"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed46/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "9daf093ff051bd8f2bceb146e89500b68e276c72f41752f42547242703959d67"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed46/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "5d0966372230ce0f8587bb03d67d96c124e59d386dfb4401f9585537847c35a1"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed46/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "d886cf158e62f22d06086d55f53c29773b0292202b58ae190993add2796dfc09"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed47/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "475ff778b40878cb4cb653a9f0471a8bf19345fcaa70f1bc8da1d8220295e387"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed47/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "2242f7ea93beb0c39feebe78a0e6442df7344c5063a1609e5ab5bc2312d90a88"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed47/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "0a3dc1c99526dc4151d007452e5571b3f3d55c113135ed1ad65e5d914862171b"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed47/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "6780384b865aa77e32c0932eba32ff2c63ff8e774b81b0251a218071b0783908"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed47/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "a52074ab8af416f2602eb93da9ad0ccffc12b0abc85d7217fed5900c201b4e4c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed47/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "87f46530352166aa049180ef962024c234aeb02ba8746d6e9ce0dfc62aeecabe"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed47/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "60be3315e7000338de73df9c6ed5ce74ea432dbd88d7ecfc45f06d4beb749a85"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed47/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "35daec4e3f6150bb76adfc1b7222c602fda41758ec9a1b6ecb95600393fc1fa4"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed47/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "d1861a0176f850cf1336c75d088176601c6e7ccf7123c9cdedaa9e27633fae23"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed48/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "61523ebab5a6059836a12264f77f1debda1b316bcd12ce276a371d8beb3b8a83"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed48/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "c1286d54b6b15445f429d08b1c568ddc26ab454232d41a3b60f2e1aace50443a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed48/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "3d2db2ee9e7595df3043fd7934028c7259438555f8be3aa9334da372bb76ad58"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed48/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "42b60c0ec02c89955ff8f262017a15928d9868c8f47d30f065ceab4be701941c"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed48/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "30c1826766d43b83e98d14dd7cf60cec1c6d1ad455657f504ebd793113b6cc1f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed48/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "566a2a237ffcd08437aa40cd3abcd93ed4bdfad79a64225f4406c84f3beb1f4f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed48/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "f3364897e6743754b15c124d9fec3756f3dcdacfead651ae7ff0a89fe99cf650"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed48/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "7b7290a15fbe71303e317dd4aed70da713caf9896624f00ef45f3a45f558041d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed48/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "7ef5302bbd4d727ecf3e148d6e6d9a9ddecec1cb707ed97ec7e38a32d7884ea0"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed49/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "9239a48e06a98b44c30457678c1c06cae6f79b20d6002f498337490959393147"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed49/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "4ed3205460ef57892891b7ea05a11cca9235fe97824f64fdbc2cb4711d4a2217"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed49/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "a3d67e630ce14e08b5fa413e2629c28ad68e25c207eb92e5814e3879656b7f88"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed49/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "f07eade98d821b6252ece19008dd21839e718e6ed1ea7c9fc1d89d51a099f3b1"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed49/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "8fead351dd8ece2cc5588dc2a8933039ef8f5d3f0368996ac29b0f4d62d93187"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed49/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "1afe59efdd685a15d7c58c2d2a4fbee952bd1e96a22948b80c06f247775ba58d"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed49/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "4c92482190d34c0da29d4994533d4d0308a15d6e1e4415d3060ac3dd28874eaa"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed49/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "dee22f638eb8b73849cfad1bf53710936bbeaffa5dea7fadfed7f06d77c98298"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed49/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "f7c23065442a8017103a5ded77c0bbfc22b9cd920bb492b775371edbd63ac957"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed50/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "b5185ee4984673320ce59f100e99ca08bb44f4df5d1bee7d7ba00abee2592100"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed50/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "143faa5fb28bad6cdc26eaa2f2a160ebefffe5fb0a3f4057f8cfe63e4b86ea8e"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed50/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "e269b5060aa5dc03d3e063002388524007c6dcb4f323eeab0c12793b0dfdbab4"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed50/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "2625cf585be20991e8e8c61ddf65b37edd9d68f235cc3f6bc73936e287056fad"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed50/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "74b42bd0ea7294eeb7ae60ba1f6d8a72a517b01912622a82f3a8294bcb9c317a"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed50/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "cb360c2d629a08da87320670518934e4dea5b9682976603ee275ccdc9e0a1ce7"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed50/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "f6e79c2abc0efe6dc58bd8d5164dab9ece4f6fb844da6d80d61767763c09fb1f"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed50/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "f7efa1b75241a48dce9df71f51d6d4bae9a0be3d36b16ed6683caea5f2586fa4"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed50/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "bcb40a3f73323e0cac06cc227fb95284923f485a87ccf9a202b8c9bf2a2e7c03"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed51/finetuning_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "5adb192873facf0ff53282ea0baa31e49ade0957490800c2674815e6843e8059"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed51/finetuning_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "6c4f46fe1bac1fb12b718662143a3437aa61f3ce033ec007ddb2e605cb813907"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed51/finetuning_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "f800b32a1257843207b973dc8e0485e4c63276efd8f02e5c39dfd936cd949038"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed51/frozen_transfer/best.pt": {
+      "bytes": 3921675,
+      "sha256": "58060555bdceee320510f377abb078422adba4c95b95d1dad9534d092d638856"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed51/frozen_transfer/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "da64bf13bc8486b401c975f267c3034b9bda4cf8483a584f6e8c4d5404f8afdf"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed51/frozen_transfer/last.pt": {
+      "bytes": 3921675,
+      "sha256": "7f3da981c83893e5a4ca31b23226a6ca9dcb68eee2511f5c73238db11bdfd2ca"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed51/target_only/best.pt": {
+      "bytes": 3921675,
+      "sha256": "da59d8700bad827f642dd066647816a8e6f830d52ece9a3d5adaca007981d766"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed51/target_only/initial.pt": {
+      "bytes": 3921675,
+      "sha256": "ab202bc814d4064612a448f42350cc0e116250e9cf9a5e42a895832bc6877eca"
+    },
+    "outputs/resnet_transfer_v1/server_a4d7a00/target/k40_seed51/target_only/last.pt": {
+      "bytes": 3921675,
+      "sha256": "f254d79d7d44c6ad1768b576ffda85f7b74f5f6be0497f09bdd0e1c56d7a1a88"
+    }
+  },
+  "count": 300,
+  "bytes": 1176556260,
+  "transferred": false,
+  "location": "original server output directory"
+}

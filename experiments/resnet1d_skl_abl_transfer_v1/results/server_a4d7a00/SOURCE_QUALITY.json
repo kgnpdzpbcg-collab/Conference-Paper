@@ -1,0 +1,8 @@
+{
+  "source_val_macro_f1_mean_percent": 53.612076209361284,
+  "source_val_macro_f1_sample_sd_percent": 7.220859292039256,
+  "mean_first_cycle_train_loss": 2.5601043009757998,
+  "mean_last_cycle_train_loss": 0.8692106264829635,
+  "source_test_evaluated": false,
+  "scope": "current fixed 400-update pretraining configuration only"
+}

@@ -1,0 +1,81 @@
+{
+  "files": {
+    "runtime_source/server_experiment/common.py": {
+      "original_path": "server_experiment/common.py",
+      "sha256": "0b4f26fa281c8b0424b46baada25053c2d0f1f03c04d236846ca40a4cb75557b",
+      "bytes": 1919
+    },
+    "runtime_source/server_experiment/run_shot_scale.py": {
+      "original_path": "server_experiment/run_shot_scale.py",
+      "sha256": "c09051f65202eca1be675923585ddfe15fadf0b23cf9e1b9a2b1d2e5f798a502",
+      "bytes": 8912
+    },
+    "runtime_source/server_experiment/verify_shot_scale.py": {
+      "original_path": "server_experiment/verify_shot_scale.py",
+      "sha256": "57bdb3f1c8ca911eee6b3f93d86a580c1ee12618993b0388f114d5bf9dc41e3f",
+      "bytes": 11198
+    },
+    "runtime_source/server_experiment/resnet_shot_scale/reference_models.py": {
+      "original_path": "server_experiment/resnet_shot_scale/reference_models.py",
+      "sha256": "b9c96fa1d78ca0c4a1e7a7626a4f5a6a5e29456faa091ff5db4dcd47048e5263",
+      "bytes": 3639
+    },
+    "runtime_source/server_experiment/fixed_test/evaluate.py": {
+      "original_path": "server_experiment/fixed_test/evaluate.py",
+      "sha256": "be842a877961143175d7d04fba82c4a44b8f89fb2321684666aa146d89725664",
+      "bytes": 27874
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/experiment.py": {
+      "original_path": "server_experiment/resnet_transfer_v1/experiment.py",
+      "sha256": "68f35d50683fd32033daaf926deb8f3d4a1e2a5d8db632bab8a17f2f10867c41",
+      "bytes": 19962
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/transfer_report.py": {
+      "original_path": "server_experiment/resnet_transfer_v1/transfer_report.py",
+      "sha256": "3fec76d929ec28ca87d75d5427111127cb70d15547042927e6fc3df5c665344f",
+      "bytes": 14400
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/verify.py": {
+      "original_path": "server_experiment/resnet_transfer_v1/verify.py",
+      "sha256": "c372811c4bd3ccd5f161f77f5064766cf4a204cf11a2ec7203827c07de2064dc",
+      "bytes": 15616
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/preflight.log": {
+      "original_path": "server_experiment/resnet_transfer_v1/preflight.log",
+      "sha256": "190a075fcb6586999fc4a18ccd053a40033c584a97f131362ec86314c9f6aa52",
+      "bytes": 87
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/report.log": {
+      "original_path": "server_experiment/resnet_transfer_v1/report.log",
+      "sha256": "38b171ee699939b5512dcc376d3491884f00cf4cac54be2ae5540b575ca548dc",
+      "bytes": 644
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/source.log": {
+      "original_path": "server_experiment/resnet_transfer_v1/source.log",
+      "sha256": "df665d74a5385f384423665a568abfbd5f6d252a87e023dd46ff3c8c2648273a",
+      "bytes": 402
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/target.log": {
+      "original_path": "server_experiment/resnet_transfer_v1/target.log",
+      "sha256": "8e7f1d28bd6800eb3945491cee840e39cd5020982713a777a8c828654e986600",
+      "bytes": 1248
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/test.log": {
+      "original_path": "server_experiment/resnet_transfer_v1/test.log",
+      "sha256": "ff3f70bbc18d87d50b2cea71b39de7c0c7814463b87a29c8699fd8ad05185267",
+      "bytes": 108
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/verify_test.log": {
+      "original_path": "server_experiment/resnet_transfer_v1/verify_test.log",
+      "sha256": "1af0d7c49779fa9b880f3bd64b0e2aeedfb1125f8e733889054c65003792dce7",
+      "bytes": 134
+    },
+    "runtime_source/server_experiment/resnet_transfer_v1/verify_training.log": {
+      "original_path": "server_experiment/resnet_transfer_v1/verify_training.log",
+      "sha256": "5e91eaeb2ffbb3d53bf6929504a9e09aebe1c37702139fd10cef26d05012ae59",
+      "bytes": 145
+    }
+  },
+  "training_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "restore_relative_paths_at_repository_root": true
+}

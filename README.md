@@ -1,6 +1,15 @@
 # CCSAE for Analog Circuit Incipient Fault Diagnosis — V1 Adaptation
 
-## 最新阶段：冻结最佳权重的完整Test评估
+## 最新阶段：ResNet1D第一轮SKL→ABL少样本迁移
+
+固定原ResNet1D与当前P1数据池，比较Target-only、Frozen Transfer、Fine-tuning Transfer；K=10/20/40、10个配对种子，共10次源预训练和90次目标训练。**没有经Holm校正后显著的正向收益；Frozen K40显著下降7.11个百分点。** Fine K40平均提高1.05个百分点但不显著；源预训练Val为53.61 ± 7.22%，结论仅限于本轮固定配置。
+
+三条件每组使用相同ABL标签、新头初值、真实Episode与400步分类预算；Frozen同时冻结BN，Fine全参数适配。90份Val最佳权重在固定ABL Test465条上统一评估并独立重载复验；源Test未使用。环境复用，旧实验只读，协议与统计提前冻结。
+
+- [服务器迁移结果与统计报告](docs/RESNET1D_SKL_ABL_TRANSFER_V1_SERVER_RESULTS.md)
+- [独立归档、运行代码与核验](experiments/resnet1d_skl_abl_transfer_v1/README.md)
+
+## 上一阶段：冻结最佳权重的完整Test评估
 
 已在当前固定Test上统一评估CCSAE-Proto（P1）、CCSAE-FC和ResNet1D，共54个模型；仅加载此前由Val选出的最佳权重，未重训或调参。Proto六档Test均值均最高，相比FC的18/18种子配对提高，相比ResNet的14/18配对更高；SKL K10对ResNet均值仅提高0.90个百分点，三种子证据仍有限。
 

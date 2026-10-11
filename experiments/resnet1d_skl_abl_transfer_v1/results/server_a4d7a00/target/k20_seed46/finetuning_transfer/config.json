@@ -1,0 +1,20 @@
+{
+  "stage": "target",
+  "condition": "finetuning_transfer",
+  "k": 20,
+  "seed": 46,
+  "classes": 11,
+  "lr": 0.0102,
+  "stage1_epochs": 0,
+  "updates": 400,
+  "optimizer": "SGD",
+  "momentum": 0.9,
+  "weight_decay": 0.0,
+  "grad_clip": 5.0,
+  "split_audit_sha256": "b41721bd5f024de33228683af660c7aef2d8d73a453f11fa0b47a0f437a75fc2",
+  "source_checkpoint": "outputs/resnet_transfer_v1/server_a4d7a00/source/seed46/best.pt",
+  "source_checkpoint_sha256": "bbc6b1e515b46d1952517efa5fc44264e68328749774cfcdfc3cf03fa7927ab6",
+  "new_head_seed": 2046,
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "bn_frozen": false
+}

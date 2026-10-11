@@ -1,0 +1,55 @@
+{
+  "coverage": "11/11",
+  "scope": "first-round algorithmic comparison",
+  "items": [
+    {
+      "type": "Simpson",
+      "assessment": "separate K results; no pooled K significance"
+    },
+    {
+      "type": "Ecological",
+      "assessment": "does not extrapolate seed-level mean to all physical circuit boards"
+    },
+    {
+      "type": "Berkson",
+      "assessment": "fixed dataset sampling; external population representativeness unestablished"
+    },
+    {
+      "type": "Collider",
+      "assessment": "no outcome-dependent inclusion or conditioning; all prespecified runs retained"
+    },
+    {
+      "type": "Base rate",
+      "assessment": "Macro-F1 primary; full per-class confusion matrices retained; label0 count15 vs others45"
+    },
+    {
+      "type": "Regression to mean",
+      "assessment": "no source/run selection by target Test; paired baseline rather than before/after score"
+    },
+    {
+      "type": "Survivorship",
+      "assessment": "all 10 source and 90 target completed/verified; no seed dropped"
+    },
+    {
+      "type": "Look elsewhere",
+      "assessment": "all six prespecified contrasts reported and Holm corrected"
+    },
+    {
+      "type": "Forking paths",
+      "assessment": "protocol saved before training; historical Test exploration remains limitation"
+    },
+    {
+      "type": "Causal scope",
+      "assessment": "controlled algorithmic comparison of extra SKL pretraining; includes extra source labels/compute, not physical causal diagnosis"
+    },
+    {
+      "type": "Reverse direction",
+      "assessment": "source pretraining precedes target training; no reverse temporal interpretation"
+    }
+  ],
+  "cautions": [
+    "10 seeds and one reused Test do not establish general cross-board/cross-batch significance",
+    "Holm p-values are conditional on sign-flip exchangeability; no distribution-free mean-effect guarantee",
+    "Target labels matched; source labels and pretraining compute are extra resources"
+  ]
+}

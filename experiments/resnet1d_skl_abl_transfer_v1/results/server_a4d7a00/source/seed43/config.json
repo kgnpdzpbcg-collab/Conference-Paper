@@ -1,0 +1,15 @@
+{
+  "stage": "source",
+  "condition": "source_pretrain",
+  "seed": 43,
+  "classes": 13,
+  "lr": 0.0022,
+  "stage1_epochs": 0,
+  "updates": 400,
+  "optimizer": "SGD",
+  "momentum": 0.9,
+  "weight_decay": 0.0,
+  "grad_clip": 5.0,
+  "source_split_audit_sha256": "f7333c3d4d61a29d2ef5897b940362bd257d05afff12f1dd9bb362652276bb9a",
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144"
+}

@@ -2,6 +2,9 @@
 
 ## 当前算法研究（先读）
 
+- [ResNet1D第一轮SKL→ABL少样本迁移](RESNET1D_SKL_ABL_TRANSFER_V1_SERVER_RESULTS.md) —— 相同ABL标签，三条件、10种子、90目标Test；无显著正向收益，Frozen K40显著下降。
+- [迁移独立归档与核验](../experiments/resnet1d_skl_abl_transfer_v1/README.md) —— 代码快照、冻结BN、真实Episode、逐种子预测与六项共同Holm检验。
+
 - [当前固定Test最终Macro-F1](CCSAE_RESNET_FIXED_TEST_SERVER_RESULTS.md) —— CCSAE-Proto/FC/ResNet，54份Val最佳权重只读评估，完整Test 570/465条，未重训或调参。
 - [固定Test独立归档及核验](../experiments/ccsae_resnet_fixed_test/README.md) —— 权重冻结清单、逐条预测、分数重载、完整Test指纹与历史探索边界。
 

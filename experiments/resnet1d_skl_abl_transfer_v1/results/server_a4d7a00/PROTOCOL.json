@@ -1,0 +1,90 @@
+{
+  "model": "original ResNet1D",
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "model_sha256": "b9c96fa1d78ca0c4a1e7a7626a4f5a6a5e29456faa091ff5db4dcd47048e5263",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "k": [
+    10,
+    20,
+    40
+  ],
+  "conditions": [
+    "target_only",
+    "frozen_transfer",
+    "finetuning_transfer"
+  ],
+  "source_train": 2660,
+  "source_val": 65,
+  "source_classes": 13,
+  "target_classes": 11,
+  "target_val": 55,
+  "target_test": 465,
+  "source_optimizer": {
+    "name": "SGD",
+    "lr": 0.0022,
+    "momentum": 0.9,
+    "weight_decay": 0.0,
+    "grad_clip": 5.0
+  },
+  "target_optimizer": {
+    "name": "SGD",
+    "lr": 0.0102,
+    "momentum": 0.9,
+    "weight_decay": 0.0,
+    "grad_clip": 5.0
+  },
+  "updates": 400,
+  "validation_cycles": 40,
+  "steps_per_cycle": 10,
+  "support_per_class": 3,
+  "query_per_class": 2,
+  "stage1_epochs": 0,
+  "scheduler": null,
+  "early_stopping": false,
+  "bn_recalibration": false,
+  "frozen_backbone_parameters_and_bn_buffers": true,
+  "frozen_training_mode": "features.eval; classifier.train",
+  "fine_tuning": "all parameters and training BN updated; fresh optimizer",
+  "target_only": "random backbone and same new classifier initialization",
+  "target_scaler": "selected ABL K-shot Train only, shared across conditions",
+  "source_scaler": "full SKL Train only",
+  "head_seed_offset": 2000,
+  "episode_seed_offset": 901,
+  "selection": "maximum Val Macro-F1, earliest epoch on exact tie",
+  "batch_size_eval": 64,
+  "workers": 4,
+  "threads_per_worker": 4,
+  "test_gate": "all 10 source and 90 target training checks must pass",
+  "statistics": {
+    "primary_setting": "K20 fine_tuning vs target_only; reported within family of 6",
+    "comparisons": 2,
+    "k_settings": 3,
+    "family_size": 6,
+    "test": "two-sided exact paired sign-flip permutation of mean difference",
+    "sign_flip_configurations": 1024,
+    "multiple_comparison": "Holm FWER .05",
+    "ci": "paired seed bootstrap 95% percentile CI, 20000 resamples",
+    "bootstrap_seed": 20261011,
+    "effect_unit": "Macro-F1 percentage points",
+    "independent_unit": "paired training/sampling seed; fixed shared Test",
+    "significance_interpretation": "positive gain with Holm p<.05; exploratory, conditional on fixed Test and ten seeds"
+  },
+  "limitations": [
+    "Test was evaluated in previous research; not pristine external blind testing",
+    "No physical acquisition groups available; exact dedup does not establish board/batch independence",
+    "Frozen vs Fine differs in both weights and BN adaptation; not a parameter-only BN ablation",
+    "10 seeds are prespecified first-round repeats, not a power guarantee",
+    "Same target labels per run: 11*K Train plus 55 Val; source labels and compute are additional resources"
+  ]
+}

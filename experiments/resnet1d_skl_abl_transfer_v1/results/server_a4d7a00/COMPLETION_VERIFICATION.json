@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "utc": "2026-10-11T13:46:00.270108+00:00",
+  "source_models": 10,
+  "target_models": 90,
+  "target_test_models": 90,
+  "preservation": {
+    "status": "passed",
+    "protected_files": 1586,
+    "old_files_unchanged": true,
+    "source_data_and_environment_unchanged": true,
+    "installed_or_downloaded_packages": false
+  },
+  "statistics": {
+    "status": "passed",
+    "contrasts": 6,
+    "paired_runs_per_contrast": 10,
+    "independent_python_mean_sd_and_exact_permutation_verified": true,
+    "family_size": 6,
+    "holm_fwer_alpha": 0.05,
+    "normality_assumption_not_required": true,
+    "null_assumption": "paired-label exchangeability / symmetric paired differences",
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 20261011,
+    "test_rows_not_used_as_independent_runs": true,
+    "inference_scope": "sampling/training variability conditional on this fixed previously used Test",
+    "power_not_established": true
+  },
+  "weights_count_and_best_checksums_verified": true,
+  "report_augmented_without_retraining_or_reselection": true,
+  "server_tracked_files_clean": true
+}

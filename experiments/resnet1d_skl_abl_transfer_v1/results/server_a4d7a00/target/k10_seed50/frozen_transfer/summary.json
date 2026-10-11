@@ -1,0 +1,18 @@
+{
+  "stage": "target",
+  "condition": "frozen_transfer",
+  "k": 10,
+  "seed": 50,
+  "best_epoch": 37,
+  "val": {
+    "accuracy": 0.5636363636363636,
+    "macro_f1": 0.528019428737132,
+    "balanced_accuracy": 0.5636363636363636
+  },
+  "parameters": 966315,
+  "train_size": 110,
+  "val_size": 55,
+  "checkpoint_sha256": "867d7a94534ee9a7d02ee1dfa42be37cee440675d15925ada27a1865c2f5b0b2",
+  "wall_seconds": 2.064379692004877,
+  "test_evaluated": false
+}

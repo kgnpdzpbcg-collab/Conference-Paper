@@ -1,0 +1,18 @@
+{
+  "stage": "target",
+  "condition": "target_only",
+  "k": 40,
+  "seed": 44,
+  "best_epoch": 32,
+  "val": {
+    "accuracy": 0.6727272727272727,
+    "macro_f1": 0.6531549258821986,
+    "balanced_accuracy": 0.6727272727272727
+  },
+  "parameters": 966315,
+  "train_size": 440,
+  "val_size": 55,
+  "checkpoint_sha256": "47e569ccef69504248b2901d0e228855cb979dccabf20b408265eaa5e0474931",
+  "wall_seconds": 10.427272893997724,
+  "test_evaluated": false
+}

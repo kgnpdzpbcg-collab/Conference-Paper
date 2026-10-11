@@ -1,0 +1,20 @@
+{
+  "stage": "target",
+  "condition": "target_only",
+  "k": 20,
+  "seed": 42,
+  "classes": 11,
+  "lr": 0.0102,
+  "stage1_epochs": 0,
+  "updates": 400,
+  "optimizer": "SGD",
+  "momentum": 0.9,
+  "weight_decay": 0.0,
+  "grad_clip": 5.0,
+  "split_audit_sha256": "7768cfd3dba9415bb4b658c0505323b28ae526dcfca5629d3e9aa0caa188beef",
+  "source_checkpoint": "outputs/resnet_transfer_v1/server_a4d7a00/source/seed42/best.pt",
+  "source_checkpoint_sha256": "fdbe77ec845be9de73f4a62e9b35190701176e0598d27cfd9508e1a975611785",
+  "new_head_seed": 2042,
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "bn_frozen": false
+}

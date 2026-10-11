@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "contrasts": 6,
+  "paired_runs_per_contrast": 10,
+  "independent_python_mean_sd_and_exact_permutation_verified": true,
+  "family_size": 6,
+  "holm_fwer_alpha": 0.05,
+  "normality_assumption_not_required": true,
+  "null_assumption": "paired-label exchangeability / symmetric paired differences",
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 20261011,
+  "test_rows_not_used_as_independent_runs": true,
+  "inference_scope": "sampling/training variability conditional on this fixed previously used Test",
+  "power_not_established": true
+}

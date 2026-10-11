@@ -1,0 +1,20 @@
+{
+  "stage": "target",
+  "condition": "frozen_transfer",
+  "k": 20,
+  "seed": 48,
+  "classes": 11,
+  "lr": 0.0102,
+  "stage1_epochs": 0,
+  "updates": 400,
+  "optimizer": "SGD",
+  "momentum": 0.9,
+  "weight_decay": 0.0,
+  "grad_clip": 5.0,
+  "split_audit_sha256": "eb668afc21111006cd4ba73a0d15e86cdd5ec5529fca119ac3fe51e8a820abcd",
+  "source_checkpoint": "outputs/resnet_transfer_v1/server_a4d7a00/source/seed48/best.pt",
+  "source_checkpoint_sha256": "751a49a932cc18933cf436e2249a9966f896fb6cb442d8f778627585a0429bdf",
+  "new_head_seed": 2048,
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "bn_frozen": true
+}

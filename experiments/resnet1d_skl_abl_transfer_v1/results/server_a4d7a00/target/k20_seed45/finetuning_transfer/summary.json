@@ -1,0 +1,18 @@
+{
+  "stage": "target",
+  "condition": "finetuning_transfer",
+  "k": 20,
+  "seed": 45,
+  "best_epoch": 34,
+  "val": {
+    "accuracy": 0.6545454545454545,
+    "macro_f1": 0.6378328741965106,
+    "balanced_accuracy": 0.6545454545454545
+  },
+  "parameters": 966315,
+  "train_size": 220,
+  "val_size": 55,
+  "checkpoint_sha256": "3716a5543e8761103a260574d7636f4f114592f16b0c9ab30f8019582b7607e2",
+  "wall_seconds": 10.324671946000308,
+  "test_evaluated": false
+}

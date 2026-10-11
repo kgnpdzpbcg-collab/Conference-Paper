@@ -1,0 +1,29 @@
+{
+  "source_commit": "a4d7a008d7e7597a864624f63f4185d91fada144",
+  "tracked_sources": {
+    "pyproject.toml": "9c95fb415376beb98b33b80ae78fb7e1944f1a01abbf94c2f866476422f3d5f8",
+    "src/ccsae/__init__.py": "c5c18424308d7affddcdf46e4f991f361e35c0927414c046ca587c050945ddd9",
+    "src/ccsae/complex_layers.py": "7d545c773329d91543f1cf14dde5e768825ea1d01c13d7aa4115f48d20aca9e8",
+    "src/ccsae/data.py": "cbd5e9514ef9178193997e33cf1902fa88485009cbadbf79b9ed62e8d6b6e78c",
+    "src/ccsae/fewshot_data.py": "f08ab9b314313dcf169b00a6147609f4a738bf381da0f36ec990e98df90391c1",
+    "src/ccsae/fewshot_train.py": "7edec0e2024742e81c68fcfaf28de7745bcf95b188a39df267efbe9fe5734c8a",
+    "src/ccsae/losses.py": "2e9c6096cd42c6d9c4102656282606177a08e0aece30a5f7e1880e5aa64717b9",
+    "src/ccsae/model.py": "6700829f6fc8b0d1c3dc673c282e9ad1531371751e8e8e34458a8d28e18344d8",
+    "src/ccsae/proto_diagnostics.py": "4ae64a214edcf7933d376c93f58d1944f840b017606c424aace39245eab75a31",
+    "src/ccsae/prototype.py": "619323468cc9cdf92c38092ddb1ee1b03b7ee708b8006158cfccf5204e4c5c8a",
+    "src/ccsae/train.py": "ace1bce330539fa4c52cd36ea1f44afc886854728f13e8577bce74ec4461e4e9",
+    "tests/test_ccsae.py": "6901ddd6816fb51b9d388c456fee0fcd44c3018cf7f95e91aca20fc741c52867",
+    "tests/test_fewshot.py": "fd5c7ed34e3f3e8692200058dd843415881551a311b45cbb55bc154cefcd9557",
+    "tests/test_fewshot_train.py": "69cabf1601ccb7a4ee64b7df6bdd98dc038b39889536f68dd3fff707cb372841",
+    "tests/test_proto_diagnostics.py": "6e34885cea16bab9a63483d6cde71c0f62c649bfadfb59766de07030378c1d4a"
+  },
+  "server_helpers": {
+    "server_experiment/common.py": "0b4f26fa281c8b0424b46baada25053c2d0f1f03c04d236846ca40a4cb75557b",
+    "server_experiment/run_shot_scale.py": "c09051f65202eca1be675923585ddfe15fadf0b23cf9e1b9a2b1d2e5f798a502",
+    "server_experiment/resnet_shot_scale/reference_models.py": "b9c96fa1d78ca0c4a1e7a7626a4f5a6a5e29456faa091ff5db4dcd47048e5263",
+    "server_experiment/fixed_test/evaluate.py": "be842a877961143175d7d04fba82c4a44b8f89fb2321684666aa146d89725664",
+    "server_experiment/resnet_transfer_v1/experiment.py": "68f35d50683fd32033daaf926deb8f3d4a1e2a5d8db632bab8a17f2f10867c41",
+    "server_experiment/resnet_transfer_v1/transfer_report.py": "3fec76d929ec28ca87d75d5427111127cb70d15547042927e6fc3df5c665344f",
+    "server_experiment/resnet_transfer_v1/verify.py": "c372811c4bd3ccd5f161f77f5064766cf4a204cf11a2ec7203827c07de2064dc"
+  }
+}

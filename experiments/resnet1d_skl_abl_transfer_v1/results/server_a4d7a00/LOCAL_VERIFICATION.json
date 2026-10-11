@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "archive_sha256": "4955d8a98d7c2376db3e1f7d127fb62cb12c79a6b4a847706d0ea4f29b199bf7",
+  "server_manifest_files_verified": 1241,
+  "prediction_metrics_verified": 90,
+  "aggregate_mean_sample_sd_verified": 9,
+  "paired_contrasts_verified": 6,
+  "exact_sign_flip_and_holm_verified": true,
+  "bootstrap_ci_from_saved_20000_arrays_verified": true,
+  "local_model_inference_or_training": false,
+  "local_packages_installed": false,
+  "weights_not_transferred": "server independently reloaded and verified all best weights"
+}
