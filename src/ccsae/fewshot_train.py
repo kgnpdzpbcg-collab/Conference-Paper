@@ -70,6 +70,7 @@ def validate(
     device: torch.device,
     metric: str,
     temperature: float,
+    distance_normalization: str = "dim",
 ) -> tuple[dict[str, float], list[int]]:
     model.eval()
     val_features, fc_logits = _forward_features(model, split.val_x, device)
@@ -78,7 +79,8 @@ def validate(
     elif method == "proto":
         train_features, _ = _forward_features(model, split.train_x, device)
         centers = build_prototypes(train_features, split.train_y.to(device), cfg.classes)
-        scores = prototype_logits(val_features, centers, metric=metric, temperature=temperature)
+        scores = prototype_logits(val_features, centers, metric=metric, temperature=temperature,
+                                  distance_normalization=distance_normalization)
     else:
         raise ValueError(method)
     pred = scores.argmax(dim=1).cpu().tolist()
@@ -170,7 +172,8 @@ def train_one(
                 z_s, z_q = out["features"][:n_support], out["features"][n_support:]
                 prototypes = build_prototypes(z_s, all_y[:n_support], cfg.classes)
                 scores = prototype_logits(
-                    z_q, prototypes, metric=args.metric, temperature=args.temperature
+                    z_q, prototypes, metric=args.metric, temperature=args.temperature,
+                    distance_normalization=getattr(args, "distance_normalization", "dim")
                 )
                 loss = nn.functional.cross_entropy(scores, all_y[n_support:])
             if not torch.isfinite(loss):
@@ -182,7 +185,8 @@ def train_one(
             train_loss += float(loss.detach())
 
         metrics, _ = validate(
-            model, method, split, cfg, device, args.metric, args.temperature
+            model, method, split, cfg, device, args.metric, args.temperature,
+            distance_normalization=getattr(args, "distance_normalization", "dim")
         )
         record = {"epoch": epoch, "train_loss": train_loss / args.steps_per_epoch, **metrics}
         history.append(record)
@@ -192,7 +196,8 @@ def train_one(
             torch.save({
                 "state_dict": model.state_dict(), "epoch": epoch,
                 "method": method, "case": args.case, "k": args.k,
-                "metric": args.metric, "temperature": args.temperature
+                "metric": args.metric, "temperature": args.temperature,
+                "distance_normalization": getattr(args, "distance_normalization", "dim")
             }, output / f"{method}_best.pt")
         print(f"[{method}] epoch={epoch} train={record['train_loss']:.5f} "
               f"val_F1={metrics['macro_f1']:.4f} best={best_f1:.4f}", flush=True)
@@ -201,7 +206,8 @@ def train_one(
     state = torch.load(output / f"{method}_best.pt", map_location=device, weights_only=True)
     model.load_state_dict(state["state_dict"])
     final_metrics, val_predictions = validate(
-        model, method, split, cfg, device, args.metric, args.temperature
+        model, method, split, cfg, device, args.metric, args.temperature,
+        distance_normalization=getattr(args, "distance_normalization", "dim")
     )
     (output / f"{method}_history.json").write_text(
         json.dumps(history, indent=2), encoding="utf-8"
@@ -226,6 +232,9 @@ def run(args: argparse.Namespace) -> dict:
         raise ValueError("invalid training budget")
     if args.temperature <= 0:
         raise ValueError("temperature must be positive")
+    distance_normalization = getattr(args, "distance_normalization", "dim")
+    if distance_normalization not in {"dim", "none"}:
+        raise ValueError("distance_normalization must be dim or none")
     set_seed(args.seed)
     device = torch.device(
         "cuda" if args.device == "auto" and torch.cuda.is_available()
@@ -240,7 +249,8 @@ def run(args: argparse.Namespace) -> dict:
     cfg = make_config(args.case, args.tiny)
     save_dir = (Path(args.output) / args.case /
                 f"k{args.k}_sample{args.sample_seed if args.sample_seed is not None else args.seed}"
-                f"_train{args.seed}")
+                f"_train{args.seed}" +
+                ("_distnone" if distance_normalization == "none" else ""))
     save_dir.mkdir(parents=True, exist_ok=True)
     (save_dir / "split_audit.json").write_text(
         json.dumps(split.audit, indent=2), encoding="utf-8"
@@ -309,6 +319,8 @@ def main() -> None:
     p.add_argument("--query", type=int, default=2)
     p.add_argument("--metric", choices=["euclidean", "cosine"], default="euclidean")
     p.add_argument("--temperature", type=float, default=1.0)
+    p.add_argument("--distance-normalization", choices=["dim", "none"], default="dim",
+                   help="Euclidean squared-distance scaling: dim=historical P0, none=scale ablation")
     p.add_argument("--lr", type=float, default=None)
     p.add_argument("--scl-weight", type=float, default=None)
     p.add_argument("--device", default="auto")
