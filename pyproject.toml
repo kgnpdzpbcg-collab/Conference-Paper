@@ -14,6 +14,7 @@ dev = ["pytest>=7", "ruff>=0.6"]
 
 [project.scripts]
 ccsae-train = "ccsae.train:main"
+ccsae-fewshot = "ccsae.fewshot_train:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
