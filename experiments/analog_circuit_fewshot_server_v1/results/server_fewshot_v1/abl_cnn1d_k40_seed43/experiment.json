@@ -1,0 +1,25 @@
+{
+  "id": "abl_cnn1d_k40_seed43",
+  "case": "abl",
+  "circuit": "ABLCircuit",
+  "model": "cnn1d",
+  "k": 40,
+  "seed": 43,
+  "training": {
+    "batch_size": 128,
+    "max_epochs": 100,
+    "patience": 15,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "threads": 4,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 5,
+    "workers": 1,
+    "bn_statistics": "train_only_recalibration_before_each_validation; fixed_row_order"
+  },
+  "classes": 11,
+  "parameters": 44459,
+  "prepared_metadata_sha256": "3a3a89e8433b51b657183c10cedb812c5fd22d969b99ee2f324267d9e0fdeb7c",
+  "plan_sha256": "962f61e6d01fc26bc6e8eb20cfe134ad682ba0d2ba8e79070d60edfd6d85f6a3",
+  "device": "cuda"
+}

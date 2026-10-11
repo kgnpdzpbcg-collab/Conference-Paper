@@ -1,0 +1,25 @@
+{
+  "id": "skl_resnet1d_k20_seed42",
+  "case": "skl",
+  "circuit": "SKLCircuit",
+  "model": "resnet1d",
+  "k": 20,
+  "seed": 42,
+  "training": {
+    "batch_size": 128,
+    "max_epochs": 100,
+    "patience": 15,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "threads": 4,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 5,
+    "workers": 1,
+    "bn_statistics": "train_only_recalibration_before_each_validation; fixed_row_order"
+  },
+  "classes": 13,
+  "parameters": 966829,
+  "prepared_metadata_sha256": "e6b38b09241301a079bceaadc2c9234a9ccec305121fe46460a702b0d2122962",
+  "plan_sha256": "962f61e6d01fc26bc6e8eb20cfe134ad682ba0d2ba8e79070d60edfd6d85f6a3",
+  "device": "cuda"
+}

@@ -15,6 +15,9 @@
 
 ## 基础算法与历史实验
 
+- [CNN / ResNet1D / CCSAE v1 历史少样本Test结果](FEWSHOT_BASELINES_CCSAE_V1_SERVER_TEST_RESULTS.md) —— K=10/20/40，三种子，完整Val选模后评估Test；与P1协议分开。
+- [历史少样本实验原始证据](../experiments/analog_circuit_fewshot_server_v1/README.md) —— 原配置、曲线、逐种子成绩及核验。
+
 - [CCSAE V1 修正实验计划](CCSAE_V1_EXPERIMENT_PLAN.md)
 - [CCSAE 论文实现边界说明](REPRODUCTION_NOTES.md)
 - [历史服务器 GPU 实验](SERVER_GPU_EXPERIMENT_RESULTS.md)

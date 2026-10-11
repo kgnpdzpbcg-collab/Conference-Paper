@@ -9,3 +9,6 @@ docs/CCSAE_PROTOTYPE_DIAGNOSTICS_P1_SERVER_RESULTS.md -text
 # 冻结 P1 的样本规模验证保留服务器证据原字节。
 experiments/ccsae_prototype_shot_scale/results/server_a4d7a00/** -text
 docs/CCSAE_PROTOTYPE_SHOT_SCALE_SERVER_RESULTS.md -text
+
+# 历史少样本服务器 Test 文本证据保留原字节。
+experiments/analog_circuit_fewshot_server_v1/results/server_fewshot_v1/** -text

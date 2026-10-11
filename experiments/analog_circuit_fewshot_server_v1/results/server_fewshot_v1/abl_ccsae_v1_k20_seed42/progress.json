@@ -1,0 +1,15 @@
+{
+  "id": "abl_ccsae_v1_k20_seed42",
+  "case": "abl",
+  "circuit": "ABLCircuit",
+  "model": "ccsae_v1",
+  "k": 20,
+  "seed": 42,
+  "stage": 2,
+  "epoch": 200,
+  "train_loss": 0.6603804133155129,
+  "loss": 8.893287831993513,
+  "accuracy": 0.3655913978494624,
+  "macro_f1": 0.3127855126156667,
+  "best_score": 0.6611084863958513
+}

@@ -1,0 +1,18 @@
+{
+  "id": "skl_cnn1d_k10_seed44",
+  "case": "skl",
+  "circuit": "SKLCircuit",
+  "model": "cnn1d",
+  "k": 10,
+  "seed": 44,
+  "epoch": 19,
+  "train_loss_weighted": 2.564928693037767,
+  "val_loss_unweighted": 2.5707940887986567,
+  "val_macro_f1": 0.01125703564727955,
+  "val_accuracy": 0.07894736842105263,
+  "learning_rate": 0.00025,
+  "seconds": 0.011450926001998596,
+  "best_epoch": 4,
+  "best_val_macro_f1": 0.011330731461664358,
+  "phase": "train"
+}

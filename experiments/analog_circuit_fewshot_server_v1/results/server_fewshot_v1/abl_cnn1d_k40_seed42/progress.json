@@ -1,0 +1,18 @@
+{
+  "id": "abl_cnn1d_k40_seed42",
+  "case": "abl",
+  "circuit": "ABLCircuit",
+  "model": "cnn1d",
+  "k": 40,
+  "seed": 42,
+  "epoch": 75,
+  "train_loss_weighted": 0.9581886464899236,
+  "val_loss_unweighted": 0.8536169072633149,
+  "val_macro_f1": 0.5546774856176815,
+  "val_accuracy": 0.6279569892473118,
+  "learning_rate": 0.000125,
+  "seconds": 0.020876126989605837,
+  "best_epoch": 60,
+  "best_val_macro_f1": 0.5633930572319948,
+  "phase": "train"
+}

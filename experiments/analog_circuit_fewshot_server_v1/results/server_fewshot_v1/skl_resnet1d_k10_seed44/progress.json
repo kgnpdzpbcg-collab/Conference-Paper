@@ -1,0 +1,18 @@
+{
+  "id": "skl_resnet1d_k10_seed44",
+  "case": "skl",
+  "circuit": "SKLCircuit",
+  "model": "resnet1d",
+  "k": 10,
+  "seed": 44,
+  "epoch": 47,
+  "train_loss_weighted": 1.8412812379690318,
+  "val_loss_unweighted": 2.013622243780839,
+  "val_macro_f1": 0.1994676283730616,
+  "val_accuracy": 0.2719298245614035,
+  "learning_rate": 6.25e-05,
+  "seconds": 0.029332516001886688,
+  "best_epoch": 32,
+  "best_val_macro_f1": 0.30132793704799576,
+  "phase": "train"
+}

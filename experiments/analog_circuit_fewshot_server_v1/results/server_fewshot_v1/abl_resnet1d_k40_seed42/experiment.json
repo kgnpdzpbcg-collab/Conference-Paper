@@ -1,0 +1,25 @@
+{
+  "id": "abl_resnet1d_k40_seed42",
+  "case": "abl",
+  "circuit": "ABLCircuit",
+  "model": "resnet1d",
+  "k": 40,
+  "seed": 42,
+  "training": {
+    "batch_size": 128,
+    "max_epochs": 100,
+    "patience": 15,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "threads": 4,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 5,
+    "workers": 1,
+    "bn_statistics": "train_only_recalibration_before_each_validation; fixed_row_order"
+  },
+  "classes": 11,
+  "parameters": 966315,
+  "prepared_metadata_sha256": "0671abd897184fd9036dba72d179e17a48afcdf0757e31c3bca81b82edcafb1a",
+  "plan_sha256": "962f61e6d01fc26bc6e8eb20cfe134ad682ba0d2ba8e79070d60edfd6d85f6a3",
+  "device": "cuda"
+}

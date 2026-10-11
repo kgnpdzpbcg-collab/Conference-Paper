@@ -1,0 +1,15 @@
+{
+  "id": "skl_ccsae_v1_k40_seed42",
+  "case": "skl",
+  "circuit": "SKLCircuit",
+  "model": "ccsae_v1",
+  "k": 40,
+  "seed": 42,
+  "stage": 2,
+  "epoch": 200,
+  "train_loss": 0.933444333076477,
+  "loss": 3.7084971578497634,
+  "accuracy": 0.20175438596491227,
+  "macro_f1": 0.13802978474075417,
+  "best_score": 0.5906365067197475
+}

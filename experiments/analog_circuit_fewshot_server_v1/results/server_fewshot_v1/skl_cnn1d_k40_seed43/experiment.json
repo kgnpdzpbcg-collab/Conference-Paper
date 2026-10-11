@@ -1,0 +1,25 @@
+{
+  "id": "skl_cnn1d_k40_seed43",
+  "case": "skl",
+  "circuit": "SKLCircuit",
+  "model": "cnn1d",
+  "k": 40,
+  "seed": 43,
+  "training": {
+    "batch_size": 128,
+    "max_epochs": 100,
+    "patience": 15,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "threads": 4,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 5,
+    "workers": 1,
+    "bn_statistics": "train_only_recalibration_before_each_validation; fixed_row_order"
+  },
+  "classes": 13,
+  "parameters": 44589,
+  "prepared_metadata_sha256": "166054a00fffdf67aaee1f2ac2b0914b2ae06cc5cb19665adf65658ce169becc",
+  "plan_sha256": "962f61e6d01fc26bc6e8eb20cfe134ad682ba0d2ba8e79070d60edfd6d85f6a3",
+  "device": "cuda"
+}

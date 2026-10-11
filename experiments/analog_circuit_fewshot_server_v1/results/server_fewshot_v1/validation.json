@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "small_test_runs": 54,
+  "full_ccsae_test_runs": 6,
+  "historical_full_baseline_runs_reused": 12,
+  "reload_test_predictions_exact": true,
+  "independent_metrics": true,
+  "source_data_and_checkpoint_hashes_match": true,
+  "independent_group_aggregates": true,
+  "aggregate_groups": 24
+}

@@ -1,0 +1,733 @@
+{
+  "protocol": "balanced K-shot from original Train; fixed original Val/Test",
+  "created_utc": "2026-10-11T03:03:34.722663+00:00",
+  "smoke_only": false,
+  "runs": [
+    {
+      "id": "skl_cnn1d_k10_seed42",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "cnn1d",
+      "k": 10,
+      "seed": 42
+    },
+    {
+      "id": "skl_resnet1d_k10_seed42",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "resnet1d",
+      "k": 10,
+      "seed": 42
+    },
+    {
+      "id": "skl_ccsae_v1_k10_seed42",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "ccsae_v1",
+      "k": 10,
+      "seed": 42
+    },
+    {
+      "id": "skl_cnn1d_k10_seed43",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "cnn1d",
+      "k": 10,
+      "seed": 43
+    },
+    {
+      "id": "skl_resnet1d_k10_seed43",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "resnet1d",
+      "k": 10,
+      "seed": 43
+    },
+    {
+      "id": "skl_ccsae_v1_k10_seed43",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "ccsae_v1",
+      "k": 10,
+      "seed": 43
+    },
+    {
+      "id": "skl_cnn1d_k10_seed44",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "cnn1d",
+      "k": 10,
+      "seed": 44
+    },
+    {
+      "id": "skl_resnet1d_k10_seed44",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "resnet1d",
+      "k": 10,
+      "seed": 44
+    },
+    {
+      "id": "skl_ccsae_v1_k10_seed44",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "ccsae_v1",
+      "k": 10,
+      "seed": 44
+    },
+    {
+      "id": "abl_cnn1d_k10_seed42",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "cnn1d",
+      "k": 10,
+      "seed": 42
+    },
+    {
+      "id": "abl_resnet1d_k10_seed42",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "resnet1d",
+      "k": 10,
+      "seed": 42
+    },
+    {
+      "id": "abl_ccsae_v1_k10_seed42",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "ccsae_v1",
+      "k": 10,
+      "seed": 42
+    },
+    {
+      "id": "abl_cnn1d_k10_seed43",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "cnn1d",
+      "k": 10,
+      "seed": 43
+    },
+    {
+      "id": "abl_resnet1d_k10_seed43",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "resnet1d",
+      "k": 10,
+      "seed": 43
+    },
+    {
+      "id": "abl_ccsae_v1_k10_seed43",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "ccsae_v1",
+      "k": 10,
+      "seed": 43
+    },
+    {
+      "id": "abl_cnn1d_k10_seed44",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "cnn1d",
+      "k": 10,
+      "seed": 44
+    },
+    {
+      "id": "abl_resnet1d_k10_seed44",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "resnet1d",
+      "k": 10,
+      "seed": 44
+    },
+    {
+      "id": "abl_ccsae_v1_k10_seed44",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "ccsae_v1",
+      "k": 10,
+      "seed": 44
+    },
+    {
+      "id": "skl_cnn1d_k20_seed42",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "cnn1d",
+      "k": 20,
+      "seed": 42
+    },
+    {
+      "id": "skl_resnet1d_k20_seed42",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "resnet1d",
+      "k": 20,
+      "seed": 42
+    },
+    {
+      "id": "skl_ccsae_v1_k20_seed42",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "ccsae_v1",
+      "k": 20,
+      "seed": 42
+    },
+    {
+      "id": "skl_cnn1d_k20_seed43",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "cnn1d",
+      "k": 20,
+      "seed": 43
+    },
+    {
+      "id": "skl_resnet1d_k20_seed43",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "resnet1d",
+      "k": 20,
+      "seed": 43
+    },
+    {
+      "id": "skl_ccsae_v1_k20_seed43",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "ccsae_v1",
+      "k": 20,
+      "seed": 43
+    },
+    {
+      "id": "skl_cnn1d_k20_seed44",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "cnn1d",
+      "k": 20,
+      "seed": 44
+    },
+    {
+      "id": "skl_resnet1d_k20_seed44",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "resnet1d",
+      "k": 20,
+      "seed": 44
+    },
+    {
+      "id": "skl_ccsae_v1_k20_seed44",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "ccsae_v1",
+      "k": 20,
+      "seed": 44
+    },
+    {
+      "id": "abl_cnn1d_k20_seed42",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "cnn1d",
+      "k": 20,
+      "seed": 42
+    },
+    {
+      "id": "abl_resnet1d_k20_seed42",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "resnet1d",
+      "k": 20,
+      "seed": 42
+    },
+    {
+      "id": "abl_ccsae_v1_k20_seed42",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "ccsae_v1",
+      "k": 20,
+      "seed": 42
+    },
+    {
+      "id": "abl_cnn1d_k20_seed43",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "cnn1d",
+      "k": 20,
+      "seed": 43
+    },
+    {
+      "id": "abl_resnet1d_k20_seed43",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "resnet1d",
+      "k": 20,
+      "seed": 43
+    },
+    {
+      "id": "abl_ccsae_v1_k20_seed43",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "ccsae_v1",
+      "k": 20,
+      "seed": 43
+    },
+    {
+      "id": "abl_cnn1d_k20_seed44",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "cnn1d",
+      "k": 20,
+      "seed": 44
+    },
+    {
+      "id": "abl_resnet1d_k20_seed44",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "resnet1d",
+      "k": 20,
+      "seed": 44
+    },
+    {
+      "id": "abl_ccsae_v1_k20_seed44",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "ccsae_v1",
+      "k": 20,
+      "seed": 44
+    },
+    {
+      "id": "skl_cnn1d_k40_seed42",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "cnn1d",
+      "k": 40,
+      "seed": 42
+    },
+    {
+      "id": "skl_resnet1d_k40_seed42",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "resnet1d",
+      "k": 40,
+      "seed": 42
+    },
+    {
+      "id": "skl_ccsae_v1_k40_seed42",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "ccsae_v1",
+      "k": 40,
+      "seed": 42
+    },
+    {
+      "id": "skl_cnn1d_k40_seed43",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "cnn1d",
+      "k": 40,
+      "seed": 43
+    },
+    {
+      "id": "skl_resnet1d_k40_seed43",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "resnet1d",
+      "k": 40,
+      "seed": 43
+    },
+    {
+      "id": "skl_ccsae_v1_k40_seed43",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "ccsae_v1",
+      "k": 40,
+      "seed": 43
+    },
+    {
+      "id": "skl_cnn1d_k40_seed44",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "cnn1d",
+      "k": 40,
+      "seed": 44
+    },
+    {
+      "id": "skl_resnet1d_k40_seed44",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "resnet1d",
+      "k": 40,
+      "seed": 44
+    },
+    {
+      "id": "skl_ccsae_v1_k40_seed44",
+      "case": "skl",
+      "circuit": "SKLCircuit",
+      "model": "ccsae_v1",
+      "k": 40,
+      "seed": 44
+    },
+    {
+      "id": "abl_cnn1d_k40_seed42",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "cnn1d",
+      "k": 40,
+      "seed": 42
+    },
+    {
+      "id": "abl_resnet1d_k40_seed42",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "resnet1d",
+      "k": 40,
+      "seed": 42
+    },
+    {
+      "id": "abl_ccsae_v1_k40_seed42",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "ccsae_v1",
+      "k": 40,
+      "seed": 42
+    },
+    {
+      "id": "abl_cnn1d_k40_seed43",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "cnn1d",
+      "k": 40,
+      "seed": 43
+    },
+    {
+      "id": "abl_resnet1d_k40_seed43",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "resnet1d",
+      "k": 40,
+      "seed": 43
+    },
+    {
+      "id": "abl_ccsae_v1_k40_seed43",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "ccsae_v1",
+      "k": 40,
+      "seed": 43
+    },
+    {
+      "id": "abl_cnn1d_k40_seed44",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "cnn1d",
+      "k": 40,
+      "seed": 44
+    },
+    {
+      "id": "abl_resnet1d_k40_seed44",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "resnet1d",
+      "k": 40,
+      "seed": 44
+    },
+    {
+      "id": "abl_ccsae_v1_k40_seed44",
+      "case": "abl",
+      "circuit": "ABLCircuit",
+      "model": "ccsae_v1",
+      "k": 40,
+      "seed": 44
+    }
+  ],
+  "training": {
+    "baseline": {
+      "batch_size": 128,
+      "max_epochs": 100,
+      "patience": 15,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "threads": 4,
+      "scheduler_factor": 0.5,
+      "scheduler_patience": 5,
+      "workers": 1,
+      "bn_statistics": "train_only_recalibration_before_each_validation; fixed_row_order"
+    },
+    "ccsae": {
+      "batch_size": 64,
+      "feature_epochs": 100,
+      "classification_epochs": 200,
+      "momentum": 0.9,
+      "temperature": 0.1,
+      "grad_clip": 5.0,
+      "threads": 4,
+      "workers": 1,
+      "reconstruction_target": "signed_real",
+      "learning_rates": {
+        "skl": 0.0022,
+        "abl": 0.0102
+      },
+      "scl_weights": {
+        "skl": 0.0017,
+        "abl": 0.0059
+      },
+      "bn_statistics": "original_repository_running_statistics",
+      "stage2_class_weights": "none; original_repository_cross_entropy",
+      "device": "cuda",
+      "numeric_precision": "float32_ieee_no_amp",
+      "deterministic_algorithms": true
+    }
+  },
+  "sampling_seeds": [
+    42,
+    43,
+    44
+  ],
+  "shots": [
+    10,
+    20,
+    40
+  ],
+  "split_seed": 20261009,
+  "subset_is_nested": true,
+  "normalization": "selected Train only",
+  "unselected_train_usage": "none in training, pretraining or BN recalibration",
+  "data_dir": "/home/wang/projects/会议论文/Data_deduplicated",
+  "baseline_reference": "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/baseline_v2",
+  "source_sha256": {
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/analyze_fewshot.py": {
+      "sha256": "40ecf4976ea13e2f4417cad1f0aa3cb264178dc7a573b47198a8f6c526b84d7a",
+      "snapshot": "fewshot/analyze_fewshot.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/fewshot_data.py": {
+      "sha256": "8558a374490b5dee50d6c8793b6eb516a183c03208e2cc704b858709d13737fa",
+      "snapshot": "fewshot/fewshot_data.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/run_fewshot.py": {
+      "sha256": "1f72c820140f667fb0c3d13c6530241556f504d335cbb95c1f4d102840d431cd",
+      "snapshot": "fewshot/run_fewshot.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/verify_fewshot.py": {
+      "sha256": "51406146a0fe224ad186705304f58c2f2704cfa9ed2c5c17035f0d1f5691311b",
+      "snapshot": "fewshot/verify_fewshot.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/tests/test_sampling.py": {
+      "sha256": "fbbec5c61cf1ab7d0546027f107052834048db338db4ccd62afdfa0a848bf53e",
+      "snapshot": "fewshot/tests/test_sampling.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/_reference/baselines/__init__.py": {
+      "sha256": "22b4afbbcd97b62b86e7f0df2b96e1004b68da7d1e600f7d67862cb846d0e935",
+      "snapshot": "reference/baselines/__init__.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/_reference/baselines/data.py": {
+      "sha256": "ac4fcdcc20f7dd59f4c30b2efb24f887116f7f455f83b2f2fc381a8e2b8ffc2f",
+      "snapshot": "reference/baselines/data.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/_reference/baselines/metrics.py": {
+      "sha256": "8e0afe33f7cba9cdfd5e88d43af2e1190a50fef9c8d9df54cef2988f90bacf63",
+      "snapshot": "reference/baselines/metrics.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/_reference/baselines/models.py": {
+      "sha256": "b9c96fa1d78ca0c4a1e7a7626a4f5a6a5e29456faa091ff5db4dcd47048e5263",
+      "snapshot": "reference/baselines/models.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/_reference/baselines/run.py": {
+      "sha256": "f0f31d1904e99bdcd88e8ca2333317c41a844450a1c3b61cc0fbb8a5e290544a",
+      "snapshot": "reference/baselines/run.py"
+    },
+    "/home/wang/projects/会议论文/analog-circuit-fewshot/_reference/baselines/verify.py": {
+      "sha256": "69a963f603eae5939390aa5637a838108ea697a9367de7d3adf4eff29334c03b",
+      "snapshot": "reference/baselines/verify.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/src/ccsae/__init__.py": {
+      "sha256": "c5c18424308d7affddcdf46e4f991f361e35c0927414c046ca587c050945ddd9",
+      "snapshot": "ccsae_v1/ccsae/__init__.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/src/ccsae/complex_layers.py": {
+      "sha256": "7d545c773329d91543f1cf14dde5e768825ea1d01c13d7aa4115f48d20aca9e8",
+      "snapshot": "ccsae_v1/ccsae/complex_layers.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/src/ccsae/data.py": {
+      "sha256": "cbd5e9514ef9178193997e33cf1902fa88485009cbadbf79b9ed62e8d6b6e78c",
+      "snapshot": "ccsae_v1/ccsae/data.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/src/ccsae/fixed_data.py": {
+      "sha256": "2eebf60ad946d2e61fe612f8884984f8187eaac333f908ffd8e2f8aa947665a3",
+      "snapshot": "ccsae_v1/ccsae/fixed_data.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/src/ccsae/fixed_experiment.py": {
+      "sha256": "865b538565dbc949732715f6ddec349e815227cb91b9203ee6b8a834fe4baa0b",
+      "snapshot": "ccsae_v1/ccsae/fixed_experiment.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/src/ccsae/fixed_verify.py": {
+      "sha256": "db335a72720b4684a3f5b4f067e69ef01764dbfdde932b3e6e9f2e704ca72794",
+      "snapshot": "ccsae_v1/ccsae/fixed_verify.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/src/ccsae/losses.py": {
+      "sha256": "2e9c6096cd42c6d9c4102656282606177a08e0aece30a5f7e1880e5aa64717b9",
+      "snapshot": "ccsae_v1/ccsae/losses.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/src/ccsae/model.py": {
+      "sha256": "6700829f6fc8b0d1c3dc673c282e9ad1531371751e8e8e34458a8d28e18344d8",
+      "snapshot": "ccsae_v1/ccsae/model.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/src/ccsae/train.py": {
+      "sha256": "442161744d6ef05261ae3d721d1ed01564c92f3df8be9558aa09a75bc2a8c02a",
+      "snapshot": "ccsae_v1/ccsae/train.py"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper/pyproject.toml": {
+      "sha256": "654700d73038ff6f6a2d026c8dcecad93b4681f477f565573566740ff447d8dd",
+      "snapshot": "environment/pyproject.toml"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper/uv.lock": {
+      "sha256": "570361b10d6af63feaccc685106e156debc3e73854952c154be54f8b0ed20c9c",
+      "snapshot": "environment/uv.lock"
+    },
+    "/home/wang/projects/会议论文/Conference-Paper/.python-version": {
+      "sha256": "fa682ae9d943f5c8076e68335c9ba3ab4d063ad035c07ac6928653dd4ac50af7",
+      "snapshot": "environment/.python-version"
+    }
+  },
+  "reference_sha256": {
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/plan.json": "9469cf1f83a522cdb39f68c0c9d69200d52aea27f216f0f03e84301bbf9efe81",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/summary.json": "b98302aabc73d1433211228a2dfd0e0241a62b76c729ca5435acfcc230faeb6c",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/validation.json": "34eaa84faf69268a32a06a498ea42c605f7038cf4912a0a89dd22fae38ed9fd9",
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1/plan.json": "fda90564383daa8a7e3ed3117b473edd0b14db65feee2e10583fafcddee78920",
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1/summary.json": "7cec43b6f9bdbb043faeb1d3b12f42dc25da2d173a48eb35dcdf4ac2cf9644a2",
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1/validation.json": "7436c5d17d63412af4327a95ae9dad296d3b935aac58763b4ec27bddec4cb70a",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/SKLCircuit_cnn1d_seed42/best.pt": "40203a14aebcf01f1c1c46fe16a107854b73a4a896e537ee8dc2ea6b0632b915",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/SKLCircuit_cnn1d_seed43/best.pt": "ead21c3f2a58c853e1a968188b9b62c08ad1e9d6ac731a411835634d6159e113",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/SKLCircuit_cnn1d_seed44/best.pt": "ac476e30850bc0b5d1395a1aa4f9be13ceb9d2f81b7a05d4b1bcfb15b576e2de",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/SKLCircuit_resnet1d_seed42/best.pt": "4a2868a0fb9bc1c10c8cd1182982c06a2b1ea997715788cd80bca92446b7d8fc",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/SKLCircuit_resnet1d_seed43/best.pt": "a6d335ecc438040b46b7a8200c84a33f4d9cf59ffb22132d39f7a2fbc9c04a27",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/SKLCircuit_resnet1d_seed44/best.pt": "677396d2e3f12fcb4360ed3f0b6136cdf094aa2a6d8d4aa9713c8370801ea5a2",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/ABLCircuit_cnn1d_seed42/best.pt": "92cca14fa90d2a762bcf5f923dc99a09e39b763557ca3cc03a9323d24e382665",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/ABLCircuit_cnn1d_seed43/best.pt": "d088ec39589fc23eae96a1c1d37396ceeb119778d1f2b6df46c71c1e57930bda",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/ABLCircuit_cnn1d_seed44/best.pt": "1578310950b4fedf1caaaa59c6ba061e333c242755d457c5537b481cb6821187",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/ABLCircuit_resnet1d_seed42/best.pt": "e38b7b928cd2c64875eead8c2fb4f94b12a80d14b284af3b6a71e517981427bf",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/ABLCircuit_resnet1d_seed43/best.pt": "6ac94d60b8500bc1a2e28c07d9f86dc56a3a0a64c9700c325e29c7e0b054c893",
+    "/home/wang/projects/会议论文/analog-circuit-baselines/artifacts/server_gpu_v1/ABLCircuit_resnet1d_seed44/best.pt": "c0174aedc6bfb7f7aff22f683090c9fe2fab3d5205af0b50433c7668dd86354b",
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1/skl/seed_42/stage2_best.pt": "0cd12187dbe1f0e7f1a280b05be3c7caab52d6711f5b60b6f37c15653ed9faf2",
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1/abl/seed_42/stage2_best.pt": "7bc38cea73ca7a8a39f596f610094b1d6a86d1efa54873003727b61fcdd17d77",
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1/skl/seed_43/stage2_best.pt": "2a91513ad210caa11f8e32df508640e8179e9d09113638e698bcb51dc3cd6531",
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1/abl/seed_43/stage2_best.pt": "888996d47123f73ca148a2c494d62a4ba464b76e4f730d7f8ad9cfd269d72099",
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1/skl/seed_44/stage2_best.pt": "2cb6c4aed5b6116a2be208d3d144987402e70a0b4babf8b934ffaa72b4dcc87e",
+    "/home/wang/projects/会议论文/Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1/abl/seed_44/stage2_best.pt": "e69b80347526bccd9a476cc8a8593e616b7c45468011f4359044c7735a2e165a"
+  },
+  "data_sha256": {
+    "ABLCircuit_INCI_test_data.csv": "8abd878c28dde5fede71fc931e4999b544a195be33df780a3c05c1a91226a0e1",
+    "ABLCircuit_INCI_test_label.csv": "3df8a6fca15da8e9333aeb8fdd83e3890c980706d01d93cb6abc355498b0929f",
+    "ABLCircuit_INCI_train_data.csv": "e4d90ee3770e723054b76b2cd88cbec3e9620ce71dcf9d1a6f845bb496bb1d51",
+    "ABLCircuit_INCI_train_label.csv": "31a2b1825523620eaee773ffff10a8e5f8b3f81481ebab02c9d3c082cd8834e2",
+    "ABLCircuit_INCI_val_data.csv": "92c442ca2672acc28d8756909676a841d0b260132ef6b024d0cb0adf4b6ec65a",
+    "ABLCircuit_INCI_val_label.csv": "616ecf510aa880051e52e3535bbabbe01afec7d6c343e0498f2a6b3f235aaa01",
+    "ABLCircuit_manifest.csv": "9166891533996fd8871eb72eb96002a31a9d4c4d5404343ef697100b508a913f",
+    "SKLCircuit_INCI_test_data.csv": "5f69d906c5c867584f6fea9b07b42e1dea69e8b1e4d508604555d29e8cd19ade",
+    "SKLCircuit_INCI_test_label.csv": "73945e5f3ca980966dc2bfb356d161db9763f7ef7c49a242842d9469d6104022",
+    "SKLCircuit_INCI_train_data.csv": "0488e15807bc9dd3f16d0da0832fea98bc0b6e24c019ac827e83fe7f92fcd5de",
+    "SKLCircuit_INCI_train_label.csv": "e4294bf983eced2036deafb0e06301378ae7f7aa36063062c07747e190fbe340",
+    "SKLCircuit_INCI_val_data.csv": "d080ab9d6ff617e7eb5be6d184b994bd6f0a3432d72fc553eacd32e3910bc8ff",
+    "SKLCircuit_INCI_val_label.csv": "c8487c8dcc16dc74e939b72da759350f6336c9eb8c8285510c1d229f0a655be5",
+    "SKLCircuit_manifest.csv": "03b97c29c61336ea7e6acfb5a21043edd16f376d19c454f9d7a77dc9cc9c84eb"
+  },
+  "prepared_sha256": {
+    "prepared/abl/seed_42/k_10/ABLCircuit_test.npz": "abc3d4c764f68c67824eeb6a49358ac2bbfd7fab81921dc1bddb7b86ebcf4d89",
+    "prepared/abl/seed_42/k_10/ABLCircuit_train.npz": "2d49d3c06f15b28bd8fe368b7acf66ded598ac3ca9d97435c60d0ac5f8f83166",
+    "prepared/abl/seed_42/k_10/ABLCircuit_val.npz": "501d00f82fe701bdd92210b1c6ab15596cca15728cd8423a4bcbf6aa4dac8a9d",
+    "prepared/abl/seed_42/k_10/metadata.json": "40e88f4a6f6510c875f6a2c303ca8f9b30a501ded88a12a5067f7824ad410332",
+    "prepared/abl/seed_42/k_10/train_selection.csv": "e4d544d00893af77f08127709f6dac3404f5867ee9486578fdf7963ca893d88b",
+    "prepared/abl/seed_42/k_20/ABLCircuit_test.npz": "d2a2c7ad6de95dbd804f8401a508c55d4d1fc36842649e39e312d1c7859778d1",
+    "prepared/abl/seed_42/k_20/ABLCircuit_train.npz": "a1aa753e1733aac5a0ecbc2240203c1cbc505dc751072dc9045b10cf6058708a",
+    "prepared/abl/seed_42/k_20/ABLCircuit_val.npz": "06e3b06e2325febde03c6f42ac242795dc5115bf994009f533bbb15b6cba4424",
+    "prepared/abl/seed_42/k_20/metadata.json": "7a59d7a106447445ff621ba5e77e346d5a32e4ec3ceb309b6cb94e00abd53cea",
+    "prepared/abl/seed_42/k_20/train_selection.csv": "b410340a8864bd328b80611ab2eb57dec138ae135c28c57a1df47ede0c933bc5",
+    "prepared/abl/seed_42/k_40/ABLCircuit_test.npz": "84e87b47296add684b9cea61e9eaaca5cf63c4b5ee6a759126f2276311cbaede",
+    "prepared/abl/seed_42/k_40/ABLCircuit_train.npz": "7b09f207aa110bd3424b824fdcd5bc5177717c5da3a8a5e81c521be7689a0c12",
+    "prepared/abl/seed_42/k_40/ABLCircuit_val.npz": "e9857868f25b5f18aca10432fa218d7468b7b80d975ca6cc9ae208a6a8eac0c0",
+    "prepared/abl/seed_42/k_40/metadata.json": "0671abd897184fd9036dba72d179e17a48afcdf0757e31c3bca81b82edcafb1a",
+    "prepared/abl/seed_42/k_40/train_selection.csv": "acdc08ae7f2caff9b9057fcf25c62accbc546248b7195c40c35229229aec3280",
+    "prepared/abl/seed_43/k_10/ABLCircuit_test.npz": "656b1fe4755cc63f24dc6611b62ea623c406a50c667de6a8b7f6628625a7750c",
+    "prepared/abl/seed_43/k_10/ABLCircuit_train.npz": "61e00cf92a711c62e9b63890ed1a2379b4b7cdab2ed36cceaf7b4304359f3118",
+    "prepared/abl/seed_43/k_10/ABLCircuit_val.npz": "929378ae3b02396fb9add1be513a4135e84e8b2f80a857edefbe4ffade0cb9df",
+    "prepared/abl/seed_43/k_10/metadata.json": "98c698939993fba4a32c9cc55d49ef3158cd2c0e61872914dff706c011d67248",
+    "prepared/abl/seed_43/k_10/train_selection.csv": "7a7338efe2c22628c4d7cc9bafed5a396b001b1ae80fb31bb2507e886b28f312",
+    "prepared/abl/seed_43/k_20/ABLCircuit_test.npz": "652e6def11aab2270aae07a162bd044516c5dba52e57a7e95e3acfd947b267e3",
+    "prepared/abl/seed_43/k_20/ABLCircuit_train.npz": "15784168dc8fc9bac93a6d71759a4959eefeabba45527ce0af9af5f1c0d8ed29",
+    "prepared/abl/seed_43/k_20/ABLCircuit_val.npz": "e2cb9294d4ea25dc5bbcf4e626d0e9441439de3aa7534159da4bdb1896b9b0e8",
+    "prepared/abl/seed_43/k_20/metadata.json": "a45f068177c870686d304a49177dfc73abe82f62807bbbeb79223cc1b1e633c6",
+    "prepared/abl/seed_43/k_20/train_selection.csv": "d876a428d41edf4a8329a84c7b9031936d1133b7e3126fc2b3cb9ab9816c38f6",
+    "prepared/abl/seed_43/k_40/ABLCircuit_test.npz": "25b50fbcca0b389d77f9ef8f9bb3de818643d4b041c983b8107ebb29bf9d4022",
+    "prepared/abl/seed_43/k_40/ABLCircuit_train.npz": "e3aadad165b8783a6d0f53500d88c2ce8fbd6a98670f89f94f2b9d49da522d3f",
+    "prepared/abl/seed_43/k_40/ABLCircuit_val.npz": "1ac0af27cf7431b99b686e1935dd187f40f7d24faeaeaa6c3b4c8e2049fc5691",
+    "prepared/abl/seed_43/k_40/metadata.json": "3a3a89e8433b51b657183c10cedb812c5fd22d969b99ee2f324267d9e0fdeb7c",
+    "prepared/abl/seed_43/k_40/train_selection.csv": "16e24ee9525fd3e0aed79da307c085fac08767430faca1e8c54a362bfbd2b9ca",
+    "prepared/abl/seed_44/k_10/ABLCircuit_test.npz": "3839e1eba5f17cb5a1525339ced4d7e3ebc7a6c7773f97af104c33d026e7592f",
+    "prepared/abl/seed_44/k_10/ABLCircuit_train.npz": "6a899f629ad951016a4c165a34ef5ef5a6c82289e1690fb08c2835b29480a67b",
+    "prepared/abl/seed_44/k_10/ABLCircuit_val.npz": "4744cace65e8c9edf0de18e095b38b6bc6bb212273e22bb30fe4dd6edc394d23",
+    "prepared/abl/seed_44/k_10/metadata.json": "539aff5480a0a73a857c606c68a8efe36e693f7c97297d311916ad9e835bb62f",
+    "prepared/abl/seed_44/k_10/train_selection.csv": "7829d6f322a9f8746bbd695a29533e8d8d0a45738c8e4fe453722db9ded1201b",
+    "prepared/abl/seed_44/k_20/ABLCircuit_test.npz": "9fce9aa38cdb6f6ad598a2a655b37c488a50f583b9f5c9188528b9420edb3849",
+    "prepared/abl/seed_44/k_20/ABLCircuit_train.npz": "c2783f89ebe50ff7b961cdec4789900e64b74223a79fe05339fb0b210d302915",
+    "prepared/abl/seed_44/k_20/ABLCircuit_val.npz": "6753b4dc0cfd09427a9215992cec7be4c5fec30b5a7152a221485ffb86f44e91",
+    "prepared/abl/seed_44/k_20/metadata.json": "373b437025fc091c3861c1e6f5dab56424c4c5267c1220d5e06538568f6f58b4",
+    "prepared/abl/seed_44/k_20/train_selection.csv": "252d1bc6757a271fe4af2e2482487e450fa861c3f21761c1ba1ee5f281a08f0a",
+    "prepared/abl/seed_44/k_40/ABLCircuit_test.npz": "3bba93789d51864b9300a1882085997f56bdc24ca2f421f9d0dcbfa5ad094129",
+    "prepared/abl/seed_44/k_40/ABLCircuit_train.npz": "55cfd39bd923891f5077dbd1f87eec85d4316d77955332ea27c47d3c9a2eae8c",
+    "prepared/abl/seed_44/k_40/ABLCircuit_val.npz": "720d1b54770ffc096d7652fc752e3e0dc49b9446863e7682a9e6e60382a769fa",
+    "prepared/abl/seed_44/k_40/metadata.json": "3872dcc69c8dab2ffed77a37d553a064b6302a6123d6c8aa50ee69ab338409c6",
+    "prepared/abl/seed_44/k_40/train_selection.csv": "6ca50fe566be0ae1d7902da633cb6555c3593fa58a635a065cb9f9a56067d5c8",
+    "prepared/skl/seed_42/k_10/SKLCircuit_test.npz": "16d09fdfe80e6c4f850d7fa885484b2f02831916639f6aac9c368baa6638f599",
+    "prepared/skl/seed_42/k_10/SKLCircuit_train.npz": "ae7415e75422d7e542abf742dff1c05f671b28e77264d74a6d6b7fa7c342139f",
+    "prepared/skl/seed_42/k_10/SKLCircuit_val.npz": "df6da3de5d262f3c6c9e2b21c8f873589f44d2a6893388d6cf1f556baa619d10",
+    "prepared/skl/seed_42/k_10/metadata.json": "e5d28e9fecf1a651462508df08b9945b81a9fd63b9fae12b78d0e7cfa0800c46",
+    "prepared/skl/seed_42/k_10/train_selection.csv": "ef279cfa5a3b17c2101d2f0d15efbf6ee7c02b1635f0231ba3f21e063bb60370",
+    "prepared/skl/seed_42/k_20/SKLCircuit_test.npz": "29c11e0c4a545fc5993313aa73d31bac42c87422a3d3449b039917b3c890de49",
+    "prepared/skl/seed_42/k_20/SKLCircuit_train.npz": "728dfc7bf0209545e7ef7f34dbd98a0775f279031d1d0e81ce3a86291525cd82",
+    "prepared/skl/seed_42/k_20/SKLCircuit_val.npz": "67613123e5545d386ee8d0f9aa04b39dad7196b5018aab524c5968b98711a1e4",
+    "prepared/skl/seed_42/k_20/metadata.json": "e6b38b09241301a079bceaadc2c9234a9ccec305121fe46460a702b0d2122962",
+    "prepared/skl/seed_42/k_20/train_selection.csv": "df2d0504ecbf3ab6f55e337b56f18d3bd3adfd8a7c5645ab9de31d253307bbcc",
+    "prepared/skl/seed_42/k_40/SKLCircuit_test.npz": "16d99d6ec32d79e59be18b51f77c3b53d2845e3f870c94ffdf54e5bc36d0f086",
+    "prepared/skl/seed_42/k_40/SKLCircuit_train.npz": "e186a599d95058871c17d5d39a2ef565b2ca44501612236e549780b8cccc844f",
+    "prepared/skl/seed_42/k_40/SKLCircuit_val.npz": "6b46e8a7f08b6790725badb934cb2c9e0729662e6261f6caa4b9d27ad0682091",
+    "prepared/skl/seed_42/k_40/metadata.json": "278bd6b844f812f4b3379596f990400ffb59ec4e25154864266feb6b503fd7fc",
+    "prepared/skl/seed_42/k_40/train_selection.csv": "6ce631931c7744f163c886b6600746bb72f02dbf4fafef5a5e4ef6b1f4607709",
+    "prepared/skl/seed_43/k_10/SKLCircuit_test.npz": "9bf38b1b7421a6720f5097db05fd2e4e8f03380ed1b75d72502aa4df13d057bf",
+    "prepared/skl/seed_43/k_10/SKLCircuit_train.npz": "cb071d8a46868dee9e7135d73b754abe10bbed4e5fe3d7dbc0956c75117e95ac",
+    "prepared/skl/seed_43/k_10/SKLCircuit_val.npz": "cc67a11354713f82615f25ed244ca028bc0485d326b96fbe89d6be86ee758383",
+    "prepared/skl/seed_43/k_10/metadata.json": "09aead45d999fd400b33de2f5333776911ce2c92e6ffd53757c69c3407c71d39",
+    "prepared/skl/seed_43/k_10/train_selection.csv": "f45cf238f715d981eaa1b4ea2bc6a5e059cd44d480fdbcd3c47405a237ccc22a",
+    "prepared/skl/seed_43/k_20/SKLCircuit_test.npz": "414ae20fa2f0c20c16b6df2ee65be57954e4fce3285fb5ae746317bb9d7aa6ef",
+    "prepared/skl/seed_43/k_20/SKLCircuit_train.npz": "6d50dbdf6d36c432c88dd8d16c26fd77e70ab4edf273373edf4de61c7b9ec006",
+    "prepared/skl/seed_43/k_20/SKLCircuit_val.npz": "4ee255c484abafc1a255b6331fdecb96fdb3f32a6e3915e069270497ac1c8a92",
+    "prepared/skl/seed_43/k_20/metadata.json": "af76e604c2c212b247031545aecc17bec253755dd6b21a9a0b6c650161bbaa46",
+    "prepared/skl/seed_43/k_20/train_selection.csv": "b5d9313e94e78c0b84156c89ebb17a6058f5af94a1406671ec950e43a8e12fe1",
+    "prepared/skl/seed_43/k_40/SKLCircuit_test.npz": "c4256010b9870970b25deceb24e22c5f6b52c90af084049cb85d2b13c1bebb3c",
+    "prepared/skl/seed_43/k_40/SKLCircuit_train.npz": "9e2004f27bce57897eb9ca9f069def314214ca2b06b5ba8e9797ec9e7cfb96bb",
+    "prepared/skl/seed_43/k_40/SKLCircuit_val.npz": "7a3a60ca8a081063f642a87e2e6178cf82adc88aedb8db2b7cd64fbd26b8bb0d",
+    "prepared/skl/seed_43/k_40/metadata.json": "166054a00fffdf67aaee1f2ac2b0914b2ae06cc5cb19665adf65658ce169becc",
+    "prepared/skl/seed_43/k_40/train_selection.csv": "b0fc55d2af711b984b9de8ff42219c8ca2955a4d37ec39ee724637deda6c071d",
+    "prepared/skl/seed_44/k_10/SKLCircuit_test.npz": "85e935d9ce3353ad3e87a29a608a370c4cf26797634e1017a8f854b9634d28f1",
+    "prepared/skl/seed_44/k_10/SKLCircuit_train.npz": "0ee0500730c42356471c6eb7f7df9f997e6c2006d2d38897ba8a6b1597904faf",
+    "prepared/skl/seed_44/k_10/SKLCircuit_val.npz": "a49ddee75c5a626d993bf92fd7dd079bf7147deb644b08cd508ef7ca494fc883",
+    "prepared/skl/seed_44/k_10/metadata.json": "109d8b91ff2aded5dc8f02ba7208ab0a22fdb1e9d2a78e5dfa5ec445eedd0fb1",
+    "prepared/skl/seed_44/k_10/train_selection.csv": "75e91e092942f464efb4dc7d5368c38c96668e4fe486ac1ceeb0354d8ddff4da",
+    "prepared/skl/seed_44/k_20/SKLCircuit_test.npz": "2ab41805552a9e655b20ef0b3c56c9f6db2c06a7591893dea6b228e79d0df100",
+    "prepared/skl/seed_44/k_20/SKLCircuit_train.npz": "add466f9bd5aaef6a703a0e0006d959144dd11d45d01b892e25686e107e7c2b1",
+    "prepared/skl/seed_44/k_20/SKLCircuit_val.npz": "8d2e9dbb2cebf25128e1c9573892ecad64c0e361d01e7c8a4bcfa8e98b384433",
+    "prepared/skl/seed_44/k_20/metadata.json": "61e8cc371239326dba6be92cf61659ef04401131654bded337671bb8498220e1",
+    "prepared/skl/seed_44/k_20/train_selection.csv": "443c479713527e57729e9407a99a3785dfec4fda8724aea4891bcee358a13ffd",
+    "prepared/skl/seed_44/k_40/SKLCircuit_test.npz": "05ed46024ca521f4e6c4a0298a114236c084923d38b2433f80a8a039290dc0d5",
+    "prepared/skl/seed_44/k_40/SKLCircuit_train.npz": "ad765a285e467addcd345d72cd6265e3030ee334b728f8ba2a94fef86ae77f3f",
+    "prepared/skl/seed_44/k_40/SKLCircuit_val.npz": "a16a66cfbb287b9fe062d808319c8bb0e70f1727ae80ee7ae709af036af28b2b",
+    "prepared/skl/seed_44/k_40/metadata.json": "29f1c90d0b23c5061779e8e714cdf2d484f12bffdc51a1a886800e69b42ecb32",
+    "prepared/skl/seed_44/k_40/train_selection.csv": "8ba0012fecdf7c5af514128ecaeb2fbbcd031b610473c854dade5160ae7551cb"
+  },
+  "environment": {
+    "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+    "numpy": "2.5.3",
+    "torch": "2.14.1+cu130",
+    "cuda_runtime": "13.0",
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "device": "cuda",
+    "deterministic_fp32": true
+  },
+  "reference_baseline_metrics": "reuse already verified full-Train Val/Test results",
+  "reference_ccsae_metrics": "reuse full-Train Val; evaluate existing weights on Test after all training",
+  "test_policy": "all 54 selections and checkpoint hashes frozen before any new Test prediction"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "abl_resnet1d_k40_seed43",
+  "case": "abl",
+  "circuit": "ABLCircuit",
+  "model": "resnet1d",
+  "k": 40,
+  "seed": 43,
+  "epoch": 100,
+  "train_loss_weighted": 0.20833543647419323,
+  "val_loss_unweighted": 0.397147951843918,
+  "val_macro_f1": 0.815702980412727,
+  "val_accuracy": 0.8451612903225807,
+  "learning_rate": 1.5625e-05,
+  "seconds": 0.058873643007245846,
+  "best_epoch": 93,
+  "best_val_macro_f1": 0.8178652528220796,
+  "phase": "train"
+}

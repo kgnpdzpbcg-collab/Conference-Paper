@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "server_files_byte_exact": 284,
+  "fewshot_runs": 54,
+  "fewshot_groups": 18,
+  "all_saved_val_and_test_confusion_metrics_verified": true,
+  "three_seed_statistics_independently_verified": true,
+  "original_training_and_test_verification_reused": true,
+  "no_training_or_model_inference_in_this_publication": true
+}

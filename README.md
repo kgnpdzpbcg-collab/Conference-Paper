@@ -6,6 +6,7 @@
 
 - [完整规模验证报告](docs/CCSAE_PROTOTYPE_SHOT_SCALE_SERVER_RESULTS.md)
 - [独立归档与逐种子证据](experiments/ccsae_prototype_shot_scale/README.md)
+- [历史CNN / ResNet1D / CCSAE v1少样本Test成绩](docs/FEWSHOT_BASELINES_CCSAE_V1_SERVER_TEST_RESULTS.md)（不同划分与预算，独立归档）
 
 ## 上一阶段：D0 诊断与 P1 距离尺度服务器验证结果
 
