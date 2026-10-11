@@ -19,7 +19,20 @@ ccsae-fewshot --case abl --data data/Data.zip --k 20 --seed 42 --stage1-epochs 1
 
 默认 mode=both：同 K-shot Train、相同 Episode 样本和优化步数、**共享 Stage 1 权重**下比较原 FC 与新的 Prototype Head；只输出固定 **5 Val 标签/类**的指标，**本入口没有 Test 评估**。正式对照应再运行 seed 43、44 并比较配对差值。
 
-**数据处理的重要区别**：这里按波形 SHA256 真正去重，SKL 3800、ABL 3100 条唯一波形；原 V1 data.py 的 grouped 模式只分组但保留重复行。新划分与旧服务器 baseline 是否逐条一致目前未核实，不要直接混用历史成绩。
+**数据处理的重要区别**：这里按波形 SHA256 真正去重，SKL 3800、ABL 3100 条唯一波形；原 V1 data.py 的 grouped 模式只分组但保留重复行。服务器核查已确认新旧逐条划分不同，不要直接混用历史成绩。
+
+### 最新服务器结果（2026-10-11）
+
+已在 RTX 5070 Ti 上完成 K=20、种子 42/43/44 的 6 组 FC/Proto 配对实验，复用已有 uv 环境，4 进程并发，正式训练批次耗时 52.907 秒。上游模型与训练算法保持提交 `7ef4042` 的原实现。
+
+| 电路 | FC Val Macro-F1 (%) | Proto Val Macro-F1 (%) | Proto−FC (pp) |
+|---|---:|---:|---:|
+| SKL | 59.74 ± 1.87 | 46.99 ± 3.10 | −12.74 ± 4.96 |
+| ABL | 61.94 ± 3.14 | 42.98 ± 1.21 | −18.96 ± 3.09 |
+
+均值 ± 样本标准差，n=3。**全部 6 个配对种子中 Proto 均低于 FC，本轮不支持原型头的收益假设。仅评估固定 5 Val/类，没有评估 Test。** 14 项单元测试及正式权重、预测和指标独立核验通过。数据核查已确认：新旧唯一波形集合一致，但逐条划分不同，因此不能直接混用历史成绩。
+
+[完整服务器报告](docs/CCSAE_PROTOTYPE_K20_SERVER_RESULTS.md) · [逐种子结果与核验证据](experiments/ccsae_prototype_k20/README.md)
 
 ---
 

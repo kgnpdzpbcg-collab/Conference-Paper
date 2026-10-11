@@ -1,6 +1,6 @@
 # CCSAE + Prototype：有限标注早期模拟电路故障诊断（方案 V1 / P0）
 
-> 2026-10-11；状态：代码实现，尚待本地 GPU 验证。目标是形成普通 EI 会议论文，而非严格复现 CCSAE。**本轮唯一结构改动是把 Stage 2 的 FC+CE 替换为 episodic Prototype+Distance CE**；暂不增加加权原型、额外注意力、Mamba、其他 backbone 或额外损失。
+> 2026-10-11；状态：代码实现，已完成服务器 P0 快速验证，仅有 Val 结果，没有 Test 评估。目标是形成普通 EI 会议论文，而非严格复现 CCSAE。**本轮唯一结构改动是把 Stage 2 的 FC+CE 替换为 episodic Prototype+Distance CE**；暂不增加加权原型、额外注意力、Mamba、其他 backbone 或额外损失。服务器结果见 [实验报告](CCSAE_PROTOTYPE_K20_SERVER_RESULTS.md)。
 
 ## 1. 研究问题与论文故事
 
@@ -10,7 +10,7 @@
 
 **本研究问题**：当模拟电路各类早期故障只有少量已标注波形时，类别判别边界的学习可能不稳定。能否利用标注训练波形构造类别原型，使 CCSAE 表示更适合低标注分类？
 
-**研究假设 H1**：当 K=20 时，基于原型的 Stage 2，在同一编码器与相同样本和更新预算条件下，比普通 FC 分类取得更高或更稳的验证 Macro-F1。**假设尚未验证，不能写成已取得的性能贡献。**
+**研究假设 H1**：当 K=20 时，基于原型的 Stage 2，在同一编码器与相同样本和更新预算条件下，比普通 FC 分类取得更高或更稳的验证 Macro-F1。**本轮固定 P0 协议的服务器结果不支持该收益假设：两套电路各三个种子中 Proto 均低于 FC，不能写成已取得的性能贡献。该结果不推断其他训练设置的表现。**
 
 论文定位是 limited-label closed-set fault classification：SKL 全部 13 类、ABL 全部 11 类均在训练中可见，不是元学习测试未见类别，也不涉及跨域/新故障零样本识别。
 
@@ -189,4 +189,4 @@ foreach ($case in @("skl","abl")) { foreach ($seed in @(42,43,44)) { ccsae-fewsh
 - tests/test_fewshot.py：采样独立性、K 子集嵌套、原型梯度等。
 - pyproject.toml：ccsae-fewshot 命令。
 
-**本文件是算法设计和可复现实验协议，不包含任何已获得的新实验性能。**
+**本文件记录算法设计和可复现实验协议；已获得的 P0 服务器验证结果单独保存在 [实验报告](CCSAE_PROTOTYPE_K20_SERVER_RESULTS.md)，没有最终 Test 性能。**

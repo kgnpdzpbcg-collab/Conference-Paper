@@ -1,0 +1,113 @@
+{
+  "started_utc": "2026-10-11T06:24:12.224932+00:00",
+  "ended_utc": "2026-10-11T06:25:05.131971+00:00",
+  "wall_seconds": 52.90705425100168,
+  "workers": 4,
+  "cpu_threads_per_worker": 4,
+  "smoke": false,
+  "pairs": [
+    {
+      "case": "abl",
+      "seed": 42,
+      "seconds": 34.018523271995946,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6363636363636364,
+          "macro_f1": 0.5840220385674931,
+          "balanced_accuracy": 0.6363636363636364
+        },
+        "proto": {
+          "accuracy": 0.4727272727272727,
+          "macro_f1": 0.42952905680178416,
+          "balanced_accuracy": 0.4727272727272727
+        }
+      }
+    },
+    {
+      "case": "abl",
+      "seed": 43,
+      "seconds": 34.38226915898849,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6727272727272727,
+          "macro_f1": 0.643939393939394,
+          "balanced_accuracy": 0.6727272727272727
+        },
+        "proto": {
+          "accuracy": 0.45454545454545453,
+          "macro_f1": 0.44202413747868297,
+          "balanced_accuracy": 0.45454545454545453
+        }
+      }
+    },
+    {
+      "case": "abl",
+      "seed": 44,
+      "seconds": 34.764066561998334,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6727272727272727,
+          "macro_f1": 0.6303242212333121,
+          "balanced_accuracy": 0.6727272727272727
+        },
+        "proto": {
+          "accuracy": 0.41818181818181815,
+          "macro_f1": 0.4178800996982815,
+          "balanced_accuracy": 0.4181818181818182
+        }
+      }
+    },
+    {
+      "case": "skl",
+      "seed": 42,
+      "seconds": 35.871662717006984,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6307692307692307,
+          "macro_f1": 0.6143215758600373,
+          "balanced_accuracy": 0.6307692307692307
+        },
+        "proto": {
+          "accuracy": 0.46153846153846156,
+          "macro_f1": 0.441437622206853,
+          "balanced_accuracy": 0.4615384615384616
+        }
+      }
+    },
+    {
+      "case": "skl",
+      "seed": 43,
+      "seconds": 16.74086884400458,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6153846153846154,
+          "macro_f1": 0.5773602465910158,
+          "balanced_accuracy": 0.6153846153846154
+        },
+        "proto": {
+          "accuracy": 0.5230769230769231,
+          "macro_f1": 0.5028721278721279,
+          "balanced_accuracy": 0.5230769230769231
+        }
+      }
+    },
+    {
+      "case": "skl",
+      "seed": 44,
+      "seconds": 16.387936198007083,
+      "metrics": {
+        "fc": {
+          "accuracy": 0.6307692307692307,
+          "macro_f1": 0.6004218004218004,
+          "balanced_accuracy": 0.6307692307692307
+        },
+        "proto": {
+          "accuracy": 0.47692307692307695,
+          "macro_f1": 0.46553574630497707,
+          "balanced_accuracy": 0.47692307692307695
+        }
+      }
+    }
+  ],
+  "test_evaluated": false
+}

@@ -1,0 +1,3 @@
+# 服务器原字节结果和审计快照保留原换行，确保 SHA256 在 Windows/Linux 上一致。
+experiments/ccsae_prototype_k20/results/server_7ef4042/** -text
+docs/CCSAE_PROTOTYPE_K20_SERVER_RESULTS.md -text

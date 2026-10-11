@@ -1,0 +1,31 @@
+{
+  "python_executable": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "torch": "2.14.1+cu130",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1",
+  "pytest": "9.1.1",
+  "cuda": "13.0",
+  "cudnn": 92400,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_capability": [
+    12,
+    0
+  ],
+  "reused_environment": true,
+  "environment_modified": false,
+  "source_root": "/home/wang/projects/会议论文/Conference-Paper-ccsae-prototype-k20/src",
+  "source_commit": "7ef4042fe18275f2f366c06c5aa19aa817c45258",
+  "cpu_threads_per_worker": 4,
+  "workers": 4,
+  "deterministic_algorithms": true,
+  "amp": false,
+  "tf32_matmul": false,
+  "tf32_cudnn": false,
+  "cudnn_benchmark": false,
+  "math_sdp": true,
+  "flash_sdp": false,
+  "mem_efficient_sdp": false,
+  "cudnn_sdp": false,
+  "pip_packages": "锁文件记录完整依赖；旧 uv 环境未安装 pip"
+}

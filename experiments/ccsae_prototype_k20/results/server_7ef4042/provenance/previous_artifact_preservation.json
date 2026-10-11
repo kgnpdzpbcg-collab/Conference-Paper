@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "all_previous_files_unchanged": true,
+  "groups": {
+    "Data_deduplicated": {
+      "file_count": 17,
+      "total_bytes": 58425684,
+      "records_sha256": "6837d3d3457a8b4aff2164df33c0e1f269b23ffecf49e0c1bf656cf674b8552e"
+    },
+    "analog-circuit-fewshot/outputs/server_fewshot_v1": {
+      "file_count": 551,
+      "total_bytes": 326709266,
+      "records_sha256": "9f9a80554e11a66658b36f536d5ee1e8558d6231680c3662b170edd201e3281c"
+    },
+    "Conference-Paper-ccsae-v1/outputs/server_v1_signed_v1": {
+      "file_count": 82,
+      "total_bytes": 66425733,
+      "records_sha256": "300d76fbc80a17e29337a6f45acb8c5b7a250961aee8c7cf9c3372ec32e36170"
+    },
+    "analog-circuit-baselines/artifacts/server_gpu_v1": {
+      "file_count": 145,
+      "total_bytes": 48834436,
+      "records_sha256": "4a9e26973e850cfc5373e541c4274ad80442e6fa950d44aa2bb2af6613f63a43"
+    },
+    "analog-circuit-crossdomain/outputs/binary_direct/server_v1": {
+      "file_count": 113,
+      "total_bytes": 63635474,
+      "records_sha256": "9216395c06aba4463ff073ea6e0222333e7f664b51d16f4262e4906c6b818e68"
+    },
+    "analog-circuit-crossdomain/outputs/multiclass_transfer/server_v1": {
+      "file_count": 475,
+      "total_bytes": 338705429,
+      "records_sha256": "c9607afe792ebb7338bf12b402b979b7af5245956d06e91bf806a549286cfaf9"
+    }
+  }
+}

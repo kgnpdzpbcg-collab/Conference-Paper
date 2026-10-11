@@ -1,0 +1,356 @@
+{
+  "status": "passed",
+  "experiment": "CCSAE V1 FC/Proto K20 P0 validation only",
+  "source_commit": "7ef4042fe18275f2f366c06c5aa19aa817c45258",
+  "environment": {
+    "python_executable": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "torch": "2.14.1+cu130",
+    "numpy": "2.5.3",
+    "sklearn": "1.9.1",
+    "pytest": "9.1.1",
+    "cuda": "13.0",
+    "cudnn": 92400,
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "gpu_capability": [
+      12,
+      0
+    ],
+    "reused_environment": true,
+    "environment_modified": false,
+    "source_root": "/home/wang/projects/会议论文/Conference-Paper-ccsae-prototype-k20/src",
+    "source_commit": "7ef4042fe18275f2f366c06c5aa19aa817c45258",
+    "cpu_threads_per_worker": 4,
+    "workers": 4,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "cudnn_benchmark": false,
+    "math_sdp": true,
+    "flash_sdp": false,
+    "mem_efficient_sdp": false,
+    "cudnn_sdp": false,
+    "pip_packages": "锁文件记录完整依赖；旧 uv 环境未安装 pip"
+  },
+  "groups": {
+    "skl": {
+      "fc": {
+        "macro_f1": {
+          "mean": 59.73678742909512,
+          "sample_std": 1.8668953209614334,
+          "values": [
+            61.43215758600373,
+            57.73602465910158,
+            60.042180042180036
+          ]
+        },
+        "accuracy": {
+          "mean": 62.56410256410256,
+          "sample_std": 0.8882311833686518,
+          "values": [
+            63.07692307692307,
+            61.53846153846154,
+            63.07692307692307
+          ]
+        },
+        "balanced_accuracy": {
+          "mean": 62.56410256410256,
+          "sample_std": 0.8882311833686518,
+          "values": [
+            63.07692307692307,
+            61.53846153846154,
+            63.07692307692307
+          ]
+        }
+      },
+      "proto": {
+        "macro_f1": {
+          "mean": 46.99484987946527,
+          "sample_std": 3.0954061284192185,
+          "values": [
+            44.1437622206853,
+            50.28721278721279,
+            46.55357463049771
+          ]
+        },
+        "accuracy": {
+          "mean": 48.71794871794872,
+          "sample_std": 3.2025630761017463,
+          "values": [
+            46.15384615384615,
+            52.307692307692314,
+            47.69230769230769
+          ]
+        },
+        "balanced_accuracy": {
+          "mean": 48.71794871794873,
+          "sample_std": 3.202563076101743,
+          "values": [
+            46.15384615384616,
+            52.307692307692314,
+            47.69230769230769
+          ]
+        }
+      },
+      "paired_delta_pp": {
+        "mean": -12.741937549629853,
+        "sample_std": 4.96210494681539,
+        "values": [
+          -17.288395365318433,
+          -7.448811871888794,
+          -13.48860541168233
+        ]
+      }
+    },
+    "abl": {
+      "fc": {
+        "macro_f1": {
+          "mean": 61.94285512467331,
+          "sample_std": 3.1409538153767813,
+          "values": [
+            58.40220385674931,
+            64.3939393939394,
+            63.03242212333121
+          ]
+        },
+        "accuracy": {
+          "mean": 66.06060606060606,
+          "sample_std": 2.09945552432591,
+          "values": [
+            63.63636363636363,
+            67.27272727272727,
+            67.27272727272727
+          ]
+        },
+        "balanced_accuracy": {
+          "mean": 66.06060606060606,
+          "sample_std": 2.09945552432591,
+          "values": [
+            63.63636363636363,
+            67.27272727272727,
+            67.27272727272727
+          ]
+        }
+      },
+      "proto": {
+        "macro_f1": {
+          "mean": 42.98110979929162,
+          "sample_std": 1.207448965838659,
+          "values": [
+            42.95290568017842,
+            44.2024137478683,
+            41.78800996982815
+          ]
+        },
+        "accuracy": {
+          "mean": 44.848484848484844,
+          "sample_std": 2.7773186030035424,
+          "values": [
+            47.27272727272727,
+            45.45454545454545,
+            41.81818181818181
+          ]
+        },
+        "balanced_accuracy": {
+          "mean": 44.848484848484844,
+          "sample_std": 2.7773186030035384,
+          "values": [
+            47.27272727272727,
+            45.45454545454545,
+            41.81818181818182
+          ]
+        }
+      },
+      "paired_delta_pp": {
+        "mean": -18.96174532538169,
+        "sample_std": 3.087087013557418,
+        "values": [
+          -15.449298176570897,
+          -20.191525646071106,
+          -21.244412153503063
+        ]
+      }
+    }
+  },
+  "per_seed": [
+    {
+      "case": "skl",
+      "seed": 42,
+      "fc_val_macro_f1_pct": 61.43215758600373,
+      "proto_val_macro_f1_pct": 44.1437622206853,
+      "proto_minus_fc_pp": -17.288395365318433,
+      "fc_best_epoch": 39,
+      "proto_best_epoch": 2
+    },
+    {
+      "case": "skl",
+      "seed": 43,
+      "fc_val_macro_f1_pct": 57.73602465910158,
+      "proto_val_macro_f1_pct": 50.28721278721279,
+      "proto_minus_fc_pp": -7.448811871888794,
+      "fc_best_epoch": 35,
+      "proto_best_epoch": 1
+    },
+    {
+      "case": "skl",
+      "seed": 44,
+      "fc_val_macro_f1_pct": 60.042180042180036,
+      "proto_val_macro_f1_pct": 46.55357463049771,
+      "proto_minus_fc_pp": -13.48860541168233,
+      "fc_best_epoch": 33,
+      "proto_best_epoch": 40
+    },
+    {
+      "case": "abl",
+      "seed": 42,
+      "fc_val_macro_f1_pct": 58.40220385674931,
+      "proto_val_macro_f1_pct": 42.95290568017842,
+      "proto_minus_fc_pp": -15.449298176570897,
+      "fc_best_epoch": 22,
+      "proto_best_epoch": 32
+    },
+    {
+      "case": "abl",
+      "seed": 43,
+      "fc_val_macro_f1_pct": 64.3939393939394,
+      "proto_val_macro_f1_pct": 44.2024137478683,
+      "proto_minus_fc_pp": -20.191525646071106,
+      "fc_best_epoch": 38,
+      "proto_best_epoch": 36
+    },
+    {
+      "case": "abl",
+      "seed": 44,
+      "fc_val_macro_f1_pct": 63.03242212333121,
+      "proto_val_macro_f1_pct": 41.78800996982815,
+      "proto_minus_fc_pp": -21.244412153503063,
+      "fc_best_epoch": 31,
+      "proto_best_epoch": 38
+    }
+  ],
+  "test_evaluated": false,
+  "timing": {
+    "started_utc": "2026-10-11T06:24:12.224932+00:00",
+    "ended_utc": "2026-10-11T06:25:05.131971+00:00",
+    "wall_seconds": 52.90705425100168,
+    "workers": 4,
+    "cpu_threads_per_worker": 4,
+    "smoke": false,
+    "pairs": [
+      {
+        "case": "abl",
+        "seed": 42,
+        "seconds": 34.018523271995946,
+        "metrics": {
+          "fc": {
+            "accuracy": 0.6363636363636364,
+            "macro_f1": 0.5840220385674931,
+            "balanced_accuracy": 0.6363636363636364
+          },
+          "proto": {
+            "accuracy": 0.4727272727272727,
+            "macro_f1": 0.42952905680178416,
+            "balanced_accuracy": 0.4727272727272727
+          }
+        }
+      },
+      {
+        "case": "abl",
+        "seed": 43,
+        "seconds": 34.38226915898849,
+        "metrics": {
+          "fc": {
+            "accuracy": 0.6727272727272727,
+            "macro_f1": 0.643939393939394,
+            "balanced_accuracy": 0.6727272727272727
+          },
+          "proto": {
+            "accuracy": 0.45454545454545453,
+            "macro_f1": 0.44202413747868297,
+            "balanced_accuracy": 0.45454545454545453
+          }
+        }
+      },
+      {
+        "case": "abl",
+        "seed": 44,
+        "seconds": 34.764066561998334,
+        "metrics": {
+          "fc": {
+            "accuracy": 0.6727272727272727,
+            "macro_f1": 0.6303242212333121,
+            "balanced_accuracy": 0.6727272727272727
+          },
+          "proto": {
+            "accuracy": 0.41818181818181815,
+            "macro_f1": 0.4178800996982815,
+            "balanced_accuracy": 0.4181818181818182
+          }
+        }
+      },
+      {
+        "case": "skl",
+        "seed": 42,
+        "seconds": 35.871662717006984,
+        "metrics": {
+          "fc": {
+            "accuracy": 0.6307692307692307,
+            "macro_f1": 0.6143215758600373,
+            "balanced_accuracy": 0.6307692307692307
+          },
+          "proto": {
+            "accuracy": 0.46153846153846156,
+            "macro_f1": 0.441437622206853,
+            "balanced_accuracy": 0.4615384615384616
+          }
+        }
+      },
+      {
+        "case": "skl",
+        "seed": 43,
+        "seconds": 16.74086884400458,
+        "metrics": {
+          "fc": {
+            "accuracy": 0.6153846153846154,
+            "macro_f1": 0.5773602465910158,
+            "balanced_accuracy": 0.6153846153846154
+          },
+          "proto": {
+            "accuracy": 0.5230769230769231,
+            "macro_f1": 0.5028721278721279,
+            "balanced_accuracy": 0.5230769230769231
+          }
+        }
+      },
+      {
+        "case": "skl",
+        "seed": 44,
+        "seconds": 16.387936198007083,
+        "metrics": {
+          "fc": {
+            "accuracy": 0.6307692307692307,
+            "macro_f1": 0.6004218004218004,
+            "balanced_accuracy": 0.6307692307692307
+          },
+          "proto": {
+            "accuracy": 0.47692307692307695,
+            "macro_f1": 0.46553574630497707,
+            "balanced_accuracy": 0.47692307692307695
+          }
+        }
+      }
+    ],
+    "test_evaluated": false
+  },
+  "resource_summary": {
+    "mean_gpu_percent": 92.15384615384616,
+    "peak_gpu_memory_mib": 2374.0,
+    "sampling_window": "整个配对训练批次，包含子进程初始化和数据加载/保存"
+  },
+  "previous_split_identical": {
+    "skl": false,
+    "abl": false
+  },
+  "negative_result": "两个电路全部三个种子 Proto Val Macro-F1 低于 FC；当前快速协议不支持增益假设。"
+}

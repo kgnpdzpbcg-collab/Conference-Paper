@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "analog-ccsae-reproduction"
+version = "0.1.0"
+description = "Independent research reproduction of Gao et al. CCSAE (IEEE TIE 2024)"
+# 本轮使用与基线相同的 Python 3.12，避免锁文件包含未使用的旧版本分支。
+requires-python = ">=3.12,<3.13"
+# 与已经运行的 CNN/ResNet 基线保持数值库版本一致，额外固定指标库。
+dependencies = ["numpy==2.5.3", "torch==2.14.1", "scikit-learn==1.9.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+# 只安装本轮核验需要的测试依赖，未额外启用开发工具集合。
+experiment-check = ["pytest==9.1.1"]
+
+[tool.uv.sources]
+# 服务器使用 RTX 5070 Ti；CUDA 13.0 轮子支持该 GPU，并由当前驱动运行。
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+# 官方 PyPI 访问延迟较大，普通依赖使用清华镜像；torch 仍走上面的官方 GPU 索引。
+[[tool.uv.index]]
+name = "pypi-tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[project.scripts]
+ccsae-train = "ccsae.train:main"
+ccsae-fewshot = "ccsae.fewshot_train:main"

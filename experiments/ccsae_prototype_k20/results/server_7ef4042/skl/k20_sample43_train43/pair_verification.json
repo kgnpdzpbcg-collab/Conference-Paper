@@ -1,0 +1,29 @@
+{
+  "case": "skl",
+  "seed": 43,
+  "methods": {
+    "fc": {
+      "initial_state_sha256": "ca62a3b394ad61a611b2bd33599f4664f4daf78d903addd45e8363978fe31355",
+      "embedding_dim": 1000,
+      "classes": 13,
+      "wall_seconds": 6.454789077994064
+    },
+    "proto": {
+      "initial_state_sha256": "ca62a3b394ad61a611b2bd33599f4664f4daf78d903addd45e8363978fe31355",
+      "embedding_dim": 1000,
+      "classes": 13,
+      "wall_seconds": 9.007567952998215
+    }
+  },
+  "stage1_last_sha256": "1e085b5700029c5e4bd1f542d0bd99f525b87ebb9343243ae097a348a6d60069",
+  "paired_initialization_identical": true,
+  "paired_episodes_identical": true,
+  "updates_per_method": 400,
+  "total_wall_seconds": 16.74086884400458,
+  "episode_stream_sha256": {
+    "fc_support": "0efb65b6b73db03c70be5925c5b44c4e263ccbfbbf75aff6ba1551f04d62acda",
+    "fc_query": "7b127c52593b4cc5be874156568c4a3d751ec0e759f8d18c030c50c33509cbe8",
+    "proto_support": "0efb65b6b73db03c70be5925c5b44c4e263ccbfbbf75aff6ba1551f04d62acda",
+    "proto_query": "7b127c52593b4cc5be874156568c4a3d751ec0e759f8d18c030c50c33509cbe8"
+  }
+}

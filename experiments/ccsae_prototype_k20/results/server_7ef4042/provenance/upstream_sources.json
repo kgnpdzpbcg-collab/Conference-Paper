@@ -1,0 +1,27 @@
+{
+  "commit": "7ef4042fe18275f2f366c06c5aa19aa817c45258",
+  "files": {
+    ".github/workflows/ccsae-tests.yml": "a43e14f75608f729b1c2af7bb5d5f026e72fb031594d7bae802d43301cf866e8",
+    ".gitignore": "f73995615f99cf54fd83925043e17be5c7e7ed52c681d562763dc7758ba914ba",
+    "README.md": "2031ae6b18193361ab230162c62f97c1fd490c79569c42e70d976aae329f9e7b",
+    "docs/CCSAE_PROTOTYPE_FEWSHOT_V1.md": "2dc625058baf44bcb5918d0f98a851a1e6674e80ac65b4ccf4d9fd07fdb09e10",
+    "docs/CCSAE_V1_EXPERIMENT_PLAN.md": "24c7ea3daa5055ee0c1864d9c68355377319d92a1fb3a90cb07cef38c637fdd1",
+    "docs/REPRODUCTION_NOTES.md": "629cdc297e2f061ce6042e22e36d098e976d8ba13f5a845413110298cbadacaa",
+    "docs/SERVER_GPU_EXPERIMENT_RESULTS.md": "f7487578bdee1ab0bc3569c5d4c9683206c8200c0df73ad22b2a9f3b9b8f0c85",
+    "pyproject.toml": "9f74726c14ae64b33cd3a930474261e39a9ef8c289074df407bcd3f7e026c59b",
+    "src/ccsae/__init__.py": "c5c18424308d7affddcdf46e4f991f361e35c0927414c046ca587c050945ddd9",
+    "src/ccsae/complex_layers.py": "7d545c773329d91543f1cf14dde5e768825ea1d01c13d7aa4115f48d20aca9e8",
+    "src/ccsae/data.py": "cbd5e9514ef9178193997e33cf1902fa88485009cbadbf79b9ed62e8d6b6e78c",
+    "src/ccsae/fewshot_data.py": "f08ab9b314313dcf169b00a6147609f4a738bf381da0f36ec990e98df90391c1",
+    "src/ccsae/fewshot_train.py": "0d846330f8b50be5a29fac8479a119bbb80021eb198f0c68103563afc4779cb4",
+    "src/ccsae/losses.py": "2e9c6096cd42c6d9c4102656282606177a08e0aece30a5f7e1880e5aa64717b9",
+    "src/ccsae/model.py": "6700829f6fc8b0d1c3dc673c282e9ad1531371751e8e8e34458a8d28e18344d8",
+    "src/ccsae/prototype.py": "f2ffd304bb0de666841dbbf450f5bbda58cd12486311c4ad76cb86756be6b55a",
+    "src/ccsae/train.py": "ace1bce330539fa4c52cd36ea1f44afc886854728f13e8577bce74ec4461e4e9",
+    "tests/test_ccsae.py": "6901ddd6816fb51b9d388c456fee0fcd44c3018cf7f95e91aca20fc741c52867",
+    "tests/test_fewshot.py": "fd5c7ed34e3f3e8692200058dd843415881551a311b45cbb55bc154cefcd9557",
+    "tests/test_fewshot_train.py": "69cabf1601ccb7a4ee64b7df6bdd98dc038b39889536f68dd3fff707cb372841"
+  },
+  "code_unmodified": true,
+  "environment_only_change": "pyproject.toml/uv.lock/.python-version"
+}

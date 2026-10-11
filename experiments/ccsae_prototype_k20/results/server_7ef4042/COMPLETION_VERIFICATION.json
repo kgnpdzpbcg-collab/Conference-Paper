@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "paired_runs": 6,
+  "stage2_runs": 12,
+  "source_commit": "7ef4042fe18275f2f366c06c5aa19aa817c45258",
+  "environment_reused": true,
+  "test_evaluated": false,
+  "old_artifacts_unchanged": true,
+  "verified_validation_records": 360,
+  "fp64_final_prediction_differences": 0,
+  "report_sha256": "58c1fd9410b3804960ae795217d46b8c7ac82e0f88fbde234f5b15b5e6ca8701",
+  "summary_sha256": "68cfc1d3766809830140bb73e563bef4f1cd9afbba0a41d8f4fdaa12b44f74a1",
+  "final_verification_script_sha256": "26bec738ec314f26b1f76bc64ee5ff492f0832cc9f714f971958bf6da87a8df1"
+}

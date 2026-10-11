@@ -11,3 +11,8 @@ data/
 outputs/
 *.pt
 *.pth
+
+# 本地同步清单和原服务器审计目录；公开结果只放入 experiments/ 的明确目录。
+LOCAL_SYNC_VERIFICATION.json
+SERVER_SYNC_MANIFEST.json
+server_experiment/

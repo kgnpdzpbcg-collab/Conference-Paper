@@ -1,0 +1,29 @@
+{
+  "case": "skl",
+  "seed": 44,
+  "methods": {
+    "fc": {
+      "initial_state_sha256": "b51e8b6d3f9c235741ff18262154c21d946bae84ee42144af770631ba4cd100f",
+      "embedding_dim": 1000,
+      "classes": 13,
+      "wall_seconds": 6.205794861991308
+    },
+    "proto": {
+      "initial_state_sha256": "b51e8b6d3f9c235741ff18262154c21d946bae84ee42144af770631ba4cd100f",
+      "embedding_dim": 1000,
+      "classes": 13,
+      "wall_seconds": 8.902668013004586
+    }
+  },
+  "stage1_last_sha256": "69685f1d65675cf5968da56ddda33246abc9a279d3cc76f0a54d7387f8601910",
+  "paired_initialization_identical": true,
+  "paired_episodes_identical": true,
+  "updates_per_method": 400,
+  "total_wall_seconds": 16.387936198007083,
+  "episode_stream_sha256": {
+    "fc_support": "536ddb7af215099787ce27c2f8cf4888860536b7a2bdb67f0f13ec6dbddd3f63",
+    "fc_query": "9b55a0d1f48529de5f1208830d5e86bd16f19f440f0eeefbba75e1b214e1e24d",
+    "proto_support": "536ddb7af215099787ce27c2f8cf4888860536b7a2bdb67f0f13ec6dbddd3f63",
+    "proto_query": "9b55a0d1f48529de5f1208830d5e86bd16f19f440f0eeefbba75e1b214e1e24d"
+  }
+}
