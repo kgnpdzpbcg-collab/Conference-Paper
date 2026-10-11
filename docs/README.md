@@ -1,0 +1,22 @@
+# Conference-Paper 文档索引
+
+## 当前算法研究（先读）
+
+- [K=20 Proto 负结果分析、数值/特征诊断与 P1 最小修订](research/CCSAE_PROTO_K20_FAILURE_ANALYSIS.md) —— **最新诊断开发分支**，不代表性能已改善。
+- [CCSAE＋Prototype 原始 K-shot 研究方案](CCSAE_PROTOTYPE_FEWSHOT_V1.md) —— P0 冻结协议、模型公式与实验设计。
+- [K=20 服务器验证结果](CCSAE_PROTOTYPE_K20_SERVER_RESULTS.md) —— FC 优于 Prototype 的六组验证对照；没有 Test。
+- [K=20 完整实验索引与原始证据](../experiments/ccsae_prototype_k20/README.md) —— 训练曲线、逐 seed 指标、核验与环境信息。
+
+## 基础算法与历史实验
+
+- [CCSAE V1 修正实验计划](CCSAE_V1_EXPERIMENT_PLAN.md)
+- [CCSAE 论文实现边界说明](REPRODUCTION_NOTES.md)
+- [历史服务器 GPU 实验](SERVER_GPU_EXPERIMENT_RESULTS.md)
+
+## 文件管理规则
+
+1. 模型原始源码保留在 src/ccsae；新增诊断使用独立模块 proto_diagnostics.py。
+2. 分支 research/ccsae-prototype-k20 的 P0 历史结果和实验记录保持不变；新诊断分支为 research/ccsae-prototype-diagnostics-v1。
+3. 新实测结果应新建 experiments/ccsae_prototype_scale_p1/，不要覆盖 P0。
+4. 本地 data/、outputs/、模型权重与环境文件禁止提交 GitHub；记录可复验的文本摘要和哈希。
+5. 方法选择只参考 Train/Val；最终 Test 需在模型冻结后使用，并报告已存在的先前探索限制。
