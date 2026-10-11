@@ -247,10 +247,10 @@ def run(args: argparse.Namespace) -> dict:
         val_seed=args.val_seed,
     )
     cfg = make_config(args.case, args.tiny)
-    save_dir = (Path(args.output) / args.case /
-                f"k{args.k}_sample{args.sample_seed if args.sample_seed is not None else args.seed}"
-                f"_train{args.seed}" +
-                ("_distnone" if distance_normalization == "none" else ""))
+    run_label = (f"k{args.k}_sample{args.sample_seed if args.sample_seed is not None else args.seed}"
+                 f"_train{args.seed}" +
+                 ("_distnone" if distance_normalization == "none" else ""))
+    save_dir = Path(args.output) / args.case / run_label
     save_dir.mkdir(parents=True, exist_ok=True)
     (save_dir / "split_audit.json").write_text(
         json.dumps(split.audit, indent=2), encoding="utf-8"
