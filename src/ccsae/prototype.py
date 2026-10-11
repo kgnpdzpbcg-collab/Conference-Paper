@@ -50,17 +50,22 @@ def prototype_logits(
     prototypes: torch.Tensor,
     metric: str = "euclidean",
     temperature: float = 1.0,
+    distance_normalization: str = "dim",
 ) -> torch.Tensor:
-    """Return [Q,C] logits; euclidean is squared distance / embedding width.
+    """Return [Q,C] logits; historical distance_normalization='dim' is unchanged.
 
-    The division controls scale and prevents large 600/1000-D distances from
-    destroying the softmax gradient. Cosine is available as a controlled ablation.
+    'none' is a controlled optimization-scale probe; it multiplies Euclidean
+    logits by D relative to the original implementation. For fixed embeddings
+    both scales have the same argmax except floating-point tie behavior.
     """
     if temperature <= 0:
         raise ValueError("temperature must be positive")
+    if distance_normalization not in {"dim", "none"}:
+        raise ValueError("distance_normalization must be dim or none")
     if metric == "euclidean":
         sq = torch.cdist(query_features, prototypes, p=2).square()
-        return -sq / (query_features.shape[-1] * temperature)
+        divisor = query_features.shape[-1] if distance_normalization == "dim" else 1
+        return -sq / (divisor * temperature)
     if metric == "cosine":
         a = F.normalize(query_features, dim=-1)
         b = F.normalize(prototypes, dim=-1)
