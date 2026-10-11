@@ -1,5 +1,28 @@
 # CCSAE for Analog Circuit Incipient Fault Diagnosis — V1 Adaptation
 
+## 当前开发分支：CCSAE＋Prototype（K=20 少标注实验）
+
+此分支从 **reproduction/ccsae-v1** 继承，保留 V1 signed_real 有符号重构，新增 **FC 与 Proto 的配对验证训练**；原有 ccsae-train 命令仍可用。
+
+**完整算法、数据去重差异、研究假设、数学公式和实验纪律：** [docs/CCSAE_PROTOTYPE_FEWSHOT_V1.md](docs/CCSAE_PROTOTYPE_FEWSHOT_V1.md)。
+
+### 最短运行
+
+```bash
+python -m pip install -e '.[dev]'
+pytest -q
+# 将 Data.zip 放到 data/Data.zip，不要提交到 GitHub
+ccsae-fewshot --case skl --data data/Data.zip --k 20 --seed 42 --stage1-epochs 0 --epochs 1 --steps-per-epoch 1 --tiny --output outputs/smoke
+ccsae-fewshot --case skl --data data/Data.zip --k 20 --seed 42 --stage1-epochs 10 --epochs 40 --steps-per-epoch 10
+ccsae-fewshot --case abl --data data/Data.zip --k 20 --seed 42 --stage1-epochs 10 --epochs 40 --steps-per-epoch 10
+```
+
+默认 mode=both：同 K-shot Train、相同 Episode 样本和优化步数、**共享 Stage 1 权重**下比较原 FC 与新的 Prototype Head；只输出固定 **5 Val 标签/类**的指标，**本入口没有 Test 评估**。正式对照应再运行 seed 43、44 并比较配对差值。
+
+**数据处理的重要区别**：这里按波形 SHA256 真正去重，SKL 3800、ABL 3100 条唯一波形；原 V1 data.py 的 grouped 模式只分组但保留重复行。新划分与旧服务器 baseline 是否逐条一致目前未核实，不要直接混用历史成绩。
+
+---
+
 **状态：V1 独立研究适配，修正重构目标与输出符号不匹配的问题，并将数据划分种子与训练种子分离。不是原作者官方源码，也不声称严格复现论文准确率。**
 
 论文：Gao et al., *IEEE Transactions on Industrial Electronics*, 2024, [DOI: 10.1109/TIE.2023.3310075](https://doi.org/10.1109/TIE.2023.3310075)。
